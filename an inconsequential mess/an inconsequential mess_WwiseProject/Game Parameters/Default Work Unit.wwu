@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C959FE42-32F6-47FE-829D-A934793C9A11}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{C959FE42-32F6-47FE-829D-A934793C9A11}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="IctusRTPC" ID="{E02789EB-41D7-4623-8A58-9C37D12EA0E9}"/>
+				<GameParameter Name="PitchRTPC" ID="{B008BA78-0630-48F9-A951-D416367E4B9B}"/>
+				<GameParameter Name="RhythmRTPC" ID="{F74F19A3-AE03-410C-9E32-60F32DE58DE4}"/>
+				<GameParameter Name="SpeedRTPC" ID="{22B5B638-EBA1-47BE-A87F-94C1B71996F8}"/>
+				<GameParameter Name="lowPassRTPC" ID="{AB4D3A15-B892-44F4-BA54-D72FE3739FF7}"/>
+				<GameParameter Name="EQHighRTPC" ID="{82A3F411-842F-4719-BD9E-63B8F520EE5B}"/>
+				<GameParameter Name="timeFXRTPC" ID="{60E66567-0C30-4021-BF43-88B67B6161D0}"/>
+				<GameParameter Name="tremoloRTPC" ID="{3D4B762F-8F6D-44A8-AFC7-2E86D1F8DD98}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

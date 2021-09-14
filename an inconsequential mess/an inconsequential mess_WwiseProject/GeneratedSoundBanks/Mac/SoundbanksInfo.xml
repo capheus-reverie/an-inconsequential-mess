@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="532326295" Language="SFX" Hash="1542150025">
+			<ObjectPath>\SoundBanks\Default Work Unit\Full_Game</ObjectPath>
+			<ShortName>Full_Game</ShortName>
+			<Path>Full_Game.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2974103762" Name="Mute" ObjectPath="\Events\Default Work Unit\Mute" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Default Work Unit\Play" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="144231365" Language="SFX">
+							<ShortName>2111.mid</ShortName>
+							<Path>SFX\2111_4EF940BC.wmid</Path>
+						</File>
+						<File Id="157061641" Language="SFX">
+							<ShortName>1111.mid</ShortName>
+							<Path>SFX\1111_4EF940BC.wmid</Path>
+						</File>
+						<File Id="166624346" Language="SFX">
+							<ShortName>2212.mid</ShortName>
+							<Path>SFX\2212_E9E32CD7.wmid</Path>
+						</File>
+						<File Id="206425038" Language="SFX">
+							<ShortName>2216.mid</ShortName>
+							<Path>SFX\2216_CB361991.wmid</Path>
+						</File>
+						<File Id="235028975" Language="SFX">
+							<ShortName>2211.mid</ShortName>
+							<Path>SFX\2211_36F5D1EB.wmid</Path>
+						</File>
+						<File Id="406173480" Language="SFX">
+							<ShortName>2214.mid</ShortName>
+							<Path>SFX\2214_70C956AB.wmid</Path>
+						</File>
+						<File Id="457687393" Language="SFX">
+							<ShortName>1216.mid</ShortName>
+							<Path>SFX\1216_CB361991.wmid</Path>
+						</File>
+						<File Id="463206991" Language="SFX">
+							<ShortName>2115.mid</ShortName>
+							<Path>SFX\2115_F9CAC449.wmid</Path>
+						</File>
+						<File Id="495371028" Language="SFX">
+							<ShortName>2215.mid</ShortName>
+							<Path>SFX\2215_25B26183.wmid</Path>
+						</File>
+						<File Id="501685029" Language="SFX">
+							<ShortName>1114.mid</ShortName>
+							<Path>SFX\1114_3C270C17.wmid</Path>
+						</File>
+						<File Id="549850012" Language="SFX">
+							<ShortName>2213.mid</ShortName>
+							<Path>SFX\2213_BCDE23C9.wmid</Path>
+						</File>
+						<File Id="574095899" Language="SFX">
+							<ShortName>1113.mid</ShortName>
+							<Path>SFX\1113_42E60985.wmid</Path>
+						</File>
+						<File Id="576191973" Language="SFX">
+							<ShortName>2112.mid</ShortName>
+							<Path>SFX\2112_8FF8AE99.wmid</Path>
+						</File>
+						<File Id="589424652" Language="SFX">
+							<ShortName>1214.mid</ShortName>
+							<Path>SFX\1214_70C956AB.wmid</Path>
+						</File>
+						<File Id="593033517" Language="SFX">
+							<ShortName>1116.mid</ShortName>
+							<Path>SFX\1116_8BA16F59.wmid</Path>
+						</File>
+						<File Id="666643175" Language="SFX">
+							<ShortName>2113.mid</ShortName>
+							<Path>SFX\2113_42E60985.wmid</Path>
+						</File>
+						<File Id="691269205" Language="SFX">
+							<ShortName>1215.mid</ShortName>
+							<Path>SFX\1215_25B26183.wmid</Path>
+						</File>
+						<File Id="725418728" Language="SFX">
+							<ShortName>1211.mid</ShortName>
+							<Path>SFX\1211_36F5D1EB.wmid</Path>
+						</File>
+						<File Id="738748462" Language="SFX">
+							<ShortName>2116.mid</ShortName>
+							<Path>SFX\2116_8BA16F59.wmid</Path>
+						</File>
+						<File Id="759820895" Language="SFX">
+							<ShortName>2114.mid</ShortName>
+							<Path>SFX\2114_3C270C17.wmid</Path>
+						</File>
+						<File Id="778043567" Language="SFX">
+							<ShortName>1212.mid</ShortName>
+							<Path>SFX\1212_E9E32CD7.wmid</Path>
+						</File>
+						<File Id="877438358" Language="SFX">
+							<ShortName>1115.mid</ShortName>
+							<Path>SFX\1115_F9CAC449.wmid</Path>
+						</File>
+						<File Id="931298073" Language="SFX">
+							<ShortName>1112.mid</ShortName>
+							<Path>SFX\1112_8FF8AE99.wmid</Path>
+						</File>
+						<File Id="1006100775" Language="SFX">
+							<ShortName>1213.mid</ShortName>
+							<Path>SFX\1213_BCDE23C9.wmid</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{47BD25FB-4AC8-4FC9-AF3C-0BD55D2EC4A9}">
+							<Children>
+								<SwitchContainer SwitchValue="{742961BE-EE2E-4E04-BE03-9E05770CFEA6}">
+									<Children>
+										<SwitchContainer SwitchValue="{D286F5BD-25BC-4429-912A-372A94124AEE}">
+											<Media>
+												<File Id="157061641"/>
+												<File Id="501685029"/>
+												<File Id="574095899"/>
+												<File Id="593033517"/>
+												<File Id="877438358"/>
+												<File Id="931298073"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D5650502-A703-4615-B6F2-8334B671D349}">
+											<Media>
+												<File Id="157061641"/>
+												<File Id="501685029"/>
+												<File Id="574095899"/>
+												<File Id="593033517"/>
+												<File Id="877438358"/>
+												<File Id="931298073"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{9319D7AC-F082-4BB3-9F96-995CBF8B56B8}">
+											<Media>
+												<File Id="157061641"/>
+												<File Id="501685029"/>
+												<File Id="574095899"/>
+												<File Id="593033517"/>
+												<File Id="877438358"/>
+												<File Id="931298073"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{0271DB19-94BB-498E-ABBE-460DA3E69AF5}">
+											<Media>
+												<File Id="157061641"/>
+												<File Id="501685029"/>
+												<File Id="574095899"/>
+												<File Id="593033517"/>
+												<File Id="877438358"/>
+												<File Id="931298073"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{F6EEE2EA-343F-44F4-B430-333927407C26}">
+											<Media>
+												<File Id="157061641"/>
+												<File Id="501685029"/>
+												<File Id="574095899"/>
+												<File Id="593033517"/>
+												<File Id="877438358"/>
+												<File Id="931298073"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D7F7EBCA-797C-401D-9668-8F3F79E84BC9}">
+											<Media>
+												<File Id="157061641"/>
+												<File Id="501685029"/>
+												<File Id="574095899"/>
+												<File Id="593033517"/>
+												<File Id="877438358"/>
+												<File Id="931298073"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{EDC85AED-CBF8-4399-877B-DBCC6546D4C9}">
+									<Children>
+										<SwitchContainer SwitchValue="{D286F5BD-25BC-4429-912A-372A94124AEE}">
+											<Media>
+												<File Id="457687393"/>
+												<File Id="589424652"/>
+												<File Id="691269205"/>
+												<File Id="725418728"/>
+												<File Id="778043567"/>
+												<File Id="1006100775"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D5650502-A703-4615-B6F2-8334B671D349}">
+											<Media>
+												<File Id="457687393"/>
+												<File Id="589424652"/>
+												<File Id="691269205"/>
+												<File Id="725418728"/>
+												<File Id="778043567"/>
+												<File Id="1006100775"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{9319D7AC-F082-4BB3-9F96-995CBF8B56B8}">
+											<Media>
+												<File Id="457687393"/>
+												<File Id="589424652"/>
+												<File Id="691269205"/>
+												<File Id="725418728"/>
+												<File Id="778043567"/>
+												<File Id="1006100775"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{0271DB19-94BB-498E-ABBE-460DA3E69AF5}">
+											<Media>
+												<File Id="457687393"/>
+												<File Id="589424652"/>
+												<File Id="691269205"/>
+												<File Id="725418728"/>
+												<File Id="778043567"/>
+												<File Id="1006100775"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{F6EEE2EA-343F-44F4-B430-333927407C26}">
+											<Media>
+												<File Id="457687393"/>
+												<File Id="589424652"/>
+												<File Id="691269205"/>
+												<File Id="725418728"/>
+												<File Id="778043567"/>
+												<File Id="1006100775"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D7F7EBCA-797C-401D-9668-8F3F79E84BC9}">
+											<Media>
+												<File Id="457687393"/>
+												<File Id="589424652"/>
+												<File Id="691269205"/>
+												<File Id="725418728"/>
+												<File Id="778043567"/>
+												<File Id="1006100775"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{341D9E50-E2A4-4CFB-B42B-3A4DE8AEB71A}">
+							<Children>
+								<SwitchContainer SwitchValue="{742961BE-EE2E-4E04-BE03-9E05770CFEA6}">
+									<Children>
+										<SwitchContainer SwitchValue="{D286F5BD-25BC-4429-912A-372A94124AEE}">
+											<Media>
+												<File Id="144231365"/>
+												<File Id="463206991"/>
+												<File Id="576191973"/>
+												<File Id="666643175"/>
+												<File Id="738748462"/>
+												<File Id="759820895"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D5650502-A703-4615-B6F2-8334B671D349}">
+											<Media>
+												<File Id="144231365"/>
+												<File Id="463206991"/>
+												<File Id="576191973"/>
+												<File Id="666643175"/>
+												<File Id="738748462"/>
+												<File Id="759820895"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{9319D7AC-F082-4BB3-9F96-995CBF8B56B8}">
+											<Media>
+												<File Id="144231365"/>
+												<File Id="463206991"/>
+												<File Id="576191973"/>
+												<File Id="666643175"/>
+												<File Id="738748462"/>
+												<File Id="759820895"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{0271DB19-94BB-498E-ABBE-460DA3E69AF5}">
+											<Media>
+												<File Id="144231365"/>
+												<File Id="463206991"/>
+												<File Id="576191973"/>
+												<File Id="666643175"/>
+												<File Id="738748462"/>
+												<File Id="759820895"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{F6EEE2EA-343F-44F4-B430-333927407C26}">
+											<Media>
+												<File Id="144231365"/>
+												<File Id="463206991"/>
+												<File Id="576191973"/>
+												<File Id="666643175"/>
+												<File Id="738748462"/>
+												<File Id="759820895"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D7F7EBCA-797C-401D-9668-8F3F79E84BC9}">
+											<Media>
+												<File Id="144231365"/>
+												<File Id="463206991"/>
+												<File Id="576191973"/>
+												<File Id="666643175"/>
+												<File Id="738748462"/>
+												<File Id="759820895"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{EDC85AED-CBF8-4399-877B-DBCC6546D4C9}">
+									<Children>
+										<SwitchContainer SwitchValue="{D286F5BD-25BC-4429-912A-372A94124AEE}">
+											<Media>
+												<File Id="166624346"/>
+												<File Id="206425038"/>
+												<File Id="235028975"/>
+												<File Id="406173480"/>
+												<File Id="495371028"/>
+												<File Id="549850012"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D5650502-A703-4615-B6F2-8334B671D349}">
+											<Media>
+												<File Id="166624346"/>
+												<File Id="206425038"/>
+												<File Id="235028975"/>
+												<File Id="406173480"/>
+												<File Id="495371028"/>
+												<File Id="549850012"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{9319D7AC-F082-4BB3-9F96-995CBF8B56B8}">
+											<Media>
+												<File Id="166624346"/>
+												<File Id="206425038"/>
+												<File Id="235028975"/>
+												<File Id="406173480"/>
+												<File Id="495371028"/>
+												<File Id="549850012"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{0271DB19-94BB-498E-ABBE-460DA3E69AF5}">
+											<Media>
+												<File Id="166624346"/>
+												<File Id="206425038"/>
+												<File Id="235028975"/>
+												<File Id="406173480"/>
+												<File Id="495371028"/>
+												<File Id="549850012"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{F6EEE2EA-343F-44F4-B430-333927407C26}">
+											<Media>
+												<File Id="166624346"/>
+												<File Id="206425038"/>
+												<File Id="235028975"/>
+												<File Id="406173480"/>
+												<File Id="495371028"/>
+												<File Id="549850012"/>
+											</Media>
+										</SwitchContainer>
+										<SwitchContainer SwitchValue="{D7F7EBCA-797C-401D-9668-8F3F79E84BC9}">
+											<Media>
+												<File Id="166624346"/>
+												<File Id="206425038"/>
+												<File Id="235028975"/>
+												<File Id="406173480"/>
+												<File Id="495371028"/>
+												<File Id="549850012"/>
+											</Media>
+										</SwitchContainer>
+									</Children>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2156697475" Name="UnMute" ObjectPath="\Events\Default Work Unit\UnMute" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="91173834" Name="EQHighRTPC" ObjectPath="\Game Parameters\Default Work Unit\EQHighRTPC"/>
+				<GameParameter Id="129208631" Name="lowPassRTPC" ObjectPath="\Game Parameters\Default Work Unit\lowPassRTPC"/>
+				<GameParameter Id="296962706" Name="tremoloRTPC" ObjectPath="\Game Parameters\Default Work Unit\tremoloRTPC"/>
+				<GameParameter Id="1358232353" Name="timeFXRTPC" ObjectPath="\Game Parameters\Default Work Unit\timeFXRTPC"/>
+				<GameParameter Id="2703842240" Name="RhythmRTPC" ObjectPath="\Game Parameters\Default Work Unit\RhythmRTPC"/>
+				<GameParameter Id="2931073822" Name="IctusRTPC" ObjectPath="\Game Parameters\Default Work Unit\IctusRTPC"/>
+				<GameParameter Id="3307332308" Name="PitchRTPC" ObjectPath="\Game Parameters\Default Work Unit\PitchRTPC"/>
+				<GameParameter Id="4048269951" Name="SpeedRTPC" ObjectPath="\Game Parameters\Default Work Unit\SpeedRTPC"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="640949982" Name="Speed" ObjectPath="\Switches\Default Work Unit\Speed" GUID="{72D6BCB8-D9E4-4DA7-809D-6B1EE2E8BF49}">
+					<Switches>
+						<Switch Id="34379595" Name="Speed1" ObjectPath="\Switches\Default Work Unit\Speed\Speed1" GUID="{D286F5BD-25BC-4429-912A-372A94124AEE}"/>
+						<Switch Id="34379592" Name="Speed2" ObjectPath="\Switches\Default Work Unit\Speed\Speed2" GUID="{D5650502-A703-4615-B6F2-8334B671D349}"/>
+						<Switch Id="34379593" Name="Speed3" ObjectPath="\Switches\Default Work Unit\Speed\Speed3" GUID="{9319D7AC-F082-4BB3-9F96-995CBF8B56B8}"/>
+						<Switch Id="34379598" Name="Speed4" ObjectPath="\Switches\Default Work Unit\Speed\Speed4" GUID="{0271DB19-94BB-498E-ABBE-460DA3E69AF5}"/>
+						<Switch Id="34379599" Name="Speed5" ObjectPath="\Switches\Default Work Unit\Speed\Speed5" GUID="{F6EEE2EA-343F-44F4-B430-333927407C26}"/>
+						<Switch Id="34379596" Name="Speed6" ObjectPath="\Switches\Default Work Unit\Speed\Speed6" GUID="{D7F7EBCA-797C-401D-9668-8F3F79E84BC9}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1908158473" Name="Pitch" ObjectPath="\Switches\Default Work Unit\Pitch" GUID="{AA915E30-B2BC-4D26-B15D-3F4132E9CF8A}">
+					<Switches>
+						<Switch Id="339713562" Name="Pitch1" ObjectPath="\Switches\Default Work Unit\Pitch\Pitch1" GUID="{47BD25FB-4AC8-4FC9-AF3C-0BD55D2EC4A9}"/>
+						<Switch Id="339713561" Name="Pitch2" ObjectPath="\Switches\Default Work Unit\Pitch\Pitch2" GUID="{341D9E50-E2A4-4CFB-B42B-3A4DE8AEB71A}"/>
+						<Switch Id="339713560" Name="Pitch3" ObjectPath="\Switches\Default Work Unit\Pitch\Pitch3" GUID="{C4DA9D1E-722F-4AF1-96E9-B8D5678D83FB}"/>
+						<Switch Id="339713567" Name="Pitch4" ObjectPath="\Switches\Default Work Unit\Pitch\Pitch4" GUID="{B7458606-145E-4891-BAA2-77BC672177FD}"/>
+						<Switch Id="339713566" Name="Pitch5" ObjectPath="\Switches\Default Work Unit\Pitch\Pitch5" GUID="{AA1AA372-3293-4B8E-8B96-95F698054292}"/>
+						<Switch Id="339713565" Name="Pitch6" ObjectPath="\Switches\Default Work Unit\Pitch\Pitch6" GUID="{8C615DC2-6CF3-47E1-B80C-19354C781615}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2538743331" Name="Ictus" ObjectPath="\Switches\Default Work Unit\Ictus" GUID="{2316CF2C-469D-4EEC-8B11-7313F517BF0C}">
+					<Switches>
+						<Switch Id="1498548520" Name="Ictus1" ObjectPath="\Switches\Default Work Unit\Ictus\Ictus1" GUID="{6A2D7ED4-F794-4519-9945-EA9D9A788169}"/>
+						<Switch Id="1498548523" Name="Ictus2" ObjectPath="\Switches\Default Work Unit\Ictus\Ictus2" GUID="{209B2225-58A2-4A12-9268-D0BCE0A7C5F2}"/>
+						<Switch Id="1498548522" Name="Ictus3" ObjectPath="\Switches\Default Work Unit\Ictus\Ictus3" GUID="{8D25C3D0-A48C-4644-88DB-A76E1F15F2D5}"/>
+						<Switch Id="1498548525" Name="Ictus4" ObjectPath="\Switches\Default Work Unit\Ictus\Ictus4" GUID="{CA7669FA-7077-4D13-84DB-05C7F36198FA}"/>
+						<Switch Id="1498548524" Name="Ictus5" ObjectPath="\Switches\Default Work Unit\Ictus\Ictus5" GUID="{1ABF4085-406B-4170-83CB-0CF0F6C66094}"/>
+						<Switch Id="1498548527" Name="Ictus6" ObjectPath="\Switches\Default Work Unit\Ictus\Ictus6" GUID="{A1DC9BDC-7C37-45D9-A8A0-CD927028EEA9}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3642081725" Name="Rhythm" ObjectPath="\Switches\Default Work Unit\Rhythm" GUID="{B019C640-2052-4666-9378-F326083275ED}">
+					<Switches>
+						<Switch Id="2051013814" Name="Rhythm1" ObjectPath="\Switches\Default Work Unit\Rhythm\Rhythm1" GUID="{742961BE-EE2E-4E04-BE03-9E05770CFEA6}"/>
+						<Switch Id="2051013813" Name="Rhythm2" ObjectPath="\Switches\Default Work Unit\Rhythm\Rhythm2" GUID="{EDC85AED-CBF8-4399-877B-DBCC6546D4C9}"/>
+						<Switch Id="2051013812" Name="Rhythm3" ObjectPath="\Switches\Default Work Unit\Rhythm\Rhythm3" GUID="{DE4DD928-AFA4-413D-B4F5-BD5AD9301F4F}"/>
+						<Switch Id="2051013811" Name="Rhythm4" ObjectPath="\Switches\Default Work Unit\Rhythm\Rhythm4" GUID="{2CBD55F1-BBBF-400A-BDBB-20ADD7EE349D}"/>
+						<Switch Id="2051013810" Name="Rhythm5" ObjectPath="\Switches\Default Work Unit\Rhythm\Rhythm5" GUID="{BD934305-1BA7-4A11-BD37-C3743A0FCF6B}"/>
+						<Switch Id="2051013809" Name="Rhythm6" ObjectPath="\Switches\Default Work Unit\Rhythm\Rhythm6" GUID="{AD05AC5C-61F2-4E44-B74E-809F9F72C76E}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1501567333">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

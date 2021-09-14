@@ -1,0 +1,78 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1256202815	Play			\Default Work Unit\Play	
+	2156697475	UnMute			\Default Work Unit\UnMute	
+	2974103762	Mute			\Default Work Unit\Mute	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	640949982	Speed			\Default Work Unit\Speed	
+	1908158473	Pitch			\Default Work Unit\Pitch	
+	3642081725	Rhythm			\Default Work Unit\Rhythm	
+
+Switch	ID	Name	Switch Group			Notes
+	34379592	Speed2	Speed			
+	34379593	Speed3	Speed			
+	34379595	Speed1	Speed			
+	34379596	Speed6	Speed			
+	34379598	Speed4	Speed			
+	34379599	Speed5	Speed			
+	339713560	Pitch3	Pitch			
+	339713561	Pitch2	Pitch			
+	339713562	Pitch1	Pitch			
+	339713565	Pitch6	Pitch			
+	339713566	Pitch5	Pitch			
+	339713567	Pitch4	Pitch			
+	2051013809	Rhythm6	Rhythm			
+	2051013810	Rhythm5	Rhythm			
+	2051013811	Rhythm4	Rhythm			
+	2051013812	Rhythm3	Rhythm			
+	2051013813	Rhythm2	Rhythm			
+	2051013814	Rhythm1	Rhythm			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	91173834	EQHighRTPC			\Default Work Unit\EQHighRTPC	
+	129208631	lowPassRTPC			\Default Work Unit\lowPassRTPC	
+	296962706	tremoloRTPC			\Default Work Unit\tremoloRTPC	
+	1358232353	timeFXRTPC			\Default Work Unit\timeFXRTPC	
+	2703842240	RhythmRTPC			\Default Work Unit\RhythmRTPC	
+	2931073822	IctusRTPC			\Default Work Unit\IctusRTPC	
+	3307332308	PitchRTPC			\Default Work Unit\PitchRTPC	
+	4048269951	SpeedRTPC			\Default Work Unit\SpeedRTPC	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	180389353	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+	3185006250	ObjectEQHigh	Wwise Parametric EQ			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3395979371	Straight_Delay	Wwise Stereo Delay			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	721734462	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\ObjectSynth1\Wwise Synth One	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	144231365	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2111_4EF940BC.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm1\Speed1\Speed1\Ictus		27
+	157061641	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1111_4EF940BC.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm1\Speed1\Speed1\Ictus		27
+	166624346	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2212_E9E32CD7.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm2\Speed1\Speed1\Ictus		50
+	206425038	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2216_CB361991.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm2\Speed1\Speed1\Ictus		156
+	235028975	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2211_36F5D1EB.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm2\Speed1\Speed1\Ictus		36
+	406173480	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2214_70C956AB.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm2\Speed1\Speed1\Ictus		96
+	457687393	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1216_CB361991.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm2\Speed1\Speed1\Ictus		156
+	463206991	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2115_F9CAC449.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm1\Speed1\Speed1\Ictus		100
+	495371028	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2215_25B26183.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm2\Speed1\Speed1\Ictus		122
+	501685029	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1114_3C270C17.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm1\Speed1\Speed1\Ictus		80
+	549850012	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2213_BCDE23C9.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm2\Speed1\Speed1\Ictus		74
+	574095899	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1113_42E60985.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm1\Speed1\Speed1\Ictus		58
+	576191973	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2112_8FF8AE99.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm1\Speed1\Speed1\Ictus		42
+	589424652	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1214_70C956AB.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm2\Speed1\Speed1\Ictus		96
+	593033517	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1116_8BA16F59.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm1\Speed1\Speed1\Ictus		128
+	666643175	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2113_42E60985.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm1\Speed1\Speed1\Ictus		58
+	691269205	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1215_25B26183.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm2\Speed1\Speed1\Ictus		122
+	725418728	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1211_36F5D1EB.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm2\Speed1\Speed1\Ictus		36
+	738748462	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2116_8BA16F59.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm1\Speed1\Speed1\Ictus		128
+	759820895	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\2114_3C270C17.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch2\Rhythm1\Speed1\Speed1\Ictus		80
+	778043567	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1212_E9E32CD7.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm2\Speed1\Speed1\Ictus		50
+	877438358	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1115_F9CAC449.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm1\Speed1\Speed1\Ictus		100
+	931298073	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1112_8FF8AE99.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm1\Speed1\Speed1\Ictus		42
+	1006100775	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\1213_BCDE23C9.wmid		\Interactive Music Hierarchy\Default Work Unit\Object1\Pitch1\Rhythm2\Speed1\Speed1\Ictus		74
+
