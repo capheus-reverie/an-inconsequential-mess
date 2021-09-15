@@ -13,11 +13,31 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID MUTE = 2974103762U;
         static const AkUniqueID PLAY = 1256202815U;
         static const AkUniqueID STOP = 788884573U;
-        static const AkUniqueID UNMUTE = 2156697475U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace KEYSIGNATURE
+        {
+            static const AkUniqueID GROUP = 3671213988U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BLYDIAN = 3126220252U;
+                static const AkUniqueID CHARMMIN = 493209582U;
+                static const AkUniqueID CLOCRIAN = 237518384U;
+                static const AkUniqueID CNATMIN = 3908310863U;
+                static const AkUniqueID COCTST = 1528131883U;
+                static const AkUniqueID CPHRYGIAN = 2080039350U;
+                static const AkUniqueID FHARMMIN = 1906687985U;
+                static const AkUniqueID GHARMMIN = 4285089434U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace KEYSIGNATURE
+
+    } // namespace STATES
 
     namespace SWITCHES
     {
@@ -33,6 +53,17 @@ namespace AK
                 static const AkUniqueID ICTUS4 = 1498548525U;
                 static const AkUniqueID ICTUS5 = 1498548524U;
                 static const AkUniqueID ICTUS6 = 1498548527U;
+                static const AkUniqueID ICTUS7 = 1498548526U;
+                static const AkUniqueID ICTUS8 = 1498548513U;
+                static const AkUniqueID ICTUS9 = 1498548512U;
+                static const AkUniqueID ICTUS10 = 3290720712U;
+                static const AkUniqueID ICTUS11 = 3290720713U;
+                static const AkUniqueID ICTUS12 = 3290720714U;
+                static const AkUniqueID ICTUS13 = 3290720715U;
+                static const AkUniqueID ICTUS14 = 3290720716U;
+                static const AkUniqueID ICTUS15 = 3290720717U;
+                static const AkUniqueID ICTUS16 = 3290720718U;
+                static const AkUniqueID ICTUS17 = 3290720719U;
             } // namespace SWITCH
         } // namespace ICTUS
 

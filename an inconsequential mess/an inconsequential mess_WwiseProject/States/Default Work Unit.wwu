@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{235D274D-6366-46C7-B544-CBC740383876}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{235D274D-6366-46C7-B544-CBC740383876}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{235D274D-6366-46C7-B544-CBC740383876}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="KeySignature" ID="{DE75BA6D-D7CC-4E3F-8BD0-2FEFC77CBC70}">
+					<ChildrenList>
+						<State Name="None" ID="{5F885311-DF2F-4691-8BA1-88C8A548FBE7}"/>
+						<State Name="CPhrygian" ID="{B34F5463-4F25-4460-8DC0-2E9D0693071A}"/>
+						<State Name="CHarmMin" ID="{1F326BFE-087B-428E-B863-45FD31955A8E}"/>
+						<State Name="CNatMin" ID="{E6D5BBE0-FE61-4298-BD17-D93C83479DDC}"/>
+						<State Name="COctST" ID="{B04472B9-A9D8-4481-9D51-9AC13686E980}"/>
+						<State Name="CLocrian" ID="{35616C11-83F9-4552-9148-7FF3B61134BD}"/>
+						<State Name="FHarmMin" ID="{6C9ABE9A-3E5C-4803-92B5-F17E083A60FE}"/>
+						<State Name="GHarmMin" ID="{2D5FA07B-06C3-4388-B66C-2EDE7828A940}"/>
+						<State Name="BLydian" ID="{9C85A2BC-E2F6-4AB5-B3CD-16D1B0010C9F}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

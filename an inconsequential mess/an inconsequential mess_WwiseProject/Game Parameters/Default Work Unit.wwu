@@ -5,7 +5,11 @@
 			<ChildrenList>
 				<GameParameter Name="IctusRTPC" ID="{E02789EB-41D7-4623-8A58-9C37D12EA0E9}"/>
 				<GameParameter Name="PitchRTPC" ID="{B008BA78-0630-48F9-A951-D416367E4B9B}"/>
-				<GameParameter Name="RhythmRTPC" ID="{F74F19A3-AE03-410C-9E32-60F32DE58DE4}"/>
+				<GameParameter Name="RhythmRTPC" ID="{F74F19A3-AE03-410C-9E32-60F32DE58DE4}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
 				<GameParameter Name="SpeedRTPC" ID="{22B5B638-EBA1-47BE-A87F-94C1B71996F8}"/>
 				<GameParameter Name="lowPassRTPC" ID="{AB4D3A15-B892-44F4-BA54-D72FE3739FF7}"/>
 				<GameParameter Name="EQHighRTPC" ID="{82A3F411-842F-4719-BD9E-63B8F520EE5B}"/>

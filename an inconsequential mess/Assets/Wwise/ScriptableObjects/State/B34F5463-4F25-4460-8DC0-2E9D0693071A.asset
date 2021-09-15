@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c1468d2914c474bb3dcfa1f91b19cb, type: 3}
+  m_Name: B34F5463-4F25-4460-8DC0-2E9D0693071A
+  m_EditorClassIdentifier: 
+  objectName: CPhrygian
+  id: 2080039350
+  guid: B34F5463-4F25-4460-8DC0-2E9D0693071A
+  WwiseStateGroupReference: {fileID: 11400000, guid: 2aea1fcd1bbe63e459f8309bde96621e,
+    type: 2}

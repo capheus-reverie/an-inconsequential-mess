@@ -8,35 +8,7 @@
 						<Action Name="" ID="{33A9BB55-827C-4C71-814D-EE5E7501E056}" ShortID="168896534">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Object1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Mute" ID="{E1F3DCE2-E621-40ED-9EAC-25EA59A1C9FF}">
-					<ChildrenList>
-						<Action Name="" ID="{24376A7C-B117-436E-B7EE-D6DA0E4BBDC0}" ShortID="94896602">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="4"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Object1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="UnMute" ID="{54714062-67A1-4E3A-9484-A31990A5B089}">
-					<ChildrenList>
-						<Action Name="" ID="{76197974-BC8D-4B13-82D7-582B562062E2}" ShortID="913836171">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="5"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Object1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+									<ObjectRef Name="Instrument1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -50,7 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Object1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+									<ObjectRef Name="Instrument1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

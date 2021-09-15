@@ -17,18 +17,43 @@ Switch	ID	Name	Switch Group			Notes
 	339713565	Pitch6	Pitch			
 	339713566	Pitch5	Pitch			
 	339713567	Pitch4	Pitch			
+	1498548512	Ictus9	Ictus			
+	1498548513	Ictus8	Ictus			
 	1498548520	Ictus1	Ictus			
 	1498548522	Ictus3	Ictus			
 	1498548523	Ictus2	Ictus			
 	1498548524	Ictus5	Ictus			
 	1498548525	Ictus4	Ictus			
+	1498548526	Ictus7	Ictus			
 	1498548527	Ictus6	Ictus			
+	3290720712	Ictus10	Ictus			
+	3290720713	Ictus11	Ictus			
+	3290720714	Ictus12	Ictus			
+	3290720715	Ictus13	Ictus			
+	3290720716	Ictus14	Ictus			
+	3290720717	Ictus15	Ictus			
+	3290720718	Ictus16	Ictus			
+	3290720719	Ictus17	Ictus			
 	2051013809	Rhythm6	Rhythm			
 	2051013810	Rhythm5	Rhythm			
 	2051013811	Rhythm4	Rhythm			
 	2051013812	Rhythm3	Rhythm			
 	2051013813	Rhythm2	Rhythm			
 	2051013814	Rhythm1	Rhythm			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3671213988	KeySignature			\Default Work Unit\KeySignature	
+
+State	ID	Name	State Group			Notes
+	237518384	CLocrian	KeySignature			
+	493209582	CHarmMin	KeySignature			
+	748895195	None	KeySignature			
+	1528131883	COctST	KeySignature			
+	1906687985	FHarmMin	KeySignature			
+	2080039350	CPhrygian	KeySignature			
+	3126220252	BLydian	KeySignature			
+	3908310863	CNatMin	KeySignature			
+	4285089434	GHarmMin	KeySignature			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

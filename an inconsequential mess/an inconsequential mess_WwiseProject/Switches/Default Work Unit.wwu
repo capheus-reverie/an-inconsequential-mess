@@ -14,6 +14,17 @@
 						<Switch Name="Ictus4" ID="{CA7669FA-7077-4D13-84DB-05C7F36198FA}"/>
 						<Switch Name="Ictus5" ID="{1ABF4085-406B-4170-83CB-0CF0F6C66094}"/>
 						<Switch Name="Ictus6" ID="{A1DC9BDC-7C37-45D9-A8A0-CD927028EEA9}"/>
+						<Switch Name="Ictus7" ID="{F8F221EC-496C-4529-9731-EA27F1D6F9C9}"/>
+						<Switch Name="Ictus8" ID="{676DED65-7563-48A9-A497-CD8E0E3BE91C}"/>
+						<Switch Name="Ictus9" ID="{80C55F91-4B2F-4D3E-B186-94F46D223EE9}"/>
+						<Switch Name="Ictus10" ID="{F22B22B5-FC57-45A8-AECC-EF81677CA300}"/>
+						<Switch Name="Ictus11" ID="{47F4F5BE-84D8-46DA-9D7A-DB7D28F5A4B7}"/>
+						<Switch Name="Ictus12" ID="{667907E6-36EA-409D-A86D-1229437572E5}"/>
+						<Switch Name="Ictus13" ID="{ABACB098-21A4-4D5D-8697-6000EF331183}"/>
+						<Switch Name="Ictus14" ID="{E8B1E9B4-BE71-4DC4-9FA0-16CC95919968}"/>
+						<Switch Name="Ictus15" ID="{5A3E6848-D78E-4100-8A46-5EDB42A5D12C}"/>
+						<Switch Name="Ictus16" ID="{A0CED6FC-C143-4F2B-B5AB-EF26681D2EE6}"/>
+						<Switch Name="Ictus17" ID="{B8F1AAAF-C198-4A76-A305-A966880BF9A6}"/>
 					</ChildrenList>
 					<SwitchOnRTPC>
 						<GameParameterRef Name="IctusRTPC" ID="{E02789EB-41D7-4623-8A58-9C37D12EA0E9}"/>
@@ -28,33 +39,88 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>16.67</XPos>
+									<XPos>5.88</XPos>
 									<YPos>2</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>33.34</XPos>
+									<XPos>11.76</XPos>
 									<YPos>3</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>50</XPos>
+									<XPos>17.64</XPos>
 									<YPos>4</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>66.67</XPos>
+									<XPos>23.52</XPos>
 									<YPos>5</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>83.34</XPos>
+									<XPos>29.4</XPos>
 									<YPos>6</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
+									<XPos>35.28</XPos>
+									<YPos>7</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>41.16</XPos>
+									<YPos>8</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>47.04</XPos>
+									<YPos>9</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>52.9</XPos>
+									<YPos>10</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>58.8</XPos>
+									<YPos>11</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>64.68</XPos>
+									<YPos>12</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>70.56</XPos>
+									<YPos>13</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>76.44</XPos>
+									<YPos>14</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>82.32</XPos>
+									<YPos>15</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>88.2</XPos>
+									<YPos>16</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>94.08</XPos>
+									<YPos>17</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
 									<XPos>100</XPos>
-									<YPos>6</YPos>
+									<YPos>17</YPos>
 									<Flags>37</Flags>
 								</Point>
 							</PointList>

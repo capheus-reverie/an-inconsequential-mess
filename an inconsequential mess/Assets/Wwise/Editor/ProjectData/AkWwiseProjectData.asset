@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a893a9055c3f45409e718224a91c414c
     GuidInternal: 
-    m_lastTime: -8585699819515701936
+    m_lastTime: -8585698950928716785
     List:
     - name: Full_Game
       guid: 3b8ec98323f5384781b1c9b2a4abcc8c
@@ -94,25 +94,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4098986c464ce040bd5cebe8b57417f6
     GuidInternal: 
-    m_lastTime: -8585699789396563633
+    m_lastTime: -8585699242589991426
     List:
-    - name: Mute
-      guid: e2dcf3e121e6ed409eac25ea59a1c9ff
-      id: 2974103762
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: Mute
-        ObjectType: 3
-        guid: e2dcf3e121e6ed409eac25ea59a1c9ff
-      Path: Events\Default Work Unit\Mute
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Play
       guid: 1f5997d19d078c48affe807d3bf1c0cd
       id: 1256202815
@@ -127,7 +110,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1f5997d19d078c48affe807d3bf1c0cd
       Path: Events\Default Work Unit\Play
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: Stop
@@ -147,23 +130,6 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: UnMute
-      guid: 62407154a1673a4e9484a31990a5b089
-      id: 2156697475
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: UnMute
-        ObjectType: 3
-        guid: 62407154a1673a4e9484a31990a5b089
-      Path: Events\Default Work Unit\UnMute
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -176,7 +142,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 42fe59c9f632fe47829da934793c9a11
     GuidInternal: 
-    m_lastTime: -8585699796214353895
+    m_lastTime: -8585698968284659776
     List:
     - name: EQHighRTPC
       guid: 11f4a3822f841947bd9e63b8f520ee5b
@@ -302,8 +268,170 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4d275d236663c746b544cbc740383876
     GuidInternal: 
-    m_lastTime: -8585700163763109981
-    List: []
+    m_lastTime: -8585699240567341695
+    List:
+    - name: KeySignature
+      guid: 6dba75deccd73f4e8bd02fefc77cbc70
+      id: 3671213988
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d275d236663c746b544cbc740383876
+      - ElementName: KeySignature
+        ObjectType: 9
+        guid: 6dba75deccd73f4e8bd02fefc77cbc70
+      Path: States\Default Work Unit\KeySignature
+      values:
+      - name: BLydian
+        guid: bca2859cf6e2b54ab3cd16d1b0010c9f
+        id: 3126220252
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: BLydian
+          ObjectType: 8
+          guid: bca2859cf6e2b54ab3cd16d1b0010c9f
+      - name: CHarmMin
+        guid: fe6b321f7b088e42b86345fd31955a8e
+        id: 493209582
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: CHarmMin
+          ObjectType: 8
+          guid: fe6b321f7b088e42b86345fd31955a8e
+      - name: CLocrian
+        guid: 116c6135f983524591487ff3b61134bd
+        id: 237518384
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: CLocrian
+          ObjectType: 8
+          guid: 116c6135f983524591487ff3b61134bd
+      - name: CNatMin
+        guid: e0bbd5e661fe9842bd17d93c83479ddc
+        id: 3908310863
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: CNatMin
+          ObjectType: 8
+          guid: e0bbd5e661fe9842bd17d93c83479ddc
+      - name: COctST
+        guid: b97244b0d8a981449d519ac13686e980
+        id: 1528131883
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: COctST
+          ObjectType: 8
+          guid: b97244b0d8a981449d519ac13686e980
+      - name: CPhrygian
+        guid: 63544fb3254f60448dc02e9d0693071a
+        id: 2080039350
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: CPhrygian
+          ObjectType: 8
+          guid: 63544fb3254f60448dc02e9d0693071a
+      - name: FHarmMin
+        guid: 9abe9a6c5c3e034892b5f17e083a60fe
+        id: 1906687985
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: FHarmMin
+          ObjectType: 8
+          guid: 9abe9a6c5c3e034892b5f17e083a60fe
+      - name: GHarmMin
+        guid: 7ba05f2dc3068843b66c2ede7828a940
+        id: 4285089434
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: GHarmMin
+          ObjectType: 8
+          guid: 7ba05f2dc3068843b66c2ede7828a940
+      - name: None
+        guid: 1153885f2fdf91468ba188c8a548fbe7
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: KeySignature
+          ObjectType: 9
+          guid: 6dba75deccd73f4e8bd02fefc77cbc70
+        - ElementName: None
+          ObjectType: 8
+          guid: 1153885f2fdf91468ba188c8a548fbe7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -316,7 +444,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: f27bb210eacee74c971ef759c4807718
     GuidInternal: 
-    m_lastTime: -8585699802972039160
+    m_lastTime: -8585699252984832372
     List:
     - name: Ictus
       guid: 2ccf16239d46ec4e8b117313f517bf0c
@@ -349,6 +477,134 @@ MonoBehaviour:
         - ElementName: Ictus1
           ObjectType: 10
           guid: d47e2d6a94f719459945ea9d9a788169
+      - name: Ictus10
+        guid: b5222bf257fca845aeccef81677ca300
+        id: 3290720712
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus10
+          ObjectType: 10
+          guid: b5222bf257fca845aeccef81677ca300
+      - name: Ictus11
+        guid: bef5f447d884da469d7adb7d28f5a4b7
+        id: 3290720713
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus11
+          ObjectType: 10
+          guid: bef5f447d884da469d7adb7d28f5a4b7
+      - name: Ictus12
+        guid: e6077966ea369d40a86d1229437572e5
+        id: 3290720714
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus12
+          ObjectType: 10
+          guid: e6077966ea369d40a86d1229437572e5
+      - name: Ictus13
+        guid: 98b0acaba4215d4d86976000ef331183
+        id: 3290720715
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus13
+          ObjectType: 10
+          guid: 98b0acaba4215d4d86976000ef331183
+      - name: Ictus14
+        guid: b4e9b1e871bec44d9fa016cc95919968
+        id: 3290720716
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus14
+          ObjectType: 10
+          guid: b4e9b1e871bec44d9fa016cc95919968
+      - name: Ictus15
+        guid: 48683e5a8ed700418a465edb42a5d12c
+        id: 3290720717
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus15
+          ObjectType: 10
+          guid: 48683e5a8ed700418a465edb42a5d12c
+      - name: Ictus16
+        guid: fcd6cea043c12b4fb5abef26681d2ee6
+        id: 3290720718
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus16
+          ObjectType: 10
+          guid: fcd6cea043c12b4fb5abef26681d2ee6
+      - name: Ictus17
+        guid: afaaf1b898c1764aa305a966880bf9a6
+        id: 3290720719
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus17
+          ObjectType: 10
+          guid: afaaf1b898c1764aa305a966880bf9a6
       - name: Ictus2
         guid: 25229b20a258124a9268d0bce0a7c5f2
         id: 1498548523
@@ -429,6 +685,54 @@ MonoBehaviour:
         - ElementName: Ictus6
           ObjectType: 10
           guid: dc9bdca1377cd945a8a0cd927028eea9
+      - name: Ictus7
+        guid: ec21f2f86c4929459731ea27f1d6f9c9
+        id: 1498548526
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus7
+          ObjectType: 10
+          guid: ec21f2f86c4929459731ea27f1d6f9c9
+      - name: Ictus8
+        guid: 65ed6d676375a948a497cd8e0e3be91c
+        id: 1498548513
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus8
+          ObjectType: 10
+          guid: 65ed6d676375a948a497cd8e0e3be91c
+      - name: Ictus9
+        guid: 915fc5802f4b3e4db18694f46d223ee9
+        id: 1498548512
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Ictus
+          ObjectType: 11
+          guid: 2ccf16239d46ec4e8b117313f517bf0c
+        - ElementName: Ictus9
+          ObjectType: 10
+          guid: 915fc5802f4b3e4db18694f46d223ee9
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -788,7 +1092,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585700163763199600
     List: []
-  ExpandedFileSystemItemIds: 
+  ExpandedFileSystemItemIds: 04000000050000002f0000003000000031000000
   ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
