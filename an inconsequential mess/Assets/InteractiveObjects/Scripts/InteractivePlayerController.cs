@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
+using UnityEngine.UI;
 
 public class InteractivePlayerController : MonoBehaviour
 {
@@ -25,6 +25,7 @@ public class InteractivePlayerController : MonoBehaviour
     private GameObject SelectedObject;
     private ObjectController selectedObjectController;
     private string RaycastReturn;
+    private RaycastHit hitData;
 
     #endregion
 
@@ -34,10 +35,10 @@ public class InteractivePlayerController : MonoBehaviour
 
     public GameObject leftDotVectorDisplay;
     public GameObject rightDotVectorDisplay;
-    private dotVectorDisplay leftDot;
-    private dotVectorDisplay rightDot;
-    private Slider leftYRotationSlider;
-    private Slider rightYRotationSlider;
+    public dotVectorDisplay leftDot;
+    public dotVectorDisplay rightDot;
+    public Slider leftYRotationSlider;
+    public Slider rightYRotationSlider;
 
     [Header("")]
 
@@ -88,40 +89,33 @@ public class InteractivePlayerController : MonoBehaviour
     private int rightPrimarySwitch = 0;
 
     // Set initial update integer to make sure that initialization only occurs once per interaction as opposed to each frame
-    private int initialUpdate = 0;
+    private int initialLeftUpdate = 0;
+    private int initialRightUpdate = 0;
 
     // objectAdmin bools
     private bool objectMute = false;
     private bool objectPlay = false;
 
-    #endregion
+	#endregion
 
-    #region Unity Methods
+	#region Unity Methods
 
-    void Start()
+	void Start()
     {
-        // Hide interaction display
-        leftDotVectorDisplay.SetActive(false);
-        rightDotVectorDisplay.SetActive(false);
-
         // Initialize hand controls
         leftHandDelta = leftHandControl.GetComponent<handControl>();
         rightHandDelta = rightHandControl.GetComponent<handControl>();
 
-        // Initialize dot displays
-        leftDot = leftDotVectorDisplay.GetComponentInChildren<dotVectorDisplay>();
-        leftYRotationSlider = leftDotVectorDisplay.GetComponentInChildren<Slider>();
+        // Hide interaction display
+        leftDotVectorDisplay.SetActive(false);
+        rightDotVectorDisplay.SetActive(false);
 
-        rightDot = rightDotVectorDisplay.GetComponentInChildren<dotVectorDisplay>();
-        rightYRotationSlider = rightDotVectorDisplay.GetComponentInChildren<Slider>();
-        
     }
 
     void Update()
     {
         // Update Raycast
         gazeRay = Camera.main.ViewportPointToRay(gazeVector);
-        RaycastHit hitData;
 
         // If the ray hits something less than maxDistance, on the chosen layerMask, and not a trigger
         if (Physics.Raycast(gazeRay, out hitData, maxDistance, layerMask, QueryTriggerInteraction.Ignore))
@@ -136,6 +130,9 @@ public class InteractivePlayerController : MonoBehaviour
                 // Assign the selected object to this GameObject
                 SelectedObject = GameObject.Find(RaycastReturn);
                 selectedObjectController = SelectedObject.GetComponent<ObjectController>();
+
+                // reset interaction
+                deactivate("gaze");
 			}
 			else
 			{
@@ -145,14 +142,6 @@ public class InteractivePlayerController : MonoBehaviour
                 // After alloted time interval for gaze select is reached, initialize interaction
                 if (timer >= gazeSelectionTime)
 				{
-                    // Initialize initial vector display for interaction and hand control
-                    while (initialUpdate < 1)
-					{
-                        initializeObjectController();
-                        initialUpdate++;
-                        Debug.Log("Object Selected");
-                    }
-
                     // Identify controllers
                     // Assign Left Hand
                     var leftHandDevices = new List<UnityEngine.XR.InputDevice>();
@@ -168,12 +157,33 @@ public class InteractivePlayerController : MonoBehaviour
                     // If left grip is pressed, but not left trigger
                     if (leftHandController.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out leftGripValue) && leftGripValue &!leftTriggerValue)
 					{
-                        handInteraction("left");
+                        string hand = "left";
+                        while (initialLeftUpdate < 1)
+						{
+                            initializeObjectController(hand);
+                            initialLeftUpdate++;
+						}
+
+                        handInteraction(hand);
+					}
+					else
+					{
+                        deactivate("left");
 					}
                     // If right grip is pressed, but not right trigger
                     if (rightHandController.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out rightGripValue) && rightGripValue &!rightTriggerValue)
 					{
+                        while (initialRightUpdate < 1)
+						{
+                            initializeObjectController("right");
+                            initialRightUpdate++;
+						}
+
                         handInteraction("right");
+					}
+					else
+					{
+                        deactivate("right");
 					}
 
                     // If left trigger is pressed, but not the grip
@@ -244,45 +254,73 @@ public class InteractivePlayerController : MonoBehaviour
 		}
 		else
 		{
-            deactivate();
+            deactivate("gaze");
 		}
 
     }
 
-    void initializeObjectController()
+    void initializeObjectController(string hand)
 	{
-        // Activate left hand vector display and left hand control
-        leftHandDelta.interactionActive(1);
-        leftDotVectorDisplay.SetActive(true);
+        switch (hand)
+		{
+            case "left":
+                // Activate left hand vector display and left hand control
+                leftHandDelta.interactionActive(1);
+                leftDotVectorDisplay.SetActive(true);
 
-        // Activate right hand vector display and right hand control
-        rightHandDelta.interactionActive(1);
-        rightDotVectorDisplay.SetActive(true);
+                // Update left vector display to current audio parameters
+                leftXVal = selectedObjectController.leftXAxis;
+                leftYVal = selectedObjectController.leftYAxis;
+                leftZVal = selectedObjectController.leftZAxis;
+                leftRotYVal = selectedObjectController.leftYAxisRotation;
+                break;
 
-        // Update vector display to current audio parameters
-        leftXVal = selectedObjectController.leftXAxis; 
-        leftYVal = selectedObjectController.leftYAxis;
-        leftZVal = selectedObjectController.leftZAxis;
-        leftRotYVal = selectedObjectController.leftYAxisRotation;
+            case "right":
+                // Activate right hand vector display and right hand control
+                rightHandDelta.interactionActive(1);
+                rightDotVectorDisplay.SetActive(true);
 
-        rightXVal = selectedObjectController.rightXAxis;
-        rightYVal = selectedObjectController.rightYAxis;
-        rightZVal = selectedObjectController.rightZAxis;
-        rightRotYVal = selectedObjectController.rightYAxisRotation;
+                // Update right vector display to current audio parameters;
+                rightXVal = selectedObjectController.rightXAxis;
+                rightYVal = selectedObjectController.rightYAxis;
+                rightZVal = selectedObjectController.rightZAxis;
+                rightRotYVal = selectedObjectController.rightYAxisRotation;
+                break;
+
+            default:
+                break;
+        } 
 	}
-    void deactivate()
+    void deactivate(string hand)
 	{
-        // Disable Left Controller Interactions and visible vector display
-        leftHandDelta.interactionActive(2);
-        leftDotVectorDisplay.SetActive(false);
+        switch (hand)
+		{
+            case "left":
+                // Disable Left Controller Interactions and visible vector display
+                leftHandDelta.interactionActive(2);
+                leftDotVectorDisplay.SetActive(false);
 
-        // Disable Right Controller Interactions and visible vector display
-        rightHandDelta.interactionActive(2);
-        rightDotVectorDisplay.SetActive(false);
+                // Reset initial update int
+                initialLeftUpdate = 0;
+                break;
 
-        // Reset Initial Update and timer Variables
-        initialUpdate = 0;
-        timer = 0;
+            case "right":
+                // Disable Right Controller Interactions and visible vector display
+                rightHandDelta.interactionActive(2);
+                rightDotVectorDisplay.SetActive(false);
+
+                // Reset initial update int
+                initialRightUpdate = 0;
+                break;
+
+            case "gaze":
+                // Reset timer int
+                timer = 0;
+                break;
+
+            default:
+                break;
+        } 
 	}
 
     void handInteraction(string hand)
@@ -348,6 +386,9 @@ public class InteractivePlayerController : MonoBehaviour
                 rightDot.zPos = (rightZVal) / 100;
                 rightYRotationSlider.value = rightRotYVal;
 
+                break;
+
+            default:
                 break;
         }
 	}

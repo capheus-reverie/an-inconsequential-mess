@@ -1139,42 +1139,6 @@ MonoBehaviour:
   deltaYVal: 0
   deltaZVal: 0
   deltaRotYVal: 0
---- !u!114 &661116456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661116452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7eae59991bfad543a51550b8ffda547, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDefaultListener: 1
-  listenerId: 0
---- !u!114 &661116457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 661116452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1e67ec714862eb4ea2f939b77803d85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 0
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1 &689144832
 GameObject:
   m_ObjectHideFlags: 0
@@ -1518,6 +1482,10 @@ MonoBehaviour:
   gazeSelectionTime: 0.3
   leftDotVectorDisplay: {fileID: 1549518988}
   rightDotVectorDisplay: {fileID: 96291431}
+  leftDot: {fileID: 905267624}
+  rightDot: {fileID: 1715821303}
+  leftYRotationSlider: {fileID: 689144834}
+  rightYRotationSlider: {fileID: 1553279466}
   leftHandControl: {fileID: 661116453}
   rightHandControl: {fileID: 661116451}
   fMin: 0
@@ -7173,9 +7141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daccf5c2559a19f40bd808b008d316bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftXAxis: 90
-  leftYAxis: 40
-  leftZAxis: 100
+  leftXAxis: 81.4
+  leftYAxis: 2.1
+  leftZAxis: 2.4
   leftYAxisRotation: 40
   leftXAxisRTPC:
     idInternal: 0

@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	788884573	Stop			\Default Work Unit\Stop	
 	1256202815	Play			\Default Work Unit\Play	
 	2156697475	UnMute			\Default Work Unit\UnMute	
 	2974103762	Mute			\Default Work Unit\Mute	

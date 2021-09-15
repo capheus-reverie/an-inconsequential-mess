@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="532326295" Language="SFX" Hash="1542150025">
+		<SoundBank Id="532326295" Language="SFX" Hash="279826750">
 			<ObjectPath>\SoundBanks\Default Work Unit\Full_Game</ObjectPath>
 			<ShortName>Full_Game</ShortName>
 			<Path>Full_Game.bnk</Path>
@@ -383,6 +383,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="788884573" Name="Stop" ObjectPath="\Events\Default Work Unit\Stop" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2156697475" Name="UnMute" ObjectPath="\Events\Default Work Unit\UnMute" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 			<GameParameters>

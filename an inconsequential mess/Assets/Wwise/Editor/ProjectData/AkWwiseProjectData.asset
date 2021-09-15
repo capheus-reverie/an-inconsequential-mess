@@ -145,8 +145,8 @@ MonoBehaviour:
         guid: a17a0ddbb61120408b03a62bd6bc8338
       Path: Events\Default Work Unit\Stop
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0
+      minDuration: 0
     - name: UnMute
       guid: 62407154a1673a4e9484a31990a5b089
       id: 2156697475
@@ -789,8 +789,8 @@ MonoBehaviour:
     m_lastTime: -8585700163763199600
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000001700000018000000
+  ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 

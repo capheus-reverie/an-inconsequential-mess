@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID MUTE = 2974103762U;
         static const AkUniqueID PLAY = 1256202815U;
+        static const AkUniqueID STOP = 788884573U;
         static const AkUniqueID UNMUTE = 2156697475U;
     } // namespace EVENTS
 
