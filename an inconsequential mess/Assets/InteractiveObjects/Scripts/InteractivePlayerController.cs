@@ -402,13 +402,11 @@ public class InteractivePlayerController : MonoBehaviour
                 {
                     selectedObjectController.objectAdmin("unmute");
                     objectMute = false;
-                    Debug.Log("Object Unmuted");
                 }
                 else
                 {
                     selectedObjectController.objectAdmin("mute");
                     objectMute = true;
-                    Debug.Log("Object Muted");
                 }
                 break;
          
@@ -417,13 +415,11 @@ public class InteractivePlayerController : MonoBehaviour
 				{
                     selectedObjectController.objectAdmin("play");
                     objectPlay = true;
-                    Debug.Log("Object Played");
 				}
 				else
 				{
                     selectedObjectController.objectAdmin("stop");
                     objectPlay = false;
-                    Debug.Log("Object Stopped");
 				}
                 break;
 

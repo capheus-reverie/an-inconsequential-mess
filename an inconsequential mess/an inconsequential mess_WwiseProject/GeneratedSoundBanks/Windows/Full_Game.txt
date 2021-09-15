@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
-	788884573	Stop			\Default Work Unit\Stop	
-	1256202815	Play			\Default Work Unit\Play	
+	181522840	GlobalStart			\Default Work Unit\GlobalStart	
+	738576892	ObjectStop			\Default Work Unit\ObjectStop	
+	1261072912	ObjectStart			\Default Work Unit\ObjectStart	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	640949982	Speed			\Default Work Unit\Speed	
@@ -159,6 +160,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	194542736	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\411Phry1_05F96905.wmid		\Interactive Music Hierarchy\Default Work Unit\Instrument1\C Phrygian\Pitch4Phry\Rhythm1\Speed1\Speed1\Ictus		27
 	195559942	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\114Phry14_3B09A043.wmid		\Interactive Music Hierarchy\Default Work Unit\Instrument1\C Phrygian\Pitch1Phry\Rhythm1\Speed4\Speed4\Ictus		122
 	197343911	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\414Phry16_2CA2256F.wmid		\Interactive Music Hierarchy\Default Work Unit\Instrument1\C Phrygian\Pitch4Phry\Rhythm1\Speed4\Speed4\Ictus		134
+	197412308	Clicktrack	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\Freeze 1-Impulse [2021-09-15 235920]_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Global\Clicktrack\Clicktrack		1587664
 	199410269	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\513Phry16_4749779F.wmid		\Interactive Music Hierarchy\Default Work Unit\Instrument1\C Phrygian\Pitch5Phry\Rhythm1\Speed3\Speed3\Ictus		134
 	201503029	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\214Phry1_F44C324C.wmid		\Interactive Music Hierarchy\Default Work Unit\Instrument1\C Phrygian\Pitch2Phry\Rhythm1\Speed4\Speed4\Ictus		27
 	205496302	Ictus	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\513Phry7_62311559.wmid		\Interactive Music Hierarchy\Default Work Unit\Instrument1\C Phrygian\Pitch5Phry\Rhythm1\Speed3\Speed3\Ictus		72

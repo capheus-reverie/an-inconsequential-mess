@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4098986c464ce040bd5cebe8b57417f6
     GuidInternal: 
-    m_lastTime: -8585699242589991426
+    m_lastTime: -8585698923264855886
     List:
-    - name: Play
-      guid: 1f5997d19d078c48affe807d3bf1c0cd
-      id: 1256202815
+    - name: GlobalStart
+      guid: d89593faa2c435469a302b5d4f687908
+      id: 181522840
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,16 +106,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: Play
+      - ElementName: GlobalStart
+        ObjectType: 3
+        guid: d89593faa2c435469a302b5d4f687908
+      Path: Events\Default Work Unit\GlobalStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: ObjectStart
+      guid: 1f5997d19d078c48affe807d3bf1c0cd
+      id: 1261072912
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: ObjectStart
         ObjectType: 3
         guid: 1f5997d19d078c48affe807d3bf1c0cd
-      Path: Events\Default Work Unit\Play
+      Path: Events\Default Work Unit\ObjectStart
       maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
-    - name: Stop
+    - name: ObjectStop
       guid: a17a0ddbb61120408b03a62bd6bc8338
-      id: 788884573
+      id: 738576892
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -123,10 +140,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: Stop
+      - ElementName: ObjectStop
         ObjectType: 3
         guid: a17a0ddbb61120408b03a62bd6bc8338
-      Path: Events\Default Work Unit\Stop
+      Path: Events\Default Work Unit\ObjectStop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1090,9 +1107,9 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 2911e5a6414a46459401af7656e678b4
     GuidInternal: 
-    m_lastTime: -8585700163763199600
+    m_lastTime: -8585698923865825097
     List: []
-  ExpandedFileSystemItemIds: 04000000050000002f0000003000000031000000
+  ExpandedFileSystemItemIds: 020000000300000004000000050000002f0000003000000031000000
   ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

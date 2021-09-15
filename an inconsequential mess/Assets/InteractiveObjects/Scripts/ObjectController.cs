@@ -48,6 +48,9 @@ public class ObjectController : MonoBehaviour
     public AK.Wwise.Event play;
     public AK.Wwise.Event stop;
 
+    private bool objectPlaying = false;
+    private bool coroutineStopped = true;
+
     // Initialize particle component variable
     private ParticleSystem particle = null;
 
@@ -72,6 +75,13 @@ public class ObjectController : MonoBehaviour
         rightYAxisRTPC.SetValue(this.gameObject, rightYAxis);
         rightZAxisRTPC.SetValue(this.gameObject, rightZAxis);
         rightYAxisRotationRTPC.SetValue(this.gameObject, rightYAxisRotation);
+
+        if (objectPlaying == true && coroutineStopped == false)
+		{
+            StopCoroutine(playSync(0));
+            coroutineStopped = true;
+		}
+
     }
 
     public void objectAdmin(string state)
@@ -85,10 +95,13 @@ public class ObjectController : MonoBehaviour
                 unmute.Post(gameObject);
                 break;
             case "play":
-                play.Post(gameObject, (uint)AkCallbackType.AK_MIDIEvent, triggerParticle);
+                int nextQuaver = Manager.instance.quaver + 1;
+                StartCoroutine(playSync(nextQuaver));
+                coroutineStopped = false;
                 break;
             case "stop":
                 stop.Post(gameObject);
+                objectPlaying = false;
                 break;
 		}
 	}
@@ -96,6 +109,24 @@ public class ObjectController : MonoBehaviour
     void triggerParticle(object in_cookie, AkCallbackType in_type, object in_object)
 	{
         particle.Play();
+	}
+
+    IEnumerator playSync(int nextQuaver)
+	{
+        Debug.Log("Coroutine started");
+
+        do
+        {
+            yield return null;
+        } while (Manager.instance.quaver < nextQuaver);
+
+        
+        play.Post(gameObject);
+        objectPlaying = true;
+        Debug.Log("Object Playing");
+		
+        yield return null;
+
 	}
 
     #endregion

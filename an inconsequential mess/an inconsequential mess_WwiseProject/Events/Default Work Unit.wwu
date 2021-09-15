@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play" ID="{D197591F-079D-488C-AFFE-807D3BF1C0CD}">
+				<Event Name="ObjectStart" ID="{D197591F-079D-488C-AFFE-807D3BF1C0CD}">
 					<ChildrenList>
 						<Action Name="" ID="{33A9BB55-827C-4C71-814D-EE5E7501E056}" ShortID="168896534">
 							<ReferenceList>
@@ -14,7 +14,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop" ID="{DB0D7AA1-11B6-4020-8B03-A62BD6BC8338}">
+				<Event Name="ObjectStop" ID="{DB0D7AA1-11B6-4020-8B03-A62BD6BC8338}">
 					<ChildrenList>
 						<Action Name="" ID="{AF2AC55F-FD20-46BD-AC5F-DBCED8DCD2EA}" ShortID="640681721">
 							<PropertyList>
@@ -23,6 +23,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Instrument1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GlobalStart" ID="{FA9395D8-C4A2-4635-9A30-2B5D4F687908}">
+					<ChildrenList>
+						<Action Name="" ID="{45F4C46B-3748-4090-BC9C-D8138413A308}" ShortID="918823533">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Global" ID="{A8FBE809-3F9C-4A24-B1F6-DFC3B41CDED6}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

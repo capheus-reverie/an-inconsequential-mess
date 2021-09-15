@@ -13,8 +13,9 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY = 1256202815U;
-        static const AkUniqueID STOP = 788884573U;
+        static const AkUniqueID GLOBALSTART = 181522840U;
+        static const AkUniqueID OBJECTSTART = 1261072912U;
+        static const AkUniqueID OBJECTSTOP = 738576892U;
     } // namespace EVENTS
 
     namespace STATES

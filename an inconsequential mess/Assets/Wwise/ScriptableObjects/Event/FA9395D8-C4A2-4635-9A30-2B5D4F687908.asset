@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 407eaf86415540b4f81d8d471d7bd16d, type: 3}
-  m_Name: DB0D7AA1-11B6-4020-8B03-A62BD6BC8338
+  m_Name: FA9395D8-C4A2-4635-9A30-2B5D4F687908
   m_EditorClassIdentifier: 
-  objectName: ObjectStop
-  id: 738576892
-  guid: DB0D7AA1-11B6-4020-8B03-A62BD6BC8338
+  objectName: GlobalStart
+  id: 181522840
+  guid: FA9395D8-C4A2-4635-9A30-2B5D4F687908

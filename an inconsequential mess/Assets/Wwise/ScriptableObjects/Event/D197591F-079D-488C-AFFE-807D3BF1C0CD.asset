@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 407eaf86415540b4f81d8d471d7bd16d, type: 3}
   m_Name: D197591F-079D-488C-AFFE-807D3BF1C0CD
   m_EditorClassIdentifier: 
-  objectName: Play
-  id: 1256202815
+  objectName: ObjectStart
+  id: 1261072912
   guid: D197591F-079D-488C-AFFE-807D3BF1C0CD
