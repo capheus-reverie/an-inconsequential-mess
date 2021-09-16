@@ -137,7 +137,6 @@
 						<Switch Name="Pitch3" ID="{C4DA9D1E-722F-4AF1-96E9-B8D5678D83FB}"/>
 						<Switch Name="Pitch4" ID="{B7458606-145E-4891-BAA2-77BC672177FD}"/>
 						<Switch Name="Pitch5" ID="{AA1AA372-3293-4B8E-8B96-95F698054292}"/>
-						<Switch Name="Pitch6" ID="{8C615DC2-6CF3-47E1-B80C-19354C781615}"/>
 					</ChildrenList>
 					<SwitchOnRTPC>
 						<GameParameterRef Name="PitchRTPC" ID="{B008BA78-0630-48F9-A951-D416367E4B9B}"/>
@@ -152,33 +151,28 @@
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>16.67</XPos>
+									<XPos>20</XPos>
 									<YPos>2</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>33.34</XPos>
+									<XPos>40</XPos>
 									<YPos>3</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>50</XPos>
+									<XPos>60</XPos>
 									<YPos>4</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>66.67</XPos>
+									<XPos>80</XPos>
 									<YPos>5</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>83.34</XPos>
-									<YPos>6</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
 									<XPos>100</XPos>
-									<YPos>6</YPos>
+									<YPos>5</YPos>
 									<Flags>37</Flags>
 								</Point>
 							</PointList>
@@ -200,64 +194,6 @@
 					<SwitchOnRTPC>
 						<GameParameterRef Name="SpeedRTPC" ID="{22B5B638-EBA1-47BE-A87F-94C1B71996F8}"/>
 						<Curve Name="" ID="{EA6A3990-F1CD-4B94-A93A-0CA7E492A7E4}">
-							<PropertyList>
-								<Property Name="Flags" Type="int32" Value="65537"/>
-							</PropertyList>
-							<PointList>
-								<Point>
-									<XPos>0</XPos>
-									<YPos>1</YPos>
-									<Flags>5</Flags>
-								</Point>
-								<Point>
-									<XPos>16.67</XPos>
-									<YPos>2</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
-									<XPos>33.34</XPos>
-									<YPos>3</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
-									<XPos>50</XPos>
-									<YPos>4</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
-									<XPos>66.67</XPos>
-									<YPos>5</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
-									<XPos>83.34</XPos>
-									<YPos>6</YPos>
-									<Flags>0</Flags>
-								</Point>
-								<Point>
-									<XPos>100</XPos>
-									<YPos>6</YPos>
-									<Flags>37</Flags>
-								</Point>
-							</PointList>
-						</Curve>
-					</SwitchOnRTPC>
-				</SwitchGroup>
-				<SwitchGroup Name="Rhythm" ID="{B019C640-2052-4666-9378-F326083275ED}">
-					<PropertyList>
-						<Property Name="UseGameParameter" Type="bool" Value="True"/>
-					</PropertyList>
-					<ChildrenList>
-						<Switch Name="Rhythm1" ID="{742961BE-EE2E-4E04-BE03-9E05770CFEA6}"/>
-						<Switch Name="Rhythm2" ID="{EDC85AED-CBF8-4399-877B-DBCC6546D4C9}"/>
-						<Switch Name="Rhythm3" ID="{DE4DD928-AFA4-413D-B4F5-BD5AD9301F4F}"/>
-						<Switch Name="Rhythm4" ID="{2CBD55F1-BBBF-400A-BDBB-20ADD7EE349D}"/>
-						<Switch Name="Rhythm5" ID="{BD934305-1BA7-4A11-BD37-C3743A0FCF6B}"/>
-						<Switch Name="Rhythm6" ID="{AD05AC5C-61F2-4E44-B74E-809F9F72C76E}"/>
-					</ChildrenList>
-					<SwitchOnRTPC>
-						<GameParameterRef Name="RhythmRTPC" ID="{F74F19A3-AE03-410C-9E32-60F32DE58DE4}"/>
-						<Curve Name="" ID="{8654E104-1C89-4EA9-B222-112B53253FC0}">
 							<PropertyList>
 								<Property Name="Flags" Type="int32" Value="65537"/>
 							</PropertyList>
