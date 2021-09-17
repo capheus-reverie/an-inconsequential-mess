@@ -2,7 +2,6 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	640949982	Speed			\Default Work Unit\Speed	
 	1908158473	Pitch			\Default Work Unit\Pitch	
 	2538743331	Ictus			\Default Work Unit\Ictus	
-	3642081725	Rhythm			\Default Work Unit\Rhythm	
 
 Switch	ID	Name	Switch Group			Notes
 	34379592	Speed2	Speed			
@@ -14,7 +13,6 @@ Switch	ID	Name	Switch Group			Notes
 	339713560	Pitch3	Pitch			
 	339713561	Pitch2	Pitch			
 	339713562	Pitch1	Pitch			
-	339713565	Pitch6	Pitch			
 	339713566	Pitch5	Pitch			
 	339713567	Pitch4	Pitch			
 	1498548512	Ictus9	Ictus			
@@ -34,12 +32,6 @@ Switch	ID	Name	Switch Group			Notes
 	3290720717	Ictus15	Ictus			
 	3290720718	Ictus16	Ictus			
 	3290720719	Ictus17	Ictus			
-	2051013809	Rhythm6	Rhythm			
-	2051013810	Rhythm5	Rhythm			
-	2051013811	Rhythm4	Rhythm			
-	2051013812	Rhythm3	Rhythm			
-	2051013813	Rhythm2	Rhythm			
-	2051013814	Rhythm1	Rhythm			
 
 State Group	ID	Name			Wwise Object Path	Notes
 	3671213988	KeySignature			\Default Work Unit\KeySignature	

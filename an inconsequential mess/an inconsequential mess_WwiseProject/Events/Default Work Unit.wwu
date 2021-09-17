@@ -8,7 +8,7 @@
 						<Action Name="" ID="{33A9BB55-827C-4C71-814D-EE5E7501E056}" ShortID="168896534">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Instrument1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+									<ObjectRef Name="Interactive Objects" ID="{6B7996D7-5F4E-4D0E-A3BA-2EEDD8DCF3F9}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -22,7 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Instrument1" ID="{C1821DA0-4415-4A7C-9365-404E91DAC6B8}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+									<ObjectRef Name="Interactive Objects" ID="{6B7996D7-5F4E-4D0E-A3BA-2EEDD8DCF3F9}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

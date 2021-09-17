@@ -68,6 +68,21 @@ namespace AK
             } // namespace SWITCH
         } // namespace ICTUS
 
+        namespace INSTRUMENT
+        {
+            static const AkUniqueID GROUP = 3310955382U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID INST1 = 1193744002U;
+                static const AkUniqueID INST2 = 1193744001U;
+                static const AkUniqueID INST3 = 1193744000U;
+                static const AkUniqueID INST4 = 1193744007U;
+                static const AkUniqueID INST5 = 1193744006U;
+                static const AkUniqueID INST6 = 1193744005U;
+            } // namespace SWITCH
+        } // namespace INSTRUMENT
+
         namespace PITCH
         {
             static const AkUniqueID GROUP = 1908158473U;
@@ -79,24 +94,8 @@ namespace AK
                 static const AkUniqueID PITCH3 = 339713560U;
                 static const AkUniqueID PITCH4 = 339713567U;
                 static const AkUniqueID PITCH5 = 339713566U;
-                static const AkUniqueID PITCH6 = 339713565U;
             } // namespace SWITCH
         } // namespace PITCH
-
-        namespace RHYTHM
-        {
-            static const AkUniqueID GROUP = 3642081725U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID RHYTHM1 = 2051013814U;
-                static const AkUniqueID RHYTHM2 = 2051013813U;
-                static const AkUniqueID RHYTHM3 = 2051013812U;
-                static const AkUniqueID RHYTHM4 = 2051013811U;
-                static const AkUniqueID RHYTHM5 = 2051013810U;
-                static const AkUniqueID RHYTHM6 = 2051013809U;
-            } // namespace SWITCH
-        } // namespace RHYTHM
 
         namespace SPEED
         {
@@ -121,7 +120,6 @@ namespace AK
         static const AkUniqueID ICTUSRTPC = 2931073822U;
         static const AkUniqueID LOWPASSRTPC = 129208631U;
         static const AkUniqueID PITCHRTPC = 3307332308U;
-        static const AkUniqueID RHYTHMRTPC = 2703842240U;
         static const AkUniqueID SPEEDRTPC = 4048269951U;
         static const AkUniqueID TIMEFXRTPC = 1358232353U;
         static const AkUniqueID TREMOLORTPC = 296962706U;

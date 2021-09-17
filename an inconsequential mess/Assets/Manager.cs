@@ -7,7 +7,8 @@ public class Manager : MonoBehaviour
     #region Variables
 
     public static Manager instance = null;
-    public int quaver = 1;
+    public int beatsPerBar = 9;
+    [HideInInspector] public int beat = 0;
 
     #endregion
 
@@ -32,20 +33,20 @@ public class Manager : MonoBehaviour
 
     public void beatStart()
     {
-        if (quaver < 9)
+        if (beat < beatsPerBar)
         {
-            quaver++;
+            beat++;
         }
         else
         {
-            quaver = 1;
+            beat = 1;
         }
 
     }
 
     void Update()
     {
-        Debug.Log(quaver);
+
     }
 
     #endregion

@@ -237,6 +237,16 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
+				<SwitchGroup Name="Instrument" ID="{F7A2CBA0-323A-46E8-AE98-83BE95F64095}">
+					<ChildrenList>
+						<Switch Name="Inst1" ID="{AC2F1980-FAF7-44AD-A829-66FCACC34321}"/>
+						<Switch Name="Inst2" ID="{86188B2F-A2A0-48DD-A179-BA417ABFC763}"/>
+						<Switch Name="Inst3" ID="{7B967991-F02E-4BD1-944E-E508134A1B19}"/>
+						<Switch Name="Inst4" ID="{0355A950-C6D1-4A5B-A0C8-704B30C7F72B}"/>
+						<Switch Name="Inst5" ID="{D821C2FC-7893-4263-8527-04BE17810EA5}"/>
+						<Switch Name="Inst6" ID="{20C6C2EA-049F-4376-A78E-2087728BAB61}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

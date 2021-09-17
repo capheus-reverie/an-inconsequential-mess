@@ -15,7 +15,7 @@ public class GlobalMusicSync : MonoBehaviour
     void Start()
     {
 
-        Clicktrack.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncBar, pushBeat);
+        Clicktrack.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncBeat, pushBeat);
 
     }
 

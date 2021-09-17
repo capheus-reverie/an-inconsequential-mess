@@ -87,14 +87,12 @@ public class InteractivePlayerController : MonoBehaviour
     private bool rightJoystickClickValue = false;
 
     private int rightPrimarySwitch = 0;
+    private int leftJoystickClickSwitch = 0;
+    private int rightJoystickClickSwitch = 0;
 
     // Set initial update integer to make sure that initialization only occurs once per interaction as opposed to each frame
     private int initialLeftUpdate = 0;
     private int initialRightUpdate = 0;
-
-    // objectAdmin bools
-    private bool objectMute = false;
-    private bool objectPlay = false;
 
 	#endregion
 
@@ -194,7 +192,7 @@ public class InteractivePlayerController : MonoBehaviour
                     // if right trigger is pressed, but not the grip
                     if (rightHandController.TryGetFeatureValue(UnityEngine.XR.CommonUsages.triggerButton, out rightTriggerValue) && rightTriggerValue & !rightGripValue)
                     {
-                        Debug.Log("Right Trigger Pressed");
+						Debug.Log("Right Trigger Pressed");
                     }
 
                     // if "x" is pressed
@@ -203,7 +201,7 @@ public class InteractivePlayerController : MonoBehaviour
                         while(leftPrimarySwitch < 1)
 						{
                             Debug.Log("x Button Pressed");
-                            objectAdmin("mute");
+                            objectAdmin("solo");
                             leftPrimarySwitch++;
                         }
                     }
@@ -241,13 +239,31 @@ public class InteractivePlayerController : MonoBehaviour
                     // if left joystick is pressed
                     if (leftHandController.TryGetFeatureValue(UnityEngine.XR.CommonUsages.primary2DAxisClick, out leftJoystickClickValue) && leftJoystickClickValue)
                     {
-                        Debug.Log("Left Joystick Clicked");
+                        while (leftJoystickClickSwitch < 1)
+						{
+                            Debug.Log("Left Joystick Clicked");
+                            objectAdmin("addInst");
+                            leftJoystickClickSwitch++;
+                        }
                     }
+					else
+					{
+                        leftJoystickClickSwitch = 0;
+					}
                     // if right joystick is pressed
                     if (rightHandController.TryGetFeatureValue(UnityEngine.XR.CommonUsages.primary2DAxisClick, out rightJoystickClickValue) && rightJoystickClickValue)
                     {
-                        Debug.Log("Right Joystick Clicked");
+                        while (rightJoystickClickSwitch < 1)
+						{
+                            Debug.Log("Right Joystick Clicked");
+                            objectAdmin("subInst");
+                            rightJoystickClickSwitch++;
+                        }                    
                     }
+					else
+					{
+                        rightJoystickClickSwitch = 0;
+					}
 
                 }
 			}
@@ -397,30 +413,14 @@ public class InteractivePlayerController : MonoBehaviour
     {
         switch (state)
         {
-            case "mute":
-                if (objectMute)
-                {
-                    selectedObjectController.objectAdmin("unmute");
-                    objectMute = false;
-                }
-                else
-                {
-                    selectedObjectController.objectAdmin("mute");
-                    objectMute = true;
-                }
-                break;
-         
             case "play":
-                if (!objectPlay)
-				{
-                    selectedObjectController.objectAdmin("play");
-                    objectPlay = true;
-				}
-				else
-				{
-                    selectedObjectController.objectAdmin("stop");
-                    objectPlay = false;
-				}
+                selectedObjectController.objectAdmin("play");
+                break;
+            case "addInst":
+                selectedObjectController.objectAdmin("addInst");
+                break;
+            case "subInst":
+                selectedObjectController.objectAdmin("subInst");
                 break;
 
             default:

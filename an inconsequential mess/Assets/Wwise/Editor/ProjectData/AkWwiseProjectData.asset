@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4098986c464ce040bd5cebe8b57417f6
     GuidInternal: 
-    m_lastTime: -8585698923264855886
+    m_lastTime: -8585697537587397378
     List:
     - name: GlobalStart
       guid: d89593faa2c435469a302b5d4f687908
@@ -127,7 +127,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1f5997d19d078c48affe807d3bf1c0cd
       Path: Events\Default Work Unit\ObjectStart
-      maxAttenuation: 100
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: ObjectStop
@@ -159,7 +159,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 42fe59c9f632fe47829da934793c9a11
     GuidInternal: 
-    m_lastTime: -8585698968284659776
+    m_lastTime: -8585697734253325086
     List:
     - name: EQHighRTPC
       guid: 11f4a3822f841947bd9e63b8f520ee5b
@@ -217,20 +217,6 @@ MonoBehaviour:
         ObjectType: 13
         guid: 78ba08b03006f948a951d416367e4b9b
       Path: Game Parameters\Default Work Unit\PitchRTPC
-    - name: RhythmRTPC
-      guid: a3194ff703ae0c419e3260f32de58de4
-      id: 2703842240
-      PathAndIcons:
-      - ElementName: Game Parameters
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 42fe59c9f632fe47829da934793c9a11
-      - ElementName: RhythmRTPC
-        ObjectType: 13
-        guid: a3194ff703ae0c419e3260f32de58de4
-      Path: Game Parameters\Default Work Unit\RhythmRTPC
     - name: SpeedRTPC
       guid: 38b6b522a1ebbe47a87f94c1b71996f8
       id: 4048269951
@@ -461,7 +447,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: f27bb210eacee74c971ef759c4807718
     GuidInternal: 
-    m_lastTime: -8585699252984832372
+    m_lastTime: -8585697553560661532
     List:
     - name: Ictus
       guid: 2ccf16239d46ec4e8b117313f517bf0c
@@ -753,6 +739,120 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: Instrument
+      guid: a0cba2f73a32e846ae9883be95f64095
+      id: 3310955382
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f27bb210eacee74c971ef759c4807718
+      - ElementName: Instrument
+        ObjectType: 11
+        guid: a0cba2f73a32e846ae9883be95f64095
+      Path: Switches\Default Work Unit\Instrument
+      values:
+      - name: Inst1
+        guid: 80192facf7faad44a82966fcacc34321
+        id: 1193744002
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Instrument
+          ObjectType: 11
+          guid: a0cba2f73a32e846ae9883be95f64095
+        - ElementName: Inst1
+          ObjectType: 10
+          guid: 80192facf7faad44a82966fcacc34321
+      - name: Inst2
+        guid: 2f8b1886a0a2dd48a179ba417abfc763
+        id: 1193744001
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Instrument
+          ObjectType: 11
+          guid: a0cba2f73a32e846ae9883be95f64095
+        - ElementName: Inst2
+          ObjectType: 10
+          guid: 2f8b1886a0a2dd48a179ba417abfc763
+      - name: Inst3
+        guid: 9179967b2ef0d14b944ee508134a1b19
+        id: 1193744000
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Instrument
+          ObjectType: 11
+          guid: a0cba2f73a32e846ae9883be95f64095
+        - ElementName: Inst3
+          ObjectType: 10
+          guid: 9179967b2ef0d14b944ee508134a1b19
+      - name: Inst4
+        guid: 50a95503d1c65b4aa0c8704b30c7f72b
+        id: 1193744007
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Instrument
+          ObjectType: 11
+          guid: a0cba2f73a32e846ae9883be95f64095
+        - ElementName: Inst4
+          ObjectType: 10
+          guid: 50a95503d1c65b4aa0c8704b30c7f72b
+      - name: Inst5
+        guid: fcc221d893786342852704be17810ea5
+        id: 1193744006
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Instrument
+          ObjectType: 11
+          guid: a0cba2f73a32e846ae9883be95f64095
+        - ElementName: Inst5
+          ObjectType: 10
+          guid: fcc221d893786342852704be17810ea5
+      - name: Inst6
+        guid: eac2c6209f047643a78e2087728bab61
+        id: 1193744005
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: f27bb210eacee74c971ef759c4807718
+        - ElementName: Instrument
+          ObjectType: 11
+          guid: a0cba2f73a32e846ae9883be95f64095
+        - ElementName: Inst6
+          ObjectType: 10
+          guid: eac2c6209f047643a78e2087728bab61
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Pitch
       guid: 305e91aabcb2264db15d3f4132e9cf8a
       id: 1908158473
@@ -848,136 +948,6 @@ MonoBehaviour:
         - ElementName: Pitch5
           ObjectType: 10
           guid: 72a31aaa93328e4b8b9695f698054292
-      - name: Pitch6
-        guid: c25d618cf36ce147b80c19354c781615
-        id: 339713565
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: f27bb210eacee74c971ef759c4807718
-        - ElementName: Pitch
-          ObjectType: 11
-          guid: 305e91aabcb2264db15d3f4132e9cf8a
-        - ElementName: Pitch6
-          ObjectType: 10
-          guid: c25d618cf36ce147b80c19354c781615
-      ValueGuids: []
-      ValueIcons: []
-      valuesInternal: []
-    - name: Rhythm
-      guid: 40c619b0522066469378f326083275ed
-      id: 3642081725
-      PathAndIcons:
-      - ElementName: Switches
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: f27bb210eacee74c971ef759c4807718
-      - ElementName: Rhythm
-        ObjectType: 11
-        guid: 40c619b0522066469378f326083275ed
-      Path: Switches\Default Work Unit\Rhythm
-      values:
-      - name: Rhythm1
-        guid: be6129742eee044ebe039e05770cfea6
-        id: 2051013814
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: f27bb210eacee74c971ef759c4807718
-        - ElementName: Rhythm
-          ObjectType: 11
-          guid: 40c619b0522066469378f326083275ed
-        - ElementName: Rhythm1
-          ObjectType: 10
-          guid: be6129742eee044ebe039e05770cfea6
-      - name: Rhythm2
-        guid: ed5ac8edf8cb9943877bdbcc6546d4c9
-        id: 2051013813
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: f27bb210eacee74c971ef759c4807718
-        - ElementName: Rhythm
-          ObjectType: 11
-          guid: 40c619b0522066469378f326083275ed
-        - ElementName: Rhythm2
-          ObjectType: 10
-          guid: ed5ac8edf8cb9943877bdbcc6546d4c9
-      - name: Rhythm3
-        guid: 28d94ddea4af3d41b4f5bd5ad9301f4f
-        id: 2051013812
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: f27bb210eacee74c971ef759c4807718
-        - ElementName: Rhythm
-          ObjectType: 11
-          guid: 40c619b0522066469378f326083275ed
-        - ElementName: Rhythm3
-          ObjectType: 10
-          guid: 28d94ddea4af3d41b4f5bd5ad9301f4f
-      - name: Rhythm4
-        guid: f155bd2cbfbb0a40bdbb20add7ee349d
-        id: 2051013811
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: f27bb210eacee74c971ef759c4807718
-        - ElementName: Rhythm
-          ObjectType: 11
-          guid: 40c619b0522066469378f326083275ed
-        - ElementName: Rhythm4
-          ObjectType: 10
-          guid: f155bd2cbfbb0a40bdbb20add7ee349d
-      - name: Rhythm5
-        guid: 054393bda71b114abd37c3743a0fcf6b
-        id: 2051013810
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: f27bb210eacee74c971ef759c4807718
-        - ElementName: Rhythm
-          ObjectType: 11
-          guid: 40c619b0522066469378f326083275ed
-        - ElementName: Rhythm5
-          ObjectType: 10
-          guid: 054393bda71b114abd37c3743a0fcf6b
-      - name: Rhythm6
-        guid: 5cac05adf261444eb74e809f9f72c76e
-        id: 2051013809
-        PathAndIcons:
-        - ElementName: Switches
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: f27bb210eacee74c971ef759c4807718
-        - ElementName: Rhythm
-          ObjectType: 11
-          guid: 40c619b0522066469378f326083275ed
-        - ElementName: Rhythm6
-          ObjectType: 10
-          guid: 5cac05adf261444eb74e809f9f72c76e
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -1109,7 +1079,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585698923865825097
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000050000002f0000003000000031000000
+  ExpandedFileSystemItemIds: 0200000003000000040000000500000007000000080000001b0000002f0000003000000031000000
   ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

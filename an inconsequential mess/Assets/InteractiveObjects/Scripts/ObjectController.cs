@@ -19,10 +19,10 @@ public class ObjectController : MonoBehaviour
     [Range(0f, 100f)]
     public float leftYAxisRotation = 40f;
 
-    public AK.Wwise.RTPC leftXAxisRTPC;
-    public AK.Wwise.RTPC leftYAxisRTPC;
-    public AK.Wwise.RTPC leftZAxisRTPC;
-    public AK.Wwise.RTPC leftYAxisRotationRTPC;
+    [SerializeField] private AK.Wwise.RTPC leftXAxisRTPC;
+    [SerializeField] private AK.Wwise.RTPC leftYAxisRTPC;
+    [SerializeField] private AK.Wwise.RTPC leftZAxisRTPC;
+    [SerializeField] private AK.Wwise.RTPC leftYAxisRotationRTPC;
 
     [Header("Right Hand Manipulation")]
 
@@ -35,21 +35,26 @@ public class ObjectController : MonoBehaviour
     [Range(0f, 100f)]
     public float rightYAxisRotation = 50f;
 
-    public AK.Wwise.RTPC rightXAxisRTPC;
-    public AK.Wwise.RTPC rightYAxisRTPC;
-    public AK.Wwise.RTPC rightZAxisRTPC;
-    public AK.Wwise.RTPC rightYAxisRotationRTPC;
+    [SerializeField] private AK.Wwise.RTPC rightXAxisRTPC;
+    [SerializeField] private AK.Wwise.RTPC rightYAxisRTPC;
+    [SerializeField] private AK.Wwise.RTPC rightZAxisRTPC;
+    [SerializeField] private AK.Wwise.RTPC rightYAxisRotationRTPC;
 
     [Header("")]
-    [Header("Event Setup")]
+    [Header("Object Setup")]
 
-    public AK.Wwise.Event mute;
-    public AK.Wwise.Event unmute;
-    public AK.Wwise.Event play;
-    public AK.Wwise.Event stop;
+    // setup the list of available instruments
+    [SerializeField] private AK.Wwise.Switch[] instrumentSwitch;
+    private int instrument = 0;
+
+    [SerializeField] private AK.Wwise.Event solo;
+    [SerializeField] private AK.Wwise.Event unsolo;
+    [SerializeField] private AK.Wwise.Event play;
+    [SerializeField] private AK.Wwise.Event stop;
 
     private bool objectPlaying = false;
     private bool coroutineStopped = true;
+    private int nextBeat;
 
     // Initialize particle component variable
     private ParticleSystem particle = null;
@@ -62,6 +67,7 @@ public class ObjectController : MonoBehaviour
     void Start()
     {
         particle = gameObject.GetComponentInChildren<ParticleSystem>();
+        instrumentSwitch[0].SetValue(this.gameObject);
     }
 
     void Update()
@@ -88,20 +94,41 @@ public class ObjectController : MonoBehaviour
 	{
         switch (state)
 		{
-            case "mute":
-                mute.Post(gameObject);
-                break;
-            case "unmute":
-                unmute.Post(gameObject);
-                break;
             case "play":
-                int nextQuaver = Manager.instance.quaver + 1;
-                StartCoroutine(playSync(nextQuaver));
-                coroutineStopped = false;
+				if (!objectPlaying)
+				{
+                    nextBeat = Manager.instance.beat + 1;
+                    StartCoroutine(playSync(nextBeat));
+                    coroutineStopped = false;
+                }
+				else
+				{
+                    stop.Post(this.gameObject);
+                    nextBeat = Manager.instance.beat + 1;
+                    objectPlaying = false;
+				}
                 break;
-            case "stop":
-                stop.Post(gameObject);
-                objectPlaying = false;
+            case "addInst":
+                if(instrument < instrumentSwitch.Length)
+				{
+                    instrument++;
+                    instrumentSwitch[instrument].SetValue(this.gameObject);
+                }
+				else
+				{
+                    instrument = 0;
+				}
+                break;
+            case "subInst":
+                if(instrument != 0)
+				{
+                    instrument--;
+                    instrumentSwitch[instrument].SetValue(this.gameObject);
+                }
+				else
+				{
+                    instrument = instrumentSwitch.Length;
+				}
                 break;
 		}
 	}
@@ -111,21 +138,37 @@ public class ObjectController : MonoBehaviour
         particle.Play();
 	}
 
-    IEnumerator playSync(int nextQuaver)
+    IEnumerator playSync(int i)
 	{
         Debug.Log("Coroutine started");
 
-        do
-        {
+        if(Manager.instance.beat == i)
+		{
+            play.Post(this.gameObject, (uint)AkCallbackType.AK_MIDIEvent, triggerParticle);
+            objectPlaying = true;
+            Debug.Log("Object Playing");
             yield return null;
-        } while (Manager.instance.quaver < nextQuaver);
+		}
+		else if(Manager.instance.beat == i - 1)
+		{
+            do
+            {
+                yield return null;
+            } while (Manager.instance.beat < i);
 
-        
-        play.Post(gameObject);
-        objectPlaying = true;
-        Debug.Log("Object Playing");
-		
-        yield return null;
+
+            play.Post(gameObject, (uint)AkCallbackType.AK_MIDIEvent, triggerParticle);
+            objectPlaying = true;
+            Debug.Log("Object Playing");
+
+            yield return null;
+        }
+        else
+		{
+            nextBeat = Manager.instance.beat + 1;
+
+            yield return null;
+        }
 
 	}
 
