@@ -13,7 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID GLOBALSTART = 181522840U;
+        static const AkUniqueID CLICKTRACKSTART = 3701741676U;
+        static const AkUniqueID GLOBALSONGSTART = 1388825349U;
         static const AkUniqueID OBJECTSTART = 1261072912U;
         static const AkUniqueID OBJECTSTOP = 738576892U;
     } // namespace EVENTS

@@ -6,14 +6,25 @@
 				<StateGroup Name="KeySignature" ID="{DE75BA6D-D7CC-4E3F-8BD0-2FEFC77CBC70}">
 					<ChildrenList>
 						<State Name="None" ID="{5F885311-DF2F-4691-8BA1-88C8A548FBE7}"/>
-						<State Name="CPhrygian" ID="{B34F5463-4F25-4460-8DC0-2E9D0693071A}"/>
+						<State Name="CPhry" ID="{B34F5463-4F25-4460-8DC0-2E9D0693071A}"/>
 						<State Name="CHarmMin" ID="{1F326BFE-087B-428E-B863-45FD31955A8E}"/>
 						<State Name="CNatMin" ID="{E6D5BBE0-FE61-4298-BD17-D93C83479DDC}"/>
 						<State Name="COctST" ID="{B04472B9-A9D8-4481-9D51-9AC13686E980}"/>
-						<State Name="CLocrian" ID="{35616C11-83F9-4552-9148-7FF3B61134BD}"/>
+						<State Name="CLoc" ID="{35616C11-83F9-4552-9148-7FF3B61134BD}"/>
 						<State Name="FHarmMin" ID="{6C9ABE9A-3E5C-4803-92B5-F17E083A60FE}"/>
 						<State Name="GHarmMin" ID="{2D5FA07B-06C3-4388-B66C-2EDE7828A940}"/>
-						<State Name="BLydian" ID="{9C85A2BC-E2F6-4AB5-B3CD-16D1B0010C9F}"/>
+						<State Name="BLyd" ID="{9C85A2BC-E2F6-4AB5-B3CD-16D1B0010C9F}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="Sections" ID="{73A790A0-D34D-4412-B2B3-3A63C83F1979}">
+					<ChildrenList>
+						<State Name="None" ID="{C5BAA04C-F0C9-49FE-B0AC-C03DFB4E625B}"/>
+						<State Name="Verse1" ID="{615C7C1E-D182-4B26-B413-E0671E4B3F10}"/>
+						<State Name="Verse2" ID="{BD7BED39-58A9-47F0-8A4D-719977DD73E5}"/>
+						<State Name="Verse3" ID="{7FF63CBF-8E20-43BE-8B4D-6A5A275A0F85}"/>
+						<State Name="Chorus1" ID="{CB3D71F1-51D9-40CB-B274-190A8263107C}"/>
+						<State Name="Chorus2" ID="{E4210B83-9F60-4B50-9491-14EF207763F1}"/>
+						<State Name="Bridge" ID="{8CCE6E57-0B68-4510-B1C3-0B59A2E78971}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
