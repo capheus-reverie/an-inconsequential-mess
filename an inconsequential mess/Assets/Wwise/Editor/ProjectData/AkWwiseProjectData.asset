@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a893a9055c3f45409e718224a91c414c
     GuidInternal: 
-    m_lastTime: -8585698950928716785
+    m_lastTime: -8585694924511246289
     List:
     - name: Full_Game
       guid: 3b8ec98323f5384781b1c9b2a4abcc8c
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4098986c464ce040bd5cebe8b57417f6
     GuidInternal: 
-    m_lastTime: -8585697537587397378
+    m_lastTime: -8585694912560697277
     List:
-    - name: GlobalStart
+    - name: ClicktrackStart
       guid: d89593faa2c435469a302b5d4f687908
-      id: 181522840
+      id: 3701741676
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,10 +106,204 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: GlobalStart
+      - ElementName: ClicktrackStart
         ObjectType: 3
         guid: d89593faa2c435469a302b5d4f687908
-      Path: Events\Default Work Unit\GlobalStart
+      Path: Events\Default Work Unit\ClicktrackStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: GlobalSongStart
+      guid: 702002007babf44d9071bc85063d9704
+      id: 1388825349
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalSongStart
+        ObjectType: 3
+        guid: 702002007babf44d9071bc85063d9704
+      Path: Events\Default Work Unit\GlobalSongStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: KeySig_BLyd
+      guid: f4a098012675ea48b75b8009c8f4ac5c
+      id: 2282425809
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_BLyd
+        ObjectType: 3
+        guid: f4a098012675ea48b75b8009c8f4ac5c
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_BLyd
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_CHarmMin
+      guid: 2f0a818d7fa3364fa901a5abdbca0e7d
+      id: 3174134567
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_CHarmMin
+        ObjectType: 3
+        guid: 2f0a818d7fa3364fa901a5abdbca0e7d
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CHarmMin
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_CLoc
+      guid: e7fd4158b75c7d4d8275e5937d5953fa
+      id: 12162771
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_CLoc
+        ObjectType: 3
+        guid: e7fd4158b75c7d4d8275e5937d5953fa
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CLoc
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_CNatMin
+      guid: 63f700be9281b148b3cc4e77815f97c0
+      id: 2954087788
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_CNatMin
+        ObjectType: 3
+        guid: 63f700be9281b148b3cc4e77815f97c0
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CNatMin
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_COctST
+      guid: b35dec5d23ae8c449e653d877aa8b6b8
+      id: 3244488518
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_COctST
+        ObjectType: 3
+        guid: b35dec5d23ae8c449e653d877aa8b6b8
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_COctST
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_CPhry
+      guid: 8682202e6ca1bc44bdea178b21361a7c
+      id: 2050955128
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_CPhry
+        ObjectType: 3
+        guid: 8682202e6ca1bc44bdea178b21361a7c
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CPhry
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_FHarmMin
+      guid: 99e1a451f5582d478dc807899612df86
+      id: 617046740
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_FHarmMin
+        ObjectType: 3
+        guid: 99e1a451f5582d478dc807899612df86
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_FHarmMin
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_GHarmMin
+      guid: 5fb22ef5986a0c4a8955297f125c4643
+      id: 3137652395
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_GHarmMin
+        ObjectType: 3
+        guid: 5fb22ef5986a0c4a8955297f125c4643
+      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_GHarmMin
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySignatureChanges
+      guid: e2070d2621e6d44384117f645e7c1029
+      id: 3848499631
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      Path: Events\Default Work Unit\KeySignatureChanges
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -271,7 +465,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4d275d236663c746b544cbc740383876
     GuidInternal: 
-    m_lastTime: -8585699240567341695
+    m_lastTime: -8585688923424008724
     List:
     - name: KeySignature
       guid: 6dba75deccd73f4e8bd02fefc77cbc70
@@ -288,9 +482,9 @@ MonoBehaviour:
         guid: 6dba75deccd73f4e8bd02fefc77cbc70
       Path: States\Default Work Unit\KeySignature
       values:
-      - name: BLydian
+      - name: BLyd
         guid: bca2859cf6e2b54ab3cd16d1b0010c9f
-        id: 3126220252
+        id: 1392937788
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -301,7 +495,7 @@ MonoBehaviour:
         - ElementName: KeySignature
           ObjectType: 9
           guid: 6dba75deccd73f4e8bd02fefc77cbc70
-        - ElementName: BLydian
+        - ElementName: BLyd
           ObjectType: 8
           guid: bca2859cf6e2b54ab3cd16d1b0010c9f
       - name: CHarmMin
@@ -320,9 +514,9 @@ MonoBehaviour:
         - ElementName: CHarmMin
           ObjectType: 8
           guid: fe6b321f7b088e42b86345fd31955a8e
-      - name: CLocrian
+      - name: CLoc
         guid: 116c6135f983524591487ff3b61134bd
-        id: 237518384
+        id: 3703497670
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -333,7 +527,7 @@ MonoBehaviour:
         - ElementName: KeySignature
           ObjectType: 9
           guid: 6dba75deccd73f4e8bd02fefc77cbc70
-        - ElementName: CLocrian
+        - ElementName: CLoc
           ObjectType: 8
           guid: 116c6135f983524591487ff3b61134bd
       - name: CNatMin
@@ -368,9 +562,9 @@ MonoBehaviour:
         - ElementName: COctST
           ObjectType: 8
           guid: b97244b0d8a981449d519ac13686e980
-      - name: CPhrygian
+      - name: CPhry
         guid: 63544fb3254f60448dc02e9d0693071a
-        id: 2080039350
+        id: 3815278403
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -381,7 +575,7 @@ MonoBehaviour:
         - ElementName: KeySignature
           ObjectType: 9
           guid: 6dba75deccd73f4e8bd02fefc77cbc70
-        - ElementName: CPhrygian
+        - ElementName: CPhry
           ObjectType: 8
           guid: 63544fb3254f60448dc02e9d0693071a
       - name: FHarmMin
@@ -432,6 +626,152 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 1153885f2fdf91468ba188c8a548fbe7
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Sections
+      guid: a090a7734dd31244b2b33a63c83f1979
+      id: 3524678601
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d275d236663c746b544cbc740383876
+      - ElementName: Sections
+        ObjectType: 9
+        guid: a090a7734dd31244b2b33a63c83f1979
+      Path: States\Default Work Unit\Sections
+      values:
+      - name: Bridge1
+        guid: 576ece8c680b1045b1c30b59a2e78971
+        id: 104955071
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Bridge1
+          ObjectType: 8
+          guid: 576ece8c680b1045b1c30b59a2e78971
+      - name: Bridge2
+        guid: 100dceb503e60a4b994cd40478b3c403
+        id: 104955068
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Bridge2
+          ObjectType: 8
+          guid: 100dceb503e60a4b994cd40478b3c403
+      - name: Chorus1
+        guid: f1713dcbd951cb40b274190a8263107c
+        id: 3777867668
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Chorus1
+          ObjectType: 8
+          guid: f1713dcbd951cb40b274190a8263107c
+      - name: Chorus2
+        guid: 830b21e4609f504b949114ef207763f1
+        id: 3777867671
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Chorus2
+          ObjectType: 8
+          guid: 830b21e4609f504b949114ef207763f1
+      - name: None
+        guid: 4ca0bac5c9f0fe49b0acc03dfb4e625b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: None
+          ObjectType: 8
+          guid: 4ca0bac5c9f0fe49b0acc03dfb4e625b
+      - name: Verse1
+        guid: 1e7c5c6182d1264bb413e0671e4b3f10
+        id: 1707665789
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Verse1
+          ObjectType: 8
+          guid: 1e7c5c6182d1264bb413e0671e4b3f10
+      - name: Verse2
+        guid: 39ed7bbda958f0478a4d719977dd73e5
+        id: 1707665790
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Verse2
+          ObjectType: 8
+          guid: 39ed7bbda958f0478a4d719977dd73e5
+      - name: Verse3
+        guid: bf3cf67f208ebe438b4d6a5a275a0f85
+        id: 1707665791
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Verse3
+          ObjectType: 8
+          guid: bf3cf67f208ebe438b4d6a5a275a0f85
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -1079,7 +1419,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585698923865825097
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000040000000500000007000000080000001b0000002f0000003000000031000000
+  ExpandedFileSystemItemIds: 02000000040000000500000007000000080000001b0000002f0000003000000031000000390000003a00000045000000
   ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

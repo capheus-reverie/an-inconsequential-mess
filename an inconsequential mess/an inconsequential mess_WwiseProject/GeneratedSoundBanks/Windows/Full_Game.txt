@@ -1,7 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
+	12162771	KeySig_CLoc			\Default Work Unit\KeySignatureChanges\KeySig_CLoc	
+	617046740	KeySig_FHarmMin			\Default Work Unit\KeySignatureChanges\KeySig_FHarmMin	
 	738576892	ObjectStop			\Default Work Unit\ObjectStop	
 	1261072912	ObjectStart			\Default Work Unit\ObjectStart	
 	1388825349	GlobalSongStart			\Default Work Unit\GlobalSongStart	
+	2050955128	KeySig_CPhry			\Default Work Unit\KeySignatureChanges\KeySig_CPhry	
+	2282425809	KeySig_BLyd			\Default Work Unit\KeySignatureChanges\KeySig_BLyd	
+	2954087788	KeySig_CNatMin			\Default Work Unit\KeySignatureChanges\KeySig_CNatMin	
+	3137652395	KeySig_GHarmMin			\Default Work Unit\KeySignatureChanges\KeySig_GHarmMin	
+	3174134567	KeySig_CHarmMin			\Default Work Unit\KeySignatureChanges\KeySig_CHarmMin	
+	3244488518	KeySig_COctST			\Default Work Unit\KeySignatureChanges\KeySig_COctST	
 	3701741676	ClicktrackStart			\Default Work Unit\ClicktrackStart	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -29,16 +37,25 @@ Switch	ID	Name	Switch Group			Notes
 	1193744007	Inst4	Instrument			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	3524678601	Sections			\Default Work Unit\Sections	
 	3671213988	KeySignature			\Default Work Unit\KeySignature	
 
 State	ID	Name	State Group			Notes
-	237518384	CLocrian	KeySignature			
+	104955068	Bridge2	Sections			
+	104955071	Bridge1	Sections			
+	748895195	None	Sections			
+	1707665789	Verse1	Sections			
+	1707665790	Verse2	Sections			
+	1707665791	Verse3	Sections			
+	3777867668	Chorus1	Sections			
+	3777867671	Chorus2	Sections			
 	493209582	CHarmMin	KeySignature			
 	748895195	None	KeySignature			
+	1392937788	BLyd	KeySignature			
 	1528131883	COctST	KeySignature			
 	1906687985	FHarmMin	KeySignature			
-	2080039350	CPhrygian	KeySignature			
-	3126220252	BLydian	KeySignature			
+	3703497670	CLoc	KeySignature			
+	3815278403	CPhry	KeySignature			
 	3908310863	CNatMin	KeySignature			
 	4285089434	GHarmMin	KeySignature			
 

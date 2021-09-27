@@ -93,6 +93,8 @@ public class InteractivePlayerController : MonoBehaviour
     // Set initial update integer to make sure that initialization only occurs once per interaction as opposed to each frame
     private int initialLeftUpdate = 0;
     private int initialRightUpdate = 0;
+    private int initialLeftDeactivate = 0;
+    private int initialRightDeactivate = 0;
 
 	#endregion
 
@@ -166,7 +168,11 @@ public class InteractivePlayerController : MonoBehaviour
 					}
 					else
 					{
-                        deactivate("left");
+                        while (initialLeftDeactivate < 1)
+                        {
+                            deactivate("left");
+                            initialLeftDeactivate++;
+                        }
 					}
                     // If right grip is pressed, but not right trigger
                     if (rightHandController.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out rightGripValue) && rightGripValue &!rightTriggerValue)
@@ -181,7 +187,12 @@ public class InteractivePlayerController : MonoBehaviour
 					}
 					else
 					{
-                        deactivate("right");
+                        while (initialLeftDeactivate < 1)
+						{
+                            deactivate("right");
+                            initialRightDeactivate++;
+                        }
+                        
 					}
 
                     // If left trigger is pressed, but not the grip
@@ -283,24 +294,32 @@ public class InteractivePlayerController : MonoBehaviour
                 // Activate left hand vector display and left hand control
                 leftHandDelta.interactionActive(1);
                 leftDotVectorDisplay.SetActive(true);
+                Manager.instance.interactionAdd("leftStart");
 
                 // Update left vector display to current audio parameters
                 leftXVal = selectedObjectController.leftXAxis;
                 leftYVal = selectedObjectController.leftYAxis;
                 leftZVal = selectedObjectController.leftZAxis;
                 leftRotYVal = selectedObjectController.leftYAxisRotation;
+
+                initialLeftDeactivate = 0;
+
                 break;
 
             case "right":
                 // Activate right hand vector display and right hand control
                 rightHandDelta.interactionActive(1);
                 rightDotVectorDisplay.SetActive(true);
+                Manager.instance.interactionAdd("rightStart");
 
                 // Update right vector display to current audio parameters;
                 rightXVal = selectedObjectController.rightXAxis;
                 rightYVal = selectedObjectController.rightYAxis;
                 rightZVal = selectedObjectController.rightZAxis;
                 rightRotYVal = selectedObjectController.rightYAxisRotation;
+
+                initialRightDeactivate = 0;
+
                 break;
 
             default:
@@ -315,6 +334,7 @@ public class InteractivePlayerController : MonoBehaviour
                 // Disable Left Controller Interactions and visible vector display
                 leftHandDelta.interactionActive(2);
                 leftDotVectorDisplay.SetActive(false);
+                Manager.instance.interactionAdd("leftStop");
 
                 // Reset initial update int
                 initialLeftUpdate = 0;
@@ -324,6 +344,7 @@ public class InteractivePlayerController : MonoBehaviour
                 // Disable Right Controller Interactions and visible vector display
                 rightHandDelta.interactionActive(2);
                 rightDotVectorDisplay.SetActive(false);
+                Manager.instance.interactionAdd("rightStop");
 
                 // Reset initial update int
                 initialRightUpdate = 0;

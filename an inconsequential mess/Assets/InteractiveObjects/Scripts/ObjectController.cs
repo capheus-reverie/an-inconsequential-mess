@@ -144,7 +144,7 @@ public class ObjectController : MonoBehaviour
 
         if(Manager.instance.beat == i)
 		{
-            play.Post(this.gameObject, (uint)AkCallbackType.AK_MIDIEvent, triggerParticle);
+            play.Post(this.gameObject, (uint)AkCallbackType.AK_MusicSyncUserCue, triggerParticle);
             objectPlaying = true;
             Debug.Log("Object Playing");
             yield return null;
@@ -157,7 +157,7 @@ public class ObjectController : MonoBehaviour
             } while (Manager.instance.beat < i);
 
 
-            play.Post(gameObject, (uint)AkCallbackType.AK_MIDIEvent, triggerParticle);
+            play.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncUserCue, triggerParticle);
             objectPlaying = true;
             Debug.Log("Object Playing");
 

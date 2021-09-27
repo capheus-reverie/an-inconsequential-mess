@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="532326295" Language="SFX" Hash="66393241">
+		<SoundBank Id="532326295" Language="SFX" Hash="516762116">
 			<ObjectPath>\SoundBanks\Default Work Unit\Full_Game</ObjectPath>
 			<ShortName>Full_Game</ShortName>
 			<Path>Full_Game.bnk</Path>
@@ -24,7 +24,47 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1388825349" Name="GlobalSongStart" ObjectPath="\Events\Default Work Unit\GlobalSongStart" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1388825349" Name="GlobalSongStart" ObjectPath="\Events\Default Work Unit\GlobalSongStart" DurationType="Infinite"/>
+				<Event Id="2282425809" Name="KeySig_BLyd" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_BLyd" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1392937788" Name="BLyd" ObjectPath="\States\Default Work Unit\KeySignature\BLyd"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3174134567" Name="KeySig_CHarmMin" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_CHarmMin" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="493209582" Name="CHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\CHarmMin"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="12162771" Name="KeySig_CLoc" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_CLoc" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3703497670" Name="CLoc" ObjectPath="\States\Default Work Unit\KeySignature\CLoc"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2954087788" Name="KeySig_CNatMin" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_CNatMin" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3908310863" Name="CNatMin" ObjectPath="\States\Default Work Unit\KeySignature\CNatMin"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3244488518" Name="KeySig_COctST" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_COctST" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1528131883" Name="COctST" ObjectPath="\States\Default Work Unit\KeySignature\COctST"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2050955128" Name="KeySig_CPhry" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_CPhry" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3815278403" Name="CPhry" ObjectPath="\States\Default Work Unit\KeySignature\CPhry"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="617046740" Name="KeySig_FHarmMin" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_FHarmMin" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1906687985" Name="FHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\FHarmMin"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3137652395" Name="KeySig_GHarmMin" ObjectPath="\Events\Default Work Unit\KeySignatureChanges\KeySig_GHarmMin" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<ActionSetState>
+						<ActionSetStateEntry Id="4285089434" Name="GHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\GHarmMin"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="1261072912" Name="ObjectStart" ObjectPath="\Events\Default Work Unit\ObjectStart" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="2241397" Language="SFX">
@@ -6127,18 +6167,42 @@
 				<GameParameter Id="4048269951" Name="SpeedRTPC" ObjectPath="\Game Parameters\Default Work Unit\SpeedRTPC"/>
 			</GameParameters>
 			<StateGroups>
+				<StateGroup Id="493209582" Name="CHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\CHarmMin" GUID="{1F326BFE-087B-428E-B863-45FD31955A8E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1392937788" Name="BLyd" ObjectPath="\States\Default Work Unit\KeySignature\BLyd" GUID="{9C85A2BC-E2F6-4AB5-B3CD-16D1B0010C9F}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1528131883" Name="COctST" ObjectPath="\States\Default Work Unit\KeySignature\COctST" GUID="{B04472B9-A9D8-4481-9D51-9AC13686E980}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1906687985" Name="FHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\FHarmMin" GUID="{6C9ABE9A-3E5C-4803-92B5-F17E083A60FE}">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="3671213988" Name="KeySignature" ObjectPath="\States\Default Work Unit\KeySignature" GUID="{DE75BA6D-D7CC-4E3F-8BD0-2FEFC77CBC70}">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\KeySignature\None" GUID="{5F885311-DF2F-4691-8BA1-88C8A548FBE7}"/>
-						<State Id="2080039350" Name="CPhrygian" ObjectPath="\States\Default Work Unit\KeySignature\CPhrygian" GUID="{B34F5463-4F25-4460-8DC0-2E9D0693071A}"/>
+						<State Id="3815278403" Name="CPhry" ObjectPath="\States\Default Work Unit\KeySignature\CPhry" GUID="{B34F5463-4F25-4460-8DC0-2E9D0693071A}"/>
 						<State Id="493209582" Name="CHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\CHarmMin" GUID="{1F326BFE-087B-428E-B863-45FD31955A8E}"/>
 						<State Id="3908310863" Name="CNatMin" ObjectPath="\States\Default Work Unit\KeySignature\CNatMin" GUID="{E6D5BBE0-FE61-4298-BD17-D93C83479DDC}"/>
 						<State Id="1528131883" Name="COctST" ObjectPath="\States\Default Work Unit\KeySignature\COctST" GUID="{B04472B9-A9D8-4481-9D51-9AC13686E980}"/>
-						<State Id="237518384" Name="CLocrian" ObjectPath="\States\Default Work Unit\KeySignature\CLocrian" GUID="{35616C11-83F9-4552-9148-7FF3B61134BD}"/>
+						<State Id="3703497670" Name="CLoc" ObjectPath="\States\Default Work Unit\KeySignature\CLoc" GUID="{35616C11-83F9-4552-9148-7FF3B61134BD}"/>
 						<State Id="1906687985" Name="FHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\FHarmMin" GUID="{6C9ABE9A-3E5C-4803-92B5-F17E083A60FE}"/>
 						<State Id="4285089434" Name="GHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\GHarmMin" GUID="{2D5FA07B-06C3-4388-B66C-2EDE7828A940}"/>
-						<State Id="3126220252" Name="BLydian" ObjectPath="\States\Default Work Unit\KeySignature\BLydian" GUID="{9C85A2BC-E2F6-4AB5-B3CD-16D1B0010C9F}"/>
+						<State Id="1392937788" Name="BLyd" ObjectPath="\States\Default Work Unit\KeySignature\BLyd" GUID="{9C85A2BC-E2F6-4AB5-B3CD-16D1B0010C9F}"/>
 					</States>
+				</StateGroup>
+				<StateGroup Id="3703497670" Name="CLoc" ObjectPath="\States\Default Work Unit\KeySignature\CLoc" GUID="{35616C11-83F9-4552-9148-7FF3B61134BD}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3815278403" Name="CPhry" ObjectPath="\States\Default Work Unit\KeySignature\CPhry" GUID="{B34F5463-4F25-4460-8DC0-2E9D0693071A}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3908310863" Name="CNatMin" ObjectPath="\States\Default Work Unit\KeySignature\CNatMin" GUID="{E6D5BBE0-FE61-4298-BD17-D93C83479DDC}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4285089434" Name="GHarmMin" ObjectPath="\States\Default Work Unit\KeySignature\GHarmMin" GUID="{2D5FA07B-06C3-4388-B66C-2EDE7828A940}">
+					<States/>
 				</StateGroup>
 			</StateGroups>
 			<SwitchGroups>
@@ -6194,7 +6258,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1859918603">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3457480285">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

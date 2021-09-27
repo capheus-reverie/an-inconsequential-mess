@@ -15,6 +15,14 @@ namespace AK
     {
         static const AkUniqueID CLICKTRACKSTART = 3701741676U;
         static const AkUniqueID GLOBALSONGSTART = 1388825349U;
+        static const AkUniqueID KEYSIG_BLYD = 2282425809U;
+        static const AkUniqueID KEYSIG_CHARMMIN = 3174134567U;
+        static const AkUniqueID KEYSIG_CLOC = 12162771U;
+        static const AkUniqueID KEYSIG_CNATMIN = 2954087788U;
+        static const AkUniqueID KEYSIG_COCTST = 3244488518U;
+        static const AkUniqueID KEYSIG_CPHRY = 2050955128U;
+        static const AkUniqueID KEYSIG_FHARMMIN = 617046740U;
+        static const AkUniqueID KEYSIG_GHARMMIN = 3137652395U;
         static const AkUniqueID OBJECTSTART = 1261072912U;
         static const AkUniqueID OBJECTSTOP = 738576892U;
     } // namespace EVENTS
@@ -27,17 +35,34 @@ namespace AK
 
             namespace STATE
             {
-                static const AkUniqueID BLYDIAN = 3126220252U;
+                static const AkUniqueID BLYD = 1392937788U;
                 static const AkUniqueID CHARMMIN = 493209582U;
-                static const AkUniqueID CLOCRIAN = 237518384U;
+                static const AkUniqueID CLOC = 3703497670U;
                 static const AkUniqueID CNATMIN = 3908310863U;
                 static const AkUniqueID COCTST = 1528131883U;
-                static const AkUniqueID CPHRYGIAN = 2080039350U;
+                static const AkUniqueID CPHRY = 3815278403U;
                 static const AkUniqueID FHARMMIN = 1906687985U;
                 static const AkUniqueID GHARMMIN = 4285089434U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace KEYSIGNATURE
+
+        namespace SECTIONS
+        {
+            static const AkUniqueID GROUP = 3524678601U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BRIDGE1 = 104955071U;
+                static const AkUniqueID BRIDGE2 = 104955068U;
+                static const AkUniqueID CHORUS1 = 3777867668U;
+                static const AkUniqueID CHORUS2 = 3777867671U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID VERSE1 = 1707665789U;
+                static const AkUniqueID VERSE2 = 1707665790U;
+                static const AkUniqueID VERSE3 = 1707665791U;
+            } // namespace STATE
+        } // namespace SECTIONS
 
     } // namespace STATES
 

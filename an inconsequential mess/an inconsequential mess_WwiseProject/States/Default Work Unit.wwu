@@ -24,7 +24,8 @@
 						<State Name="Verse3" ID="{7FF63CBF-8E20-43BE-8B4D-6A5A275A0F85}"/>
 						<State Name="Chorus1" ID="{CB3D71F1-51D9-40CB-B274-190A8263107C}"/>
 						<State Name="Chorus2" ID="{E4210B83-9F60-4B50-9491-14EF207763F1}"/>
-						<State Name="Bridge" ID="{8CCE6E57-0B68-4510-B1C3-0B59A2E78971}"/>
+						<State Name="Bridge1" ID="{8CCE6E57-0B68-4510-B1C3-0B59A2E78971}"/>
+						<State Name="Bridge2" ID="{B5CE0D10-E603-4B0A-994C-D40478B3C403}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -9,6 +9,13 @@ public class Manager : MonoBehaviour
     public static Manager instance = null;
     public int beatsPerBar = 9;
     [HideInInspector] public int beat = 0;
+    public int interactionEvents = 0;
+    private float interactionDuration = 0;
+    public float interactionRatio = 0;
+    private float interactionLeftStart = 0;
+    private float interactionRightStart = 0;
+    private float interactionLeftStop = 0;
+    private float interactionRightStop = 0;
 
     #endregion
 
@@ -19,7 +26,8 @@ public class Manager : MonoBehaviour
 		if (instance == null)
 		{
             instance = this;
-		}
+            StartCoroutine(updateTime(1.0f));
+        }
         else if (instance != null)
 		{
             Destroy(gameObject);
@@ -30,6 +38,29 @@ public class Manager : MonoBehaviour
     {
         
     }
+
+    public void interactionAdd(string type)
+	{
+        switch (type)
+		{
+            case "leftStart":
+                interactionLeftStart = Time.fixedUnscaledTime;
+                interactionEvents++;
+                break;
+            case "rightStart":
+                interactionRightStart = Time.fixedUnscaledTime;
+                interactionEvents++;
+                break;
+            case "leftStop":
+                interactionLeftStop = Time.fixedUnscaledTime;
+                interactionDuration += (interactionLeftStop - interactionLeftStart);
+                break;
+            case "rightStop":
+                interactionRightStop = Time.fixedUnscaledTime;
+                interactionDuration += (interactionRightStop - interactionRightStart);
+                break;
+		}
+	}
 
     public void beatStart()
     {
@@ -42,6 +73,20 @@ public class Manager : MonoBehaviour
             beat = 1;
         }
 
+    }
+
+    IEnumerator updateTime(float waitTime)
+	{
+		while (true)
+		{
+            // Only update once per second
+            yield return new WaitForSecondsRealtime(waitTime);
+
+            // Find ratio of interacting time in % (hence the *100)
+            interactionRatio = (interactionDuration / Time.fixedUnscaledTime)*100;
+            Debug.Log(string.Format("Total duration is {0: #.00}s with {1: #.00}s of interactions making a total interaction ratio of {2: #.}%", Time.fixedUnscaledTime, interactionDuration, interactionRatio));
+        }
+        
     }
 
     void Update()

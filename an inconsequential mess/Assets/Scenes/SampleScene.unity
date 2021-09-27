@@ -7294,7 +7294,6 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 9f064e3a003b2604687a53ed48d70aad,
       type: 2}
-  instrument: 0
   solo:
     idInternal: 0
     valueGuidInternal: 
@@ -7313,8 +7312,6 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 2638896559d25fc49ab8f577b000e48c,
       type: 2}
-  objectPlaying: 0
-  objectSoloed: 0
 --- !u!114 &1654620113
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7625,6 +7622,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   beatsPerBar: 9
   beat: 0
+  interactionEvents: 0
+  interactionDuration: 0
 --- !u!1 &1926811270
 GameObject:
   m_ObjectHideFlags: 0
@@ -7788,6 +7787,58 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 1e94433a773d6e14db7abf8afcd42f6b,
+      type: 2}
+  Intro:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a9508fb21a2e5e74d8b5a59d33a54048,
+      type: 2}
+  Verses:
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 70aa3b8ff243a8a4caf4e1dda6404ecd,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 85fc13a73c142a74c9ab047e0cac6710,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: cb97747c8d6fbf14a8e21bb69b9a7010,
+      type: 2}
+  Choruses:
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 7321513c09a8c1844bf4a4667064a213,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0120b6227596e924eb4fc8e6ff49c935,
+      type: 2}
+  Instrumentals:
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6b88c5c9dafa93441b0988336af22c17,
+      type: 2}
+  - idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 81dba2d0607427c42a76c60d447ff2ef,
       type: 2}
 --- !u!114 &1974791630
 MonoBehaviour:
