@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 221887798}
   - component: {fileID: 221887797}
   m_Layer: 0
-  m_Name: Wwise
+  m_Name: _Wwise_Song
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

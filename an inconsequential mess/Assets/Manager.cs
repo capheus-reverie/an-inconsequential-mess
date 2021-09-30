@@ -14,14 +14,21 @@ public class Manager : MonoBehaviour
 {
     #region Variables
 
+    // Initialise Game Manager instance
+    public static Manager instance = null;
+
+    // Add any GameObject or Component references required for global scripts
     [Header("Scene Setup")]
     public GameObject loadingScreen;
-    public GlobalMusicSync WwiseGlobal;
+    public GlobalMusicSync globalMusicSync;
     public ProgressBar progressBar;
+    public visualFader canvasToFade;
 
-    public static Manager instance = null;
-    public int beatsPerBar = 9;
+    // Initialise variables for time-based interactions
+
     [HideInInspector] public int beat = 0;
+    [HideInInspector] public int bar = 0;
+
     public int interactionEvents = 0;
     private float interactionDuration = 0;
     public float interactionRatio = 0;
@@ -50,7 +57,7 @@ public class Manager : MonoBehaviour
             Destroy(gameObject);
 		}
 
-	}
+    }
 
 	void Start()
     {
@@ -83,8 +90,18 @@ public class Manager : MonoBehaviour
                 yield return null;
 			}
 
-            loadingScreen.gameObject.SetActive(false);
-		}
+            do
+            {
+                yield return null;
+            } while (globalMusicSync.currentSection != globalMusicSync.StartMenu.Id);
+
+            Debug.Log("Start Fade");
+            canvasToFade.startFade();
+
+        }
+
+        
+
 	}
 
     public void interactionAdd(string type)
@@ -110,9 +127,9 @@ public class Manager : MonoBehaviour
 		}
 	}
 
-    public void beatStart()
+    public void beatAdd()
     {
-        if (beat < beatsPerBar)
+        if (beat < globalMusicSync.beatsPerBar)
         {
             beat++;
         }
@@ -122,6 +139,11 @@ public class Manager : MonoBehaviour
         }
 
     }
+
+    public void barAdd()
+	{
+        bar++;
+	}
 
     IEnumerator updateTime(float waitTime)
 	{
@@ -141,6 +163,11 @@ public class Manager : MonoBehaviour
     {
 
     }
+
+    public void deactivateLoadingScreen()
+	{
+        loadingScreen.gameObject.SetActive(false);
+	}
 
     #endregion
 

@@ -2,7 +2,6 @@ Switch Group	ID	Name			Wwise Object Path	Notes
 	640949982	Speed			\Default Work Unit\Speed	
 	1908158473	Pitch			\Default Work Unit\Pitch	
 	2538743331	Ictus			\Default Work Unit\Ictus	
-	3642081725	Rhythm			\Default Work Unit\Rhythm	
 
 Switch	ID	Name	Switch Group			Notes
 	34379592	Speed2	Speed			
@@ -14,24 +13,68 @@ Switch	ID	Name	Switch Group			Notes
 	339713560	Pitch3	Pitch			
 	339713561	Pitch2	Pitch			
 	339713562	Pitch1	Pitch			
-	339713565	Pitch6	Pitch			
 	339713566	Pitch5	Pitch			
 	339713567	Pitch4	Pitch			
+	1498548512	Ictus9	Ictus			
+	1498548513	Ictus8	Ictus			
 	1498548520	Ictus1	Ictus			
 	1498548522	Ictus3	Ictus			
 	1498548523	Ictus2	Ictus			
 	1498548524	Ictus5	Ictus			
 	1498548525	Ictus4	Ictus			
+	1498548526	Ictus7	Ictus			
 	1498548527	Ictus6	Ictus			
-	2051013809	Rhythm6	Rhythm			
-	2051013810	Rhythm5	Rhythm			
-	2051013811	Rhythm4	Rhythm			
-	2051013812	Rhythm3	Rhythm			
-	2051013813	Rhythm2	Rhythm			
-	2051013814	Rhythm1	Rhythm			
+	3290720712	Ictus10	Ictus			
+	3290720713	Ictus11	Ictus			
+	3290720714	Ictus12	Ictus			
+	3290720715	Ictus13	Ictus			
+	3290720716	Ictus14	Ictus			
+	3290720717	Ictus15	Ictus			
+	3290720718	Ictus16	Ictus			
+	3290720719	Ictus17	Ictus			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3524678601	Sections			\Default Work Unit\Sections	
+	3671213988	KeySignature			\Default Work Unit\KeySignature	
+
+State	ID	Name	State Group			Notes
+	104955068	Bridge2	Sections			
+	104955071	Bridge1	Sections			
+	748895195	None	Sections			
+	1707665789	Verse1	Sections			
+	1707665790	Verse2	Sections			
+	1707665791	Verse3	Sections			
+	2598995339	Training	Sections			
+	3777867668	Chorus1	Sections			
+	3777867671	Chorus2	Sections			
+	3944636910	StartMenu	Sections			
+	493209582	CHarmMin	KeySignature			
+	748895195	None	KeySignature			
+	1392937788	BLyd	KeySignature			
+	1906687985	FHarmMin	KeySignature			
+	3815278403	CPhry	KeySignature			
+	3908310863	CNatMin	KeySignature			
+	4238998335	CDor	KeySignature			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	85007563	Chorus2	Sections	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Interactive Object Bus		
+	347318764	Chorus1	Sections	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Interactive Object Bus		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	91173834	EQHighRTPC			\Default Work Unit\EQHighRTPC	
+	129208631	lowPassRTPC			\Default Work Unit\lowPassRTPC	
+	296962706	tremoloRTPC			\Default Work Unit\tremoloRTPC	
+	1358232353	timeFXRTPC			\Default Work Unit\timeFXRTPC	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1229705514	Interactive Object Bus			\Default Work Unit\Master Audio Bus\Interactive Object Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+	3185006250	ObjectEQHigh	Wwise Parametric EQ			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3395979371	Straight_Delay	Wwise Stereo Delay			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

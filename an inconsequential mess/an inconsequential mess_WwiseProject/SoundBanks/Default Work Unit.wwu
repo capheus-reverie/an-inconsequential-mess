@@ -4,12 +4,23 @@
 		<WorkUnit Name="Default Work Unit" ID="{05A993A8-3F5C-4045-9E71-8224A91C414C}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="_initialisation" ID="{83C98E3B-F523-4738-81B1-C9B2A4ABCC8C}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="LoadingScreenStart" ID="{2A95A515-86B5-4637-97C0-10A87B0F8D6A}" WorkUnitID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="an_inconsequential_mess" ID="{C1080475-835F-4F8B-B547-E49FAEFA5A1E}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Default Work Unit" ID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" WorkUnitID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="training" ID="{23C725DD-EFFB-4025-8691-A9CEFF7529E5}">
+					<ObjectInclusionList>
+						<ObjectRef Name="TrainingStart" ID="{C10D04E7-53C5-434E-9AC2-E8E768AE9FB8}" WorkUnitID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -28,7 +28,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="GlobalSongStart" ID="{00022070-AB7B-4DF4-9071-BC85063D9704}">
+				<Event Name="SongStart" ID="{00022070-AB7B-4DF4-9071-BC85063D9704}">
 					<ChildrenList>
 						<Action Name="" ID="{36BC37F7-AE50-4DEF-81A1-F733B0DA1178}" ShortID="606630484">
 							<PropertyList>
@@ -36,20 +36,20 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Intro" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
+									<ObjectRef Name="StartMenu" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{BD3111F9-C93D-4CAB-9966-D62FF9F72D1A}" ShortID="777912573">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Verses" ID="{F9262BBA-8E9F-4FD9-A9B5-759C37E1528E}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+									<ObjectRef Name="Song" ID="{CE32656D-8E1B-4E88-91CB-86B78D449915}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Folder Name="KeySignatureChanges" ID="{260D07E2-E621-43D4-8411-7F645E7C1029}" ShortID="812370590">
+				<Folder Name="_KeySignatureChanges" ID="{260D07E2-E621-43D4-8411-7F645E7C1029}" ShortID="812370590">
 					<ChildrenList>
 						<Event Name="KeySig_CPhry" ID="{2E208286-A16C-44BC-BDEA-178B21361A7C}">
 							<ChildrenList>
@@ -93,20 +93,6 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="KeySig_CLoc" ID="{5841FDE7-5CB7-4D7D-8275-E5937D5953FA}">
-							<ChildrenList>
-								<Action Name="" ID="{80FA43F8-9F7E-4E72-9E6D-F7C2911ADA62}" ShortID="57079360">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="CLoc" ID="{35616C11-83F9-4552-9148-7FF3B61134BD}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
 						<Event Name="KeySig_CNatMin" ID="{BE00F763-8192-48B1-B3CC-4E77815F97C0}">
 							<ChildrenList>
 								<Action Name="" ID="{0F3827B7-3FEA-4918-A7E8-F3EB0B7128DE}" ShortID="694139165">
@@ -116,20 +102,6 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="CNatMin" ID="{E6D5BBE0-FE61-4298-BD17-D93C83479DDC}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="KeySig_COctST" ID="{5DEC5DB3-AE23-448C-9E65-3D877AA8B6B8}">
-							<ChildrenList>
-								<Action Name="" ID="{CA9F0023-F2C5-41BD-8D0C-C3E29BC5F04D}" ShortID="375212939">
-									<PropertyList>
-										<Property Name="ActionType" Type="int16" Value="22"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="CDor" ID="{B04472B9-A9D8-4481-9D51-9AC13686E980}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -149,15 +121,55 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="KeySig_GHarmMin" ID="{F52EB25F-6A98-4A0C-8955-297F125C4643}">
+						<Event Name="KeySig_CDor" ID="{E4A668FF-77BB-4CD0-80F6-CDD3B0158B92}">
 							<ChildrenList>
-								<Action Name="" ID="{7534F2BC-8CDD-4AE6-B8A0-C10641D54E15}" ShortID="699787234">
+								<Action Name="" ID="{63CC6ECB-41AC-4CC4-A317-C1888D870607}" ShortID="31824381">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="22"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="GHarmMin" ID="{2D5FA07B-06C3-4388-B66C-2EDE7828A940}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
+											<ObjectRef Name="CDor" ID="{B04472B9-A9D8-4481-9D51-9AC13686E980}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="TrainingStart" ID="{C10D04E7-53C5-434E-9AC2-E8E768AE9FB8}">
+					<ChildrenList>
+						<Action Name="" ID="{D1ECA769-256F-4F01-BAD0-72717713B719}" ShortID="701890570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StartMenu" ID="{518F5344-475C-4652-8DA5-458FE77F523D}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LoadingScreenStart" ID="{2A95A515-86B5-4637-97C0-10A87B0F8D6A}">
+					<ChildrenList>
+						<Action Name="" ID="{AEE4BD00-3C37-4641-8721-DB8DE8E12EDC}" ShortID="360748393">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Intro" ID="{22BD5A3A-3106-4D28-8AEB-A663ADBF0861}" WorkUnitID="{E4359840-F054-4725-9D07-898706426E71}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="_SectionalChanges" ID="{49ABFE56-9536-4CF4-9EC3-A30B2FE5A1A6}" ShortID="574118762">
+					<ChildrenList>
+						<Event Name="IntroSectionChange" ID="{FC281CBA-20B1-4B87-AFC3-C3138EFE8317}">
+							<ChildrenList>
+								<Action Name="" ID="{D40CDF7F-AE54-423D-BAE1-207C66088791}" ShortID="661305990">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="StartMenu" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}" WorkUnitID="{235D274D-6366-46C7-B544-CBC740383876}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

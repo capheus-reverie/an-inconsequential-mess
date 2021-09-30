@@ -24,7 +24,8 @@
 						<State Name="Chorus2" ID="{E4210B83-9F60-4B50-9491-14EF207763F1}"/>
 						<State Name="Bridge1" ID="{8CCE6E57-0B68-4510-B1C3-0B59A2E78971}"/>
 						<State Name="Bridge2" ID="{B5CE0D10-E603-4B0A-994C-D40478B3C403}"/>
-						<State Name="Intro" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}"/>
+						<State Name="StartMenu" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}"/>
+						<State Name="Training" ID="{B8C4DA50-AA29-428A-ADF3-E2B52FD35FC0}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

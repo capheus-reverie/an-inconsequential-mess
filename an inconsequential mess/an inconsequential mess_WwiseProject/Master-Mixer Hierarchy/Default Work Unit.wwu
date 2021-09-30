@@ -72,6 +72,10 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="Training" ID="{B8C4DA50-AA29-428A-ADF3-E2B52FD35FC0}"/>
+										<CustomState Name="" ID="{2208BF1F-C8C1-48A7-9CF3-D6CFD80D2A4C}" ShortID="166525133"/>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="Verse3" ID="{7FF63CBF-8E20-43BE-8B4D-6A5A275A0F85}"/>
 										<CustomState Name="" ID="{CB2E660F-C46F-4545-9325-D2D2867D3C4D}" ShortID="940565665"/>
 									</CustomState>
@@ -101,7 +105,7 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
-										<StateRef Name="Intro" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}"/>
+										<StateRef Name="StartMenu" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}"/>
 										<CustomState Name="" ID="{85DA0A5B-B7EA-4146-8EC1-4D9A66F595AE}" ShortID="811268613"/>
 									</CustomState>
 								</CustomStateList>

@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 87beaa3e599e5a4eb73e236bfc7465ac
     GuidInternal: 
-    m_lastTime: -8585687132990728099
+    m_lastTime: -8585686443398405226
     List:
     - name: Interactive Object Bus
       guid: 45f1c2bb25cd3a44b41f99730dacd700
@@ -84,7 +84,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a893a9055c3f45409e718224a91c414c
     GuidInternal: 
-    m_lastTime: -8585687132990648738
+    m_lastTime: -8585686342766965421
     List:
     - name: _initialisation
       guid: 3b8ec98323f5384781b1c9b2a4abcc8c
@@ -114,6 +114,20 @@ MonoBehaviour:
         ObjectType: 7
         guid: 750408c15f838b4fb547e49faefa5a1e
       Path: SoundBanks\Default Work Unit\an_inconsequential_mess
+    - name: training
+      guid: dd25c723fbef25408691a9ceff7529e5
+      id: 2598995339
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a893a9055c3f45409e718224a91c414c
+      - ElementName: training
+        ObjectType: 7
+        guid: dd25c723fbef25408691a9ceff7529e5
+      Path: SoundBanks\Default Work Unit\training
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -126,11 +140,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4098986c464ce040bd5cebe8b57417f6
     GuidInternal: 
-    m_lastTime: -8585687132990683459
+    m_lastTime: -8585686342883211973
     List:
-    - name: GlobalSongStart
-      guid: 702002007babf44d9071bc85063d9704
-      id: 1388825349
+    - name: _KeySignatureChanges
+      guid: e2070d2621e6d44384117f645e7c1029
+      id: 3526537236
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -138,13 +152,50 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: GlobalSongStart
-        ObjectType: 3
-        guid: 702002007babf44d9071bc85063d9704
-      Path: Events\Default Work Unit\GlobalSongStart
+      - ElementName: _KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      Path: Events\Default Work Unit\_KeySignatureChanges
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: _SectionalChanges
+      guid: 56feab493695f44c9ec3a30b2fe5a1a6
+      id: 384800877
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: _SectionalChanges
+        ObjectType: 4
+        guid: 56feab493695f44c9ec3a30b2fe5a1a6
+      Path: Events\Default Work Unit\_SectionalChanges
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: IntroSectionChange
+      guid: ba1c28fcb120874bafc3c3138efe8317
+      id: 3009891470
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: _SectionalChanges
+        ObjectType: 4
+        guid: 56feab493695f44c9ec3a30b2fe5a1a6
+      - ElementName: IntroSectionChange
+        ObjectType: 3
+        guid: ba1c28fcb120874bafc3c3138efe8317
+      Path: Events\Default Work Unit\_SectionalChanges\IntroSectionChange
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: KeySig_BLyd
       guid: f4a098012675ea48b75b8009c8f4ac5c
       id: 2282425809
@@ -155,13 +206,33 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
+      - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_BLyd
         ObjectType: 3
         guid: f4a098012675ea48b75b8009c8f4ac5c
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_BLyd
+      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_BLyd
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: KeySig_CDor
+      guid: ff68a6e4bb77d04c80f6cdd3b0158b92
+      id: 13545754
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: _KeySignatureChanges
+        ObjectType: 4
+        guid: e2070d2621e6d44384117f645e7c1029
+      - ElementName: KeySig_CDor
+        ObjectType: 3
+        guid: ff68a6e4bb77d04c80f6cdd3b0158b92
+      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CDor
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -175,33 +246,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
+      - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_CHarmMin
         ObjectType: 3
         guid: 2f0a818d7fa3364fa901a5abdbca0e7d
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CHarmMin
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: KeySig_CLoc
-      guid: e7fd4158b75c7d4d8275e5937d5953fa
-      id: 12162771
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
-        ObjectType: 4
-        guid: e2070d2621e6d44384117f645e7c1029
-      - ElementName: KeySig_CLoc
-        ObjectType: 3
-        guid: e7fd4158b75c7d4d8275e5937d5953fa
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CLoc
+      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CHarmMin
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -215,33 +266,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
+      - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_CNatMin
         ObjectType: 3
         guid: 63f700be9281b148b3cc4e77815f97c0
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CNatMin
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: KeySig_COctST
-      guid: b35dec5d23ae8c449e653d877aa8b6b8
-      id: 3244488518
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
-        ObjectType: 4
-        guid: e2070d2621e6d44384117f645e7c1029
-      - ElementName: KeySig_COctST
-        ObjectType: 3
-        guid: b35dec5d23ae8c449e653d877aa8b6b8
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_COctST
+      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CNatMin
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -255,13 +286,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
+      - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_CPhry
         ObjectType: 3
         guid: 8682202e6ca1bc44bdea178b21361a7c
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_CPhry
+      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CPhry
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -275,19 +306,19 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
+      - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_FHarmMin
         ObjectType: 3
         guid: 99e1a451f5582d478dc807899612df86
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_FHarmMin
+      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_FHarmMin
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: KeySig_GHarmMin
-      guid: 5fb22ef5986a0c4a8955297f125c4643
-      id: 3137652395
+    - name: LoadingScreenStart
+      guid: 15a5952ab586374697c010a87b0f8d6a
+      id: 4037155957
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -295,33 +326,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
-        ObjectType: 4
-        guid: e2070d2621e6d44384117f645e7c1029
-      - ElementName: KeySig_GHarmMin
+      - ElementName: LoadingScreenStart
         ObjectType: 3
-        guid: 5fb22ef5986a0c4a8955297f125c4643
-      Path: Events\Default Work Unit\KeySignatureChanges\KeySig_GHarmMin
+        guid: 15a5952ab586374697c010a87b0f8d6a
+      Path: Events\Default Work Unit\LoadingScreenStart
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: KeySignatureChanges
-      guid: e2070d2621e6d44384117f645e7c1029
-      id: 3848499631
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: KeySignatureChanges
-        ObjectType: 4
-        guid: e2070d2621e6d44384117f645e7c1029
-      Path: Events\Default Work Unit\KeySignatureChanges
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 14.5
+      minDuration: 14.5
     - name: ObjectStart
       guid: 1f5997d19d078c48affe807d3bf1c0cd
       id: 1261072912
@@ -356,6 +367,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: SongStart
+      guid: 702002007babf44d9071bc85063d9704
+      id: 653427290
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: SongStart
+        ObjectType: 3
+        guid: 702002007babf44d9071bc85063d9704
+      Path: Events\Default Work Unit\SongStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: TrainingStart
+      guid: e7040dc1c5534e439ac2e8e768ae9fb8
+      id: 2883585201
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: TrainingStart
+        ObjectType: 3
+        guid: e7040dc1c5534e439ac2e8e768ae9fb8
+      Path: Events\Default Work Unit\TrainingStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -480,7 +525,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4d275d236663c746b544cbc740383876
     GuidInternal: 
-    m_lastTime: -8585687132986606339
+    m_lastTime: -8585686443398350667
     List:
     - name: KeySignature
       guid: 6dba75deccd73f4e8bd02fefc77cbc70
@@ -691,22 +736,6 @@ MonoBehaviour:
         - ElementName: Chorus2
           ObjectType: 8
           guid: 830b21e4609f504b949114ef207763f1
-      - name: Intro
-        guid: 766d2ada883d734fb7812486e5a2846b
-        id: 1125500713
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Default Work Unit
-          ObjectType: 12
-          guid: 4d275d236663c746b544cbc740383876
-        - ElementName: Sections
-          ObjectType: 9
-          guid: a090a7734dd31244b2b33a63c83f1979
-        - ElementName: Intro
-          ObjectType: 8
-          guid: 766d2ada883d734fb7812486e5a2846b
       - name: None
         guid: 4ca0bac5c9f0fe49b0acc03dfb4e625b
         id: 748895195
@@ -723,6 +752,38 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 4ca0bac5c9f0fe49b0acc03dfb4e625b
+      - name: StartMenu
+        guid: 766d2ada883d734fb7812486e5a2846b
+        id: 3944636910
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: StartMenu
+          ObjectType: 8
+          guid: 766d2ada883d734fb7812486e5a2846b
+      - name: Training
+        guid: 50dac4b829aa8a42adf3e2b52fd35fc0
+        id: 2598995339
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4d275d236663c746b544cbc740383876
+        - ElementName: Sections
+          ObjectType: 9
+          guid: a090a7734dd31244b2b33a63c83f1979
+        - ElementName: Training
+          ObjectType: 8
+          guid: 50dac4b829aa8a42adf3e2b52fd35fc0
       - name: Verse1
         guid: 1e7c5c6182d1264bb413e0671e4b3f10
         id: 1707665789
@@ -1418,7 +1479,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585698923865825097
     List: []
-  ExpandedFileSystemItemIds: 02000000040000000500000007000000080000001b0000002f0000003000000031000000390000003a000000450000004c0000004d000000
+  ExpandedFileSystemItemIds: 02000000030000000500000007000000080000001b0000002f0000003000000031000000390000003a0000003c0000003d00000045000000460000004c0000004d000000
   ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

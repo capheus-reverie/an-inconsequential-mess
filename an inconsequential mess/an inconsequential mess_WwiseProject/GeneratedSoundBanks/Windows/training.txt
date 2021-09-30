@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2883585201	TrainingStart			\Default Work Unit\TrainingStart	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3524678601	Sections			\Default Work Unit\Sections	
+
+State	ID	Name	State Group			Notes
+	104955068	Bridge2	Sections			
+	104955071	Bridge1	Sections			
+	748895195	None	Sections			
+	1707665789	Verse1	Sections			
+	1707665790	Verse2	Sections			
+	1707665791	Verse3	Sections			
+	2598995339	Training	Sections			
+	3777867668	Chorus1	Sections			
+	3777867671	Chorus2	Sections			
+	3944636910	StartMenu	Sections			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	341259116	AmbientDrone	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\Cho111Rhy_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Song\StartMenu\Ambient Drone\AmbientDrone		2557864
+

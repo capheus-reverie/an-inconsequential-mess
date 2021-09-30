@@ -41,6 +41,7 @@ State	ID	Name	State Group			Notes
 	104955068	Bridge2	Sections			
 	104955071	Bridge1	Sections			
 	748895195	None	Sections			
+	1125500713	Intro	Sections			
 	1707665789	Verse1	Sections			
 	1707665790	Verse2	Sections			
 	1707665791	Verse3	Sections			
@@ -49,15 +50,30 @@ State	ID	Name	State Group			Notes
 	493209582	CHarmMin	KeySignature			
 	748895195	None	KeySignature			
 	1392937788	BLyd	KeySignature			
-	1528131883	COctST	KeySignature			
 	1906687985	FHarmMin	KeySignature			
-	3703497670	CLoc	KeySignature			
 	3815278403	CPhry	KeySignature			
 	3908310863	CNatMin	KeySignature			
-	4285089434	GHarmMin	KeySignature			
+	4238998335	CDor	KeySignature			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	85007563	Chorus2	Sections	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Interactive Object Bus		
+	347318764	Chorus1	Sections	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Interactive Object Bus		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	91173834	EQHighRTPC			\Default Work Unit\EQHighRTPC	
+	129208631	lowPassRTPC			\Default Work Unit\lowPassRTPC	
+	296962706	tremoloRTPC			\Default Work Unit\tremoloRTPC	
+	1358232353	timeFXRTPC			\Default Work Unit\timeFXRTPC	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	1229705514	Interactive Object Bus			\Default Work Unit\Master Audio Bus\Interactive Object Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3164629247	Holy	Wwise RoomVerb			
+	3185006250	ObjectEQHigh	Wwise Parametric EQ			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3395979371	Straight_Delay	Wwise Stereo Delay			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

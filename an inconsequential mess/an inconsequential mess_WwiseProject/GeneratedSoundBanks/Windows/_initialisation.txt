@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	617046740	KeySig_FHarmMin			\Default Work Unit\_KeySignatureChanges\KeySig_FHarmMin	
+	653427290	SongStart			\Default Work Unit\SongStart	
+	2050955128	KeySig_CPhry			\Default Work Unit\_KeySignatureChanges\KeySig_CPhry	
+	2282425809	KeySig_BLyd			\Default Work Unit\_KeySignatureChanges\KeySig_BLyd	
+	2954087788	KeySig_CNatMin			\Default Work Unit\_KeySignatureChanges\KeySig_CNatMin	
+	3174134567	KeySig_CHarmMin			\Default Work Unit\_KeySignatureChanges\KeySig_CHarmMin	
+	4037155957	LoadingScreenStart			\Default Work Unit\LoadingScreenStart	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3524678601	Sections			\Default Work Unit\Sections	
+
+State	ID	Name	State Group			Notes
+	104955068	Bridge2	Sections			
+	104955071	Bridge1	Sections			
+	748895195	None	Sections			
+	1707665789	Verse1	Sections			
+	1707665790	Verse2	Sections			
+	1707665791	Verse3	Sections			
+	2598995339	Training	Sections			
+	3777867668	Chorus1	Sections			
+	3777867671	Chorus2	Sections			
+	3944636910	StartMenu	Sections			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	341259116	Cho111Rhy	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\Cho111Rhy_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Song\Chorus\Cho1_01\Cho111Rhy		2557864
+	396698004	Cho111Piano	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\Cho111Piano_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Song\Chorus\Cho1_01\Cho111Piano		2557864
+

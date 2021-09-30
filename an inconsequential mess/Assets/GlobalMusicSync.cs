@@ -6,18 +6,18 @@ public class GlobalMusicSync : MonoBehaviour
 {
     #region Variables
 
-    [Header ("Initialisation")]
-    public AK.Wwise.Event introduction;
-
+    // Add state changes for song sections (used to change the global form of the piece
     [Header("Song Sections")]
-    [SerializeField]
-    private AK.Wwise.State Intro;
-    [SerializeField]
-    private AK.Wwise.State[] Verses;
-    [SerializeField]
-    private AK.Wwise.State[] Choruses;
-    [SerializeField]
-    private AK.Wwise.State[] Instrumentals;
+    public AK.Wwise.State StartMenu;
+    public AK.Wwise.State[] Verses;
+    public AK.Wwise.State[] Choruses;
+    public AK.Wwise.State[] Instrumentals;
+
+    [Tooltip("Make this value the top value of the initial time signature as set in Wwise")]
+    public int beatsPerBar = 9; // Initial Time Signature known in Wwise.
+    [Tooltip("Make this value the tempo originally used in Wwise")]
+    public float tempo = 60; // Initial tempo known in Wwise.
+    [HideInInspector] public uint currentSection = 0;
 
     #endregion
 
@@ -25,13 +25,13 @@ public class GlobalMusicSync : MonoBehaviour
 
     void Start()
     {
-
-        introduction.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncBeat, pushBeat);
-
+        Debug.Log(StartMenu.Id);
     }
 
 	private void Update()
 	{
+        checkSectionState();
+
 		/*
 		 * This test code has the following music sectional changes at 10 seconds:
 		 * Verse 1: <= 30% interaction ratio, with <= 5 interaction events
@@ -39,7 +39,7 @@ public class GlobalMusicSync : MonoBehaviour
 		 * Chorus 1: more than 30% interaction ratio, with <= 10 interaction events
 		 * Chorus 2: more than 30% interaction ratio, with > 10 interaction events
 		 * */
-
+        /*
         if(Time.fixedUnscaledTime > 10)
 		{
             if (Manager.instance.interactionRatio <= 30 && Manager.instance.interactionEvents <= 5)
@@ -64,17 +64,39 @@ public class GlobalMusicSync : MonoBehaviour
             }
             else { }
         }
+        */
 
 	}
 
-	void pushBeat(object in_cookie, AkCallbackType in_type, object in_info)
+	void globalSyncCallback(object in_cookie, AkCallbackType in_type, object in_info)
     {
-        for(int i = 0; i < 1; i++)
+        // Update bar and beat duration information
+        AkMusicSyncCallbackInfo info = (AkMusicSyncCallbackInfo)in_info;
+        tempo = 60/info.segmentInfo_fBeatDuration;
+        beatsPerBar = (int)(info.segmentInfo_fBarDuration / info.segmentInfo_fBeatDuration);
+
+        for(int i=0; i<1; i++)
 		{
-            Manager.instance.beatStart();
-            Debug.Log("Beat Pushed");
+            if (in_type == AkCallbackType.AK_MusicSyncBeat)
+            {
+                Manager.instance.beatAdd();
+                Debug.Log("Beat Pushed");
+            }
+            if(in_type == AkCallbackType.AK_MusicSyncBar)
+			{
+                Manager.instance.barAdd();
+                Debug.Log("Bar Pushed");
+			}
+
         }
+        
     }
+
+    void checkSectionState()
+	{
+        AkSoundEngine.GetState(StartMenu.GroupId, out currentSection);
+        Debug.Log("Current section is " + currentSection);
+	}
 
     #endregion
 

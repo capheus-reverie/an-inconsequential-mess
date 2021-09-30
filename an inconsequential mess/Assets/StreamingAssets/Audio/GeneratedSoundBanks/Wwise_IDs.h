@@ -13,18 +13,18 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID CLICKTRACKSTART = 3701741676U;
-        static const AkUniqueID GLOBALSONGSTART = 1388825349U;
+        static const AkUniqueID INTROSECTIONCHANGE = 3009891470U;
         static const AkUniqueID KEYSIG_BLYD = 2282425809U;
+        static const AkUniqueID KEYSIG_CDOR = 13545754U;
         static const AkUniqueID KEYSIG_CHARMMIN = 3174134567U;
-        static const AkUniqueID KEYSIG_CLOC = 12162771U;
         static const AkUniqueID KEYSIG_CNATMIN = 2954087788U;
-        static const AkUniqueID KEYSIG_COCTST = 3244488518U;
         static const AkUniqueID KEYSIG_CPHRY = 2050955128U;
         static const AkUniqueID KEYSIG_FHARMMIN = 617046740U;
-        static const AkUniqueID KEYSIG_GHARMMIN = 3137652395U;
+        static const AkUniqueID LOADINGSCREENSTART = 4037155957U;
         static const AkUniqueID OBJECTSTART = 1261072912U;
         static const AkUniqueID OBJECTSTOP = 738576892U;
+        static const AkUniqueID SONGSTART = 653427290U;
+        static const AkUniqueID TRAININGSTART = 2883585201U;
     } // namespace EVENTS
 
     namespace STATES
@@ -36,13 +36,11 @@ namespace AK
             namespace STATE
             {
                 static const AkUniqueID BLYD = 1392937788U;
+                static const AkUniqueID CDOR = 4238998335U;
                 static const AkUniqueID CHARMMIN = 493209582U;
-                static const AkUniqueID CLOC = 3703497670U;
                 static const AkUniqueID CNATMIN = 3908310863U;
-                static const AkUniqueID COCTST = 1528131883U;
                 static const AkUniqueID CPHRY = 3815278403U;
                 static const AkUniqueID FHARMMIN = 1906687985U;
-                static const AkUniqueID GHARMMIN = 4285089434U;
                 static const AkUniqueID NONE = 748895195U;
             } // namespace STATE
         } // namespace KEYSIGNATURE
@@ -58,6 +56,8 @@ namespace AK
                 static const AkUniqueID CHORUS1 = 3777867668U;
                 static const AkUniqueID CHORUS2 = 3777867671U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STARTMENU = 3944636910U;
+                static const AkUniqueID TRAINING = 2598995339U;
                 static const AkUniqueID VERSE1 = 1707665789U;
                 static const AkUniqueID VERSE2 = 1707665790U;
                 static const AkUniqueID VERSE3 = 1707665791U;
@@ -154,11 +154,14 @@ namespace AK
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID FULL_GAME = 532326295U;
+        static const AkUniqueID _INITIALISATION = 1517332371U;
+        static const AkUniqueID AN_INCONSEQUENTIAL_MESS = 366603418U;
+        static const AkUniqueID TRAINING = 2598995339U;
     } // namespace BANKS
 
     namespace BUSSES
     {
+        static const AkUniqueID INTERACTIVE_OBJECT_BUS = 1229705514U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 
