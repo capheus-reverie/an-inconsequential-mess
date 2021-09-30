@@ -1,10 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public enum SceneIndexes
+{
+    _MANAGER = 0,
+    _TRAINING = 1,
+    _EXPERIENCE = 2
+}
 
 public class Manager : MonoBehaviour
 {
     #region Variables
+
+    [Header("Scene Setup")]
+    public GameObject loadingScreen;
+    public GlobalMusicSync WwiseGlobal;
+    public ProgressBar progressBar;
 
     public static Manager instance = null;
     public int beatsPerBar = 9;
@@ -16,6 +29,10 @@ public class Manager : MonoBehaviour
     private float interactionRightStart = 0;
     private float interactionLeftStop = 0;
     private float interactionRightStop = 0;
+
+
+
+    List<AsyncOperation> scenesLoading = new List<AsyncOperation>();
 
     #endregion
 
@@ -32,12 +49,43 @@ public class Manager : MonoBehaviour
 		{
             Destroy(gameObject);
 		}
+
 	}
 
 	void Start()
     {
-        
+        loadingScreen.gameObject.SetActive(true);
+
+        scenesLoading.Add(SceneManager.LoadSceneAsync((int)SceneIndexes._TRAINING, LoadSceneMode.Additive));
+        scenesLoading.Add(SceneManager.LoadSceneAsync((int)SceneIndexes._EXPERIENCE, LoadSceneMode.Additive));
+
+        StartCoroutine(GetSceneLoadProgress());
     }
+
+    float totalSceneProgress;
+    public IEnumerator GetSceneLoadProgress()
+	{
+        for(int i=0; i<scenesLoading.Count; i++)
+		{
+            while (!scenesLoading[i].isDone)
+			{
+                totalSceneProgress = 0;
+
+                foreach(AsyncOperation operation in scenesLoading)
+				{
+                    totalSceneProgress += operation.progress;
+				}
+
+                totalSceneProgress = (totalSceneProgress / scenesLoading.Count) * 100f;
+
+                progressBar.current = Mathf.RoundToInt(totalSceneProgress);
+
+                yield return null;
+			}
+
+            loadingScreen.gameObject.SetActive(false);
+		}
+	}
 
     public void interactionAdd(string type)
 	{

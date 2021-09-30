@@ -100,6 +100,10 @@
 											</PropertyList>
 										</CustomState>
 									</CustomState>
+									<CustomState>
+										<StateRef Name="Intro" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}"/>
+										<CustomState Name="" ID="{85DA0A5B-B7EA-4146-8EC1-4D9A66F595AE}" ShortID="811268613"/>
+									</CustomState>
 								</CustomStateList>
 							</StateInfo>
 							<ObjectLists/>

@@ -3,10 +3,13 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{05A993A8-3F5C-4045-9E71-8224A91C414C}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="Full_Game" ID="{83C98E3B-F523-4738-81B1-C9B2A4ABCC8C}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" WorkUnitID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+				<SoundBank Name="_initialisation" ID="{83C98E3B-F523-4738-81B1-C9B2A4ABCC8C}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="an_inconsequential_mess" ID="{C1080475-835F-4F8B-B547-E49FAEFA5A1E}">
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

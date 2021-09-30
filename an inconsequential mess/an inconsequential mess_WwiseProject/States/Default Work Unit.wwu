@@ -9,10 +9,8 @@
 						<State Name="CPhry" ID="{B34F5463-4F25-4460-8DC0-2E9D0693071A}"/>
 						<State Name="CHarmMin" ID="{1F326BFE-087B-428E-B863-45FD31955A8E}"/>
 						<State Name="CNatMin" ID="{E6D5BBE0-FE61-4298-BD17-D93C83479DDC}"/>
-						<State Name="COctST" ID="{B04472B9-A9D8-4481-9D51-9AC13686E980}"/>
-						<State Name="CLoc" ID="{35616C11-83F9-4552-9148-7FF3B61134BD}"/>
+						<State Name="CDor" ID="{B04472B9-A9D8-4481-9D51-9AC13686E980}"/>
 						<State Name="FHarmMin" ID="{6C9ABE9A-3E5C-4803-92B5-F17E083A60FE}"/>
-						<State Name="GHarmMin" ID="{2D5FA07B-06C3-4388-B66C-2EDE7828A940}"/>
 						<State Name="BLyd" ID="{9C85A2BC-E2F6-4AB5-B3CD-16D1B0010C9F}"/>
 					</ChildrenList>
 				</StateGroup>
@@ -26,6 +24,7 @@
 						<State Name="Chorus2" ID="{E4210B83-9F60-4B50-9491-14EF207763F1}"/>
 						<State Name="Bridge1" ID="{8CCE6E57-0B68-4510-B1C3-0B59A2E78971}"/>
 						<State Name="Bridge2" ID="{B5CE0D10-E603-4B0A-994C-D40478B3C403}"/>
+						<State Name="Intro" ID="{DA2A6D76-3D88-4F73-B781-2486E5A2846B}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

@@ -7,7 +7,7 @@ public class GlobalMusicSync : MonoBehaviour
     #region Variables
 
     [Header ("Initialisation")]
-    public AK.Wwise.Event Clicktrack;
+    public AK.Wwise.Event introduction;
 
     [Header("Song Sections")]
     [SerializeField]
@@ -26,7 +26,7 @@ public class GlobalMusicSync : MonoBehaviour
     void Start()
     {
 
-        Clicktrack.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncBeat, pushBeat);
+        introduction.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncBeat, pushBeat);
 
     }
 
