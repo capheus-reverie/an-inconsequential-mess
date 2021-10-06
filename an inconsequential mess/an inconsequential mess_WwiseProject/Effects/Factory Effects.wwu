@@ -1455,7 +1455,7 @@
 									<PropertyList>
 										<Property Name="DecayTime" Type="Real32" Value="8"/>
 										<Property Name="Density" Type="Real32" Value="70"/>
-										<Property Name="DryLevel" Type="Real32">
+										<Property Name="DryLevel" Type="Real32" Value="-0.3">
 											<RTPCList>
 												<RTPC Name="" ID="{4E2E4EED-90E2-4987-9491-E4DD794AB160}" ShortID="588640176">
 													<ReferenceList>
@@ -1470,13 +1470,13 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>5</Flags>
 																<SegmentShape>Exp3</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>100</XPos>
-																<YPos>-10</YPos>
+																<YPos>-2.58044</YPos>
 																<Flags>37</Flags>
 															</Point>
 														</PointList>
@@ -1484,8 +1484,37 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
-										<Property Name="ERLevel" Type="Real32" Value="-24"/>
-										<Property Name="ERPattern" Type="int32" Value="9"/>
+										<Property Name="ERFrontBackDelay" Type="Real32" Value="13"/>
+										<Property Name="ERLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{434B9D50-2D86-452D-AE10-9A6D9B173059}" ShortID="485977587">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="timeFXRTPC" ID="{60E66567-0C30-4021-BF43-88B67B6161D0}" WorkUnitID="{C959FE42-32F6-47FE-829D-A934793C9A11}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{F2265583-211D-47AC-9AB8-9CCD82BAC721}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-6.41311</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="ERPattern" Type="int32" Value="1"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="490"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="-0.5"/>
 										<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
@@ -1495,7 +1524,7 @@
 										<Property Name="HFDamping" Type="Real32" Value="5.7"/>
 										<Property Name="PreDelay" Type="Real32" Value="180"/>
 										<Property Name="Quality" Type="int32" Value="14"/>
-										<Property Name="ReverbLevel" Type="Real32" Value="-23">
+										<Property Name="ReverbLevel" Type="Real32" Value="-15">
 											<RTPCList>
 												<RTPC Name="" ID="{F6712688-CA47-4E54-B05A-D1E6B70AC7F5}" ShortID="571775564">
 													<ReferenceList>
@@ -1510,7 +1539,7 @@
 														<PointList>
 															<Point>
 																<XPos>0</XPos>
-																<YPos>-96.3000030517578</YPos>
+																<YPos>-23.83959</YPos>
 																<Flags>5</Flags>
 																<SegmentShape>Exp1</SegmentShape>
 															</Point>
@@ -2038,7 +2067,7 @@
 												<PointList>
 													<Point>
 														<XPos>0</XPos>
-														<YPos>-0</YPos>
+														<YPos>0</YPos>
 														<Flags>5</Flags>
 														<SegmentShape>Exp3</SegmentShape>
 													</Point>
