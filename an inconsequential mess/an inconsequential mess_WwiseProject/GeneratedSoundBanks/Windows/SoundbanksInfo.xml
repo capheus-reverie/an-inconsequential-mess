@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="804823466" Language="SFX" Hash="2671226129">
+		<SoundBank Id="804823466" Language="SFX" Hash="956429502">
 			<ObjectPath>\SoundBanks\Default Work Unit\song</ObjectPath>
 			<ShortName>song</ShortName>
 			<Path>song.bnk</Path>
@@ -50,259 +50,259 @@
 					<IncludedMemoryFiles>
 						<File Id="8205182" Language="SFX">
 							<ShortName>Bass - Cho23 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho23 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho23 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="41397168" Language="SFX">
 							<ShortName>Drums - Cho11 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho11 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho11 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="41577546" Language="SFX">
 							<ShortName>Drums - Chor24 - 01.wav</ShortName>
-							<Path>SFX\Drums - Chor24 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Chor24 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="44087117" Language="SFX">
 							<ShortName>Piano - Cho21 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho21 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho21 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="103105183" Language="SFX">
 							<ShortName>Piano - Cho14 - 01.wav</ShortName>
-							<Path>SFX\Piano - Cho14 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho14 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="186415656" Language="SFX">
 							<ShortName>Strings - Cho11 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho11 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho11 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="190876487" Language="SFX">
 							<ShortName>Lead - Cho12 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho12 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho12 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="208485599" Language="SFX">
 							<ShortName>Strings - Cho22 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho22 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho22 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="216842356" Language="SFX">
 							<ShortName>Drums - Cho21 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho21 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho21 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="226613192" Language="SFX">
 							<ShortName>Strings - Cho21 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho21 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho21 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="233659092" Language="SFX">
 							<ShortName>Piano - Cho12 - 01.wav</ShortName>
-							<Path>SFX\Piano - Cho12 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho12 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="274393180" Language="SFX">
 							<ShortName>Drums - Cho13 - 01.wav</ShortName>
-							<Path>SFX\Drums - Cho13 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho13 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="309594263" Language="SFX">
 							<ShortName>Piano - Cho12 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho12 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho12 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="328694288" Language="SFX">
 							<ShortName>Drums - Chor21 - 01.wav</ShortName>
-							<Path>SFX\Drums - Chor21 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Chor21 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="338471207" Language="SFX">
 							<ShortName>Piano - Cho11 - 01.wav</ShortName>
-							<Path>SFX\Piano - Cho11 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho11 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="354775038" Language="SFX">
 							<ShortName>Piano - Cho11 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho11 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho11 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="377119278" Language="SFX">
 							<ShortName>Lead - Cho11 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho11 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho11 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="381083227" Language="SFX">
 							<ShortName>Piano - Cho13 - 01.wav</ShortName>
-							<Path>SFX\Piano - Cho13 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho13 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="404633786" Language="SFX">
 							<ShortName>Drums - Cho14 - 01.wav</ShortName>
-							<Path>SFX\Drums - Cho14 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho14 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="409318206" Language="SFX">
 							<ShortName>Bass - Cho22 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho22 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho22 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="414772294" Language="SFX">
 							<ShortName>Drums - Chor22 - 01.wav</ShortName>
-							<Path>SFX\Drums - Chor22 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Chor22 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="414909837" Language="SFX">
 							<ShortName>Piano - Chor22 - 01.wav</ShortName>
-							<Path>SFX\Piano - Chor22 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Chor22 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="417885687" Language="SFX">
 							<ShortName>Piano - Chor21 - 01.wav</ShortName>
-							<Path>SFX\Piano - Chor21 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Chor21 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="419984387" Language="SFX">
 							<ShortName>Lead - Cho21 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho21 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho21 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="423305884" Language="SFX">
 							<ShortName>Bass - Cho21 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho21 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho21 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="442210443" Language="SFX">
 							<ShortName>Bass - Chor23 - 01.wav</ShortName>
-							<Path>SFX\Bass - Chor23 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Chor23 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="465522752" Language="SFX">
 							<ShortName>Lead - Cho13 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho13 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho13 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="468207705" Language="SFX">
 							<ShortName>Strings - Cho23 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho23 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho23 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="475341537" Language="SFX">
 							<ShortName>Drums - Cho12 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho12 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho12 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="482624161" Language="SFX">
 							<ShortName>Lead - Cho23 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho23 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho23 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="483091867" Language="SFX">
 							<ShortName>Bass - Cho14 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho14 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho14 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="555351457" Language="SFX">
 							<ShortName>Piano - Cho24 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho24 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho24 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="594789250" Language="SFX">
 							<ShortName>Strings - Cho14 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho14 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho14 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="616544607" Language="SFX">
 							<ShortName>Drums - Cho13 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho13 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho13 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="621154114" Language="SFX">
 							<ShortName>Bass - Chor24 - 01.wav</ShortName>
-							<Path>SFX\Bass - Chor24 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Chor24 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="621923095" Language="SFX">
 							<ShortName>Piano - Chor24 - 01.wav</ShortName>
-							<Path>SFX\Piano - Chor24 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Chor24 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="636943636" Language="SFX">
 							<ShortName>Bass - Cho24 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho24 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho24 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="643539152" Language="SFX">
 							<ShortName>Strings - Cho24 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho24 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho24 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="647109053" Language="SFX">
 							<ShortName>Bass - Cho11 - 01.wav</ShortName>
-							<Path>SFX\Bass - Cho11 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho11 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="654011454" Language="SFX">
 							<ShortName>Piano - Chor23 - 01.wav</ShortName>
-							<Path>SFX\Piano - Chor23 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Chor23 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="676630950" Language="SFX">
 							<ShortName>Bass - Cho12 - 01.wav</ShortName>
-							<Path>SFX\Bass - Cho12 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho12 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="751381476" Language="SFX">
 							<ShortName>Bass - Chor22 - 01.wav</ShortName>
-							<Path>SFX\Bass - Chor22 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Chor22 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="753775899" Language="SFX">
 							<ShortName>Bass - Cho13 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho13 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho13 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="759867245" Language="SFX">
 							<ShortName>Piano - Cho23 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho23 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho23 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="764085900" Language="SFX">
 							<ShortName>Lead - Cho24 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho24 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho24 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="765492564" Language="SFX">
 							<ShortName>Bass - Cho11 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho11 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho11 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="786765215" Language="SFX">
 							<ShortName>Strings - Cho12 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho12 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho12 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="792375204" Language="SFX">
 							<ShortName>Drums - Cho11 - 01.wav</ShortName>
-							<Path>SFX\Drums - Cho11 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho11 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="798209933" Language="SFX">
 							<ShortName>Lead - Cho22 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho22 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho22 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="827379053" Language="SFX">
 							<ShortName>Piano - Cho13 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho13 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho13 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="874662118" Language="SFX">
 							<ShortName>Piano - Cho22 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho22 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho22 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="890762834" Language="SFX">
 							<ShortName>Piano - Cho14 - 02.wav</ShortName>
-							<Path>SFX\Piano - Cho14 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Piano - Cho14 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="897260804" Language="SFX">
 							<ShortName>Drums - Cho14 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho14 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho14 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="902859280" Language="SFX">
 							<ShortName>Bass - Chor21 - 01.wav</ShortName>
-							<Path>SFX\Bass - Chor21 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Chor21 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="913244072" Language="SFX">
 							<ShortName>Bass - Cho13 - 01.wav</ShortName>
-							<Path>SFX\Bass - Cho13 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho13 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="920707141" Language="SFX">
 							<ShortName>Bass - Cho12 - 02.wav</ShortName>
-							<Path>SFX\Bass - Cho12 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho12 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="932309992" Language="SFX">
 							<ShortName>Bass - Cho14 - 01.wav</ShortName>
-							<Path>SFX\Bass - Cho14 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Bass - Cho14 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="948869617" Language="SFX">
 							<ShortName>Lead - Cho14 - 02.wav</ShortName>
-							<Path>SFX\Lead - Cho14 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Lead - Cho14 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="998304576" Language="SFX">
 							<ShortName>Drums - Cho12 - 01.wav</ShortName>
-							<Path>SFX\Drums - Cho12 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho12 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="1007267782" Language="SFX">
 							<ShortName>Drums - Cho24 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho24 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho24 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="1008474299" Language="SFX">
 							<ShortName>Drums - Cho22 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho22 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho22 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="1029753384" Language="SFX">
 							<ShortName>Strings - Cho13 - 02.wav</ShortName>
-							<Path>SFX\Strings - Cho13 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Strings - Cho13 - 02_1499C71B.wem</Path>
 						</File>
 						<File Id="1041657406" Language="SFX">
 							<ShortName>Drums - Chor23 - 01.wav</ShortName>
-							<Path>SFX\Drums - Chor23 - 01_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Chor23 - 01_1499C71B.wem</Path>
 						</File>
 						<File Id="1070847720" Language="SFX">
 							<ShortName>Drums - Cho23 - 02.wav</ShortName>
-							<Path>SFX\Drums - Cho23 - 02_D79FB2B7.wem</Path>
+							<Path>SFX\Drums - Cho23 - 02_1499C71B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -448,259 +448,259 @@
 			<IncludedMemoryFiles>
 				<File Id="8205182" Language="SFX">
 					<ShortName>Bass - Cho23 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho23 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho23 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="41397168" Language="SFX">
 					<ShortName>Drums - Cho11 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho11 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho11 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="41577546" Language="SFX">
 					<ShortName>Drums - Chor24 - 01.wav</ShortName>
-					<Path>SFX\Drums - Chor24 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Chor24 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="44087117" Language="SFX">
 					<ShortName>Piano - Cho21 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho21 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho21 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="103105183" Language="SFX">
 					<ShortName>Piano - Cho14 - 01.wav</ShortName>
-					<Path>SFX\Piano - Cho14 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho14 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="186415656" Language="SFX">
 					<ShortName>Strings - Cho11 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho11 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho11 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="190876487" Language="SFX">
 					<ShortName>Lead - Cho12 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho12 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho12 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="208485599" Language="SFX">
 					<ShortName>Strings - Cho22 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho22 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho22 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="216842356" Language="SFX">
 					<ShortName>Drums - Cho21 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho21 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho21 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="226613192" Language="SFX">
 					<ShortName>Strings - Cho21 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho21 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho21 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="233659092" Language="SFX">
 					<ShortName>Piano - Cho12 - 01.wav</ShortName>
-					<Path>SFX\Piano - Cho12 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho12 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="274393180" Language="SFX">
 					<ShortName>Drums - Cho13 - 01.wav</ShortName>
-					<Path>SFX\Drums - Cho13 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho13 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="309594263" Language="SFX">
 					<ShortName>Piano - Cho12 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho12 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho12 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="328694288" Language="SFX">
 					<ShortName>Drums - Chor21 - 01.wav</ShortName>
-					<Path>SFX\Drums - Chor21 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Chor21 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="338471207" Language="SFX">
 					<ShortName>Piano - Cho11 - 01.wav</ShortName>
-					<Path>SFX\Piano - Cho11 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho11 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="354775038" Language="SFX">
 					<ShortName>Piano - Cho11 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho11 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho11 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="377119278" Language="SFX">
 					<ShortName>Lead - Cho11 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho11 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho11 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="381083227" Language="SFX">
 					<ShortName>Piano - Cho13 - 01.wav</ShortName>
-					<Path>SFX\Piano - Cho13 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho13 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="404633786" Language="SFX">
 					<ShortName>Drums - Cho14 - 01.wav</ShortName>
-					<Path>SFX\Drums - Cho14 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho14 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="409318206" Language="SFX">
 					<ShortName>Bass - Cho22 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho22 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho22 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="414772294" Language="SFX">
 					<ShortName>Drums - Chor22 - 01.wav</ShortName>
-					<Path>SFX\Drums - Chor22 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Chor22 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="414909837" Language="SFX">
 					<ShortName>Piano - Chor22 - 01.wav</ShortName>
-					<Path>SFX\Piano - Chor22 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Chor22 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="417885687" Language="SFX">
 					<ShortName>Piano - Chor21 - 01.wav</ShortName>
-					<Path>SFX\Piano - Chor21 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Chor21 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="419984387" Language="SFX">
 					<ShortName>Lead - Cho21 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho21 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho21 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="423305884" Language="SFX">
 					<ShortName>Bass - Cho21 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho21 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho21 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="442210443" Language="SFX">
 					<ShortName>Bass - Chor23 - 01.wav</ShortName>
-					<Path>SFX\Bass - Chor23 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Chor23 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="465522752" Language="SFX">
 					<ShortName>Lead - Cho13 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho13 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho13 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="468207705" Language="SFX">
 					<ShortName>Strings - Cho23 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho23 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho23 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="475341537" Language="SFX">
 					<ShortName>Drums - Cho12 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho12 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho12 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="482624161" Language="SFX">
 					<ShortName>Lead - Cho23 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho23 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho23 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="483091867" Language="SFX">
 					<ShortName>Bass - Cho14 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho14 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho14 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="555351457" Language="SFX">
 					<ShortName>Piano - Cho24 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho24 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho24 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="594789250" Language="SFX">
 					<ShortName>Strings - Cho14 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho14 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho14 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="616544607" Language="SFX">
 					<ShortName>Drums - Cho13 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho13 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho13 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="621154114" Language="SFX">
 					<ShortName>Bass - Chor24 - 01.wav</ShortName>
-					<Path>SFX\Bass - Chor24 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Chor24 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="621923095" Language="SFX">
 					<ShortName>Piano - Chor24 - 01.wav</ShortName>
-					<Path>SFX\Piano - Chor24 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Chor24 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="636943636" Language="SFX">
 					<ShortName>Bass - Cho24 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho24 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho24 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="643539152" Language="SFX">
 					<ShortName>Strings - Cho24 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho24 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho24 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="647109053" Language="SFX">
 					<ShortName>Bass - Cho11 - 01.wav</ShortName>
-					<Path>SFX\Bass - Cho11 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho11 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="654011454" Language="SFX">
 					<ShortName>Piano - Chor23 - 01.wav</ShortName>
-					<Path>SFX\Piano - Chor23 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Chor23 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="676630950" Language="SFX">
 					<ShortName>Bass - Cho12 - 01.wav</ShortName>
-					<Path>SFX\Bass - Cho12 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho12 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="751381476" Language="SFX">
 					<ShortName>Bass - Chor22 - 01.wav</ShortName>
-					<Path>SFX\Bass - Chor22 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Chor22 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="753775899" Language="SFX">
 					<ShortName>Bass - Cho13 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho13 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho13 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="759867245" Language="SFX">
 					<ShortName>Piano - Cho23 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho23 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho23 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="764085900" Language="SFX">
 					<ShortName>Lead - Cho24 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho24 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho24 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="765492564" Language="SFX">
 					<ShortName>Bass - Cho11 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho11 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho11 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="786765215" Language="SFX">
 					<ShortName>Strings - Cho12 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho12 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho12 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="792375204" Language="SFX">
 					<ShortName>Drums - Cho11 - 01.wav</ShortName>
-					<Path>SFX\Drums - Cho11 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho11 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="798209933" Language="SFX">
 					<ShortName>Lead - Cho22 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho22 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho22 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="827379053" Language="SFX">
 					<ShortName>Piano - Cho13 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho13 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho13 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="874662118" Language="SFX">
 					<ShortName>Piano - Cho22 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho22 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho22 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="890762834" Language="SFX">
 					<ShortName>Piano - Cho14 - 02.wav</ShortName>
-					<Path>SFX\Piano - Cho14 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Piano - Cho14 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="897260804" Language="SFX">
 					<ShortName>Drums - Cho14 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho14 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho14 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="902859280" Language="SFX">
 					<ShortName>Bass - Chor21 - 01.wav</ShortName>
-					<Path>SFX\Bass - Chor21 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Chor21 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="913244072" Language="SFX">
 					<ShortName>Bass - Cho13 - 01.wav</ShortName>
-					<Path>SFX\Bass - Cho13 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho13 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="920707141" Language="SFX">
 					<ShortName>Bass - Cho12 - 02.wav</ShortName>
-					<Path>SFX\Bass - Cho12 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho12 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="932309992" Language="SFX">
 					<ShortName>Bass - Cho14 - 01.wav</ShortName>
-					<Path>SFX\Bass - Cho14 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Bass - Cho14 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="948869617" Language="SFX">
 					<ShortName>Lead - Cho14 - 02.wav</ShortName>
-					<Path>SFX\Lead - Cho14 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Lead - Cho14 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="998304576" Language="SFX">
 					<ShortName>Drums - Cho12 - 01.wav</ShortName>
-					<Path>SFX\Drums - Cho12 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho12 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="1007267782" Language="SFX">
 					<ShortName>Drums - Cho24 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho24 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho24 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="1008474299" Language="SFX">
 					<ShortName>Drums - Cho22 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho22 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho22 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="1029753384" Language="SFX">
 					<ShortName>Strings - Cho13 - 02.wav</ShortName>
-					<Path>SFX\Strings - Cho13 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Strings - Cho13 - 02_1499C71B.wem</Path>
 				</File>
 				<File Id="1041657406" Language="SFX">
 					<ShortName>Drums - Chor23 - 01.wav</ShortName>
-					<Path>SFX\Drums - Chor23 - 01_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Chor23 - 01_1499C71B.wem</Path>
 				</File>
 				<File Id="1070847720" Language="SFX">
 					<ShortName>Drums - Cho23 - 02.wav</ShortName>
-					<Path>SFX\Drums - Cho23 - 02_D79FB2B7.wem</Path>
+					<Path>SFX\Drums - Cho23 - 02_1499C71B.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>
@@ -765,7 +765,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="1517332371" Language="SFX" Hash="3451033854">
+		<SoundBank Id="1517332371" Language="SFX" Hash="1426771893">
 			<ObjectPath>\SoundBanks\Default Work Unit\_initialisation</ObjectPath>
 			<ShortName>_initialisation</ShortName>
 			<Path>_initialisation.bnk</Path>
@@ -809,7 +809,7 @@
 					<IncludedMemoryFiles>
 						<File Id="396698004" Language="SFX">
 							<ShortName>Cho111Piano.wav</ShortName>
-							<Path>SFX\Cho111Piano_D79FB2B7.wem</Path>
+							<Path>SFX\Cho111Piano_1499C71B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -817,7 +817,7 @@
 					<IncludedMemoryFiles>
 						<File Id="341259116" Language="SFX">
 							<ShortName>Cho111Rhy.wav</ShortName>
-							<Path>SFX\Cho111Rhy_D79FB2B7.wem</Path>
+							<Path>SFX\Cho111Rhy_1499C71B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -826,11 +826,11 @@
 			<IncludedMemoryFiles>
 				<File Id="341259116" Language="SFX">
 					<ShortName>Cho111Rhy.wav</ShortName>
-					<Path>SFX\Cho111Rhy_D79FB2B7.wem</Path>
+					<Path>SFX\Cho111Rhy_1499C71B.wem</Path>
 				</File>
 				<File Id="396698004" Language="SFX">
 					<ShortName>Cho111Piano.wav</ShortName>
-					<Path>SFX\Cho111Piano_D79FB2B7.wem</Path>
+					<Path>SFX\Cho111Piano_1499C71B.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 			<StateGroups>
@@ -18737,7 +18737,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="2598995339" Language="SFX" Hash="324587562">
+		<SoundBank Id="2598995339" Language="SFX" Hash="1548905978">
 			<ObjectPath>\SoundBanks\Default Work Unit\training</ObjectPath>
 			<ShortName>training</ShortName>
 			<Path>training.bnk</Path>
@@ -18756,7 +18756,7 @@
 					<IncludedMemoryFiles>
 						<File Id="341259116" Language="SFX">
 							<ShortName>Cho111Rhy.wav</ShortName>
-							<Path>SFX\Cho111Rhy_D79FB2B7.wem</Path>
+							<Path>SFX\Cho111Rhy_1499C71B.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

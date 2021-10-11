@@ -157,14 +157,13 @@ public class InteractivePlayerController : MonoBehaviour
                     // If left grip is pressed, but not left trigger
                     if (leftHandController.TryGetFeatureValue(UnityEngine.XR.CommonUsages.gripButton, out leftGripValue) && leftGripValue &!leftTriggerValue)
 					{
-                        string hand = "left";
                         while (initialLeftUpdate < 1)
 						{
-                            initializeObjectController(hand);
+                            initializeObjectController("left");
                             initialLeftUpdate++;
 						}
 
-                        handInteraction(hand);
+                        handInteraction("left");
 					}
 					else
 					{
@@ -187,7 +186,7 @@ public class InteractivePlayerController : MonoBehaviour
 					}
 					else
 					{
-                        while (initialLeftDeactivate < 1)
+                        while (initialRightDeactivate < 1)
 						{
                             deactivate("right");
                             initialRightDeactivate++;

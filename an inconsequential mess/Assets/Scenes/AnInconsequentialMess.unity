@@ -8651,8 +8651,7 @@ MonoBehaviour:
   leftZAxisRTPC:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f28dcf53c1a55b34bb562156cdb01740,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}
   leftYAxisRotationRTPC:
     idInternal: 0
     valueGuidInternal: 

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 6cb3e1bb8820404babc97e747dde7286
     GuidInternal: 
-    m_lastTime: -8585700163762979437
+    m_lastTime: -8585676773765996253
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 87beaa3e599e5a4eb73e236bfc7465ac
     GuidInternal: 
-    m_lastTime: -8585678635334343148
+    m_lastTime: -8585676773766383134
     List:
     - name: Interactive Object Bus
       guid: 45f1c2bb25cd3a44b41f99730dacd700
@@ -84,7 +84,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a893a9055c3f45409e718224a91c414c
     GuidInternal: 
-    m_lastTime: -8585679313826743363
+    m_lastTime: -8585676773769527774
     List:
     - name: _initialisation
       guid: 3b8ec98323f5384781b1c9b2a4abcc8c
@@ -157,7 +157,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\CoreSongEvents
     guid: dd8b98f7b05a514f838303de5af78a91
     GuidInternal: 
-    m_lastTime: -8585679314298950508
+    m_lastTime: -8585676773766159934
     List:
     - name: SongStart
       guid: 4f49a978d560184cbfb97f2360f9de5f
@@ -190,7 +190,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4098986c464ce040bd5cebe8b57417f6
     GuidInternal: 
-    m_lastTime: -8585679314299054662
+    m_lastTime: -8585676773766120254
     List: []
   - PhysicalPath: Events\GlobalEvents.wwu
     PathAndIcons:
@@ -206,7 +206,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\GlobalEvents
     guid: 96f7ffb33d8ceb46a57b418ef1d0069e
     GuidInternal: 
-    m_lastTime: -8585679314554674565
+    m_lastTime: -8585676773769914655
     List:
     - name: _KeySignatureChanges
       guid: e2070d2621e6d44384117f645e7c1029
@@ -463,7 +463,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\InteractiveObjectEvents
     guid: 53e5f63f9295954db35d069421a23da4
     GuidInternal: 
-    m_lastTime: -8585679314554615045
+    m_lastTime: -8585676773769755933
     List:
     - name: ObjectStart
       guid: 1f5997d19d078c48affe807d3bf1c0cd
@@ -519,7 +519,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\TrainingModuleEvents
     guid: 860148d4b640ef40824f8e6e3af57a5e
     GuidInternal: 
-    m_lastTime: -8585679314298885736
+    m_lastTime: -8585676773766596415
     List:
     - name: TrainingStart
       guid: e7040dc1c5534e439ac2e8e768ae9fb8
@@ -553,7 +553,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 42fe59c9f632fe47829da934793c9a11
     GuidInternal: 
-    m_lastTime: -8585697734253325086
+    m_lastTime: -8585676773769870006
     List:
     - name: EQHighRTPC
       guid: 11f4a3822f841947bd9e63b8f520ee5b
@@ -665,7 +665,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4d275d236663c746b544cbc740383876
     GuidInternal: 
-    m_lastTime: -8585679099519915129
+    m_lastTime: -8585676773770048572
     List:
     - name: KeySignature
       guid: 6dba75deccd73f4e8bd02fefc77cbc70
@@ -987,7 +987,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: f27bb210eacee74c971ef759c4807718
     GuidInternal: 
-    m_lastTime: -8585697553560661532
+    m_lastTime: -8585676773769716253
     List:
     - name: Ictus
       guid: 2ccf16239d46ec4e8b117313f517bf0c
@@ -1617,9 +1617,9 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 2911e5a6414a46459401af7656e678b4
     GuidInternal: 
-    m_lastTime: -8585698923865825097
+    m_lastTime: -8585676773765768093
     List: []
-  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000700000008000000120000001400000017000000180000001b0000002f0000003000000031000000390000003a0000003c0000003d0000003f0000004000000045000000460000004c0000004d0000004f000000500000005400000055000000
+  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000700000008000000120000001400000017000000180000001b0000002f0000003000000031000000390000003a0000003c0000003d0000003f0000004000000045000000460000004c0000004d0000004f0000005000000054000000550000006100000062000000
   ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

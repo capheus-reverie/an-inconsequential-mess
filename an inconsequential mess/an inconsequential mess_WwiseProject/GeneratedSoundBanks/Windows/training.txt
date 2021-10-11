@@ -4,5 +4,5 @@ Event	ID	Name			Wwise Object Path	Notes
 	2883585201	TrainingStart			\Default Work Unit\TrainingModuleEvents\TrainingStart	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	341259116	AmbientDrone	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\Cho111Rhy_D79FB2B7.wem		\Interactive Music Hierarchy\IntroSong\StartMenu\Ambient Drone\AmbientDrone		2557864
+	341259116	AmbientDrone	C:\Users\joshu\Documents\GitProjects\an-inconsequential-mess\an inconsequential mess\an inconsequential mess_WwiseProject\.cache\Windows\SFX\Cho111Rhy_1499C71B.wem		\Interactive Music Hierarchy\IntroSong\StartMenu\Ambient Drone\AmbientDrone		2557864
 
