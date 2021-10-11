@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 87beaa3e599e5a4eb73e236bfc7465ac
     GuidInternal: 
-    m_lastTime: -8585686443398405226
+    m_lastTime: -8585678635334343148
     List:
     - name: Interactive Object Bus
       guid: 45f1c2bb25cd3a44b41f99730dacd700
@@ -84,7 +84,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: a893a9055c3f45409e718224a91c414c
     GuidInternal: 
-    m_lastTime: -8585686342766965421
+    m_lastTime: -8585679313826743363
     List:
     - name: _initialisation
       guid: 3b8ec98323f5384781b1c9b2a4abcc8c
@@ -100,9 +100,9 @@ MonoBehaviour:
         ObjectType: 7
         guid: 3b8ec98323f5384781b1c9b2a4abcc8c
       Path: SoundBanks\Default Work Unit\_initialisation
-    - name: an_inconsequential_mess
-      guid: 750408c15f838b4fb547e49faefa5a1e
-      id: 366603418
+    - name: Interactive_Objects
+      guid: a16d167f4b34e043bd58c784ba52d43b
+      id: 2346376250
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -110,10 +110,24 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: a893a9055c3f45409e718224a91c414c
-      - ElementName: an_inconsequential_mess
+      - ElementName: Interactive_Objects
+        ObjectType: 7
+        guid: a16d167f4b34e043bd58c784ba52d43b
+      Path: SoundBanks\Default Work Unit\Interactive_Objects
+    - name: song
+      guid: 750408c15f838b4fb547e49faefa5a1e
+      id: 804823466
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a893a9055c3f45409e718224a91c414c
+      - ElementName: song
         ObjectType: 7
         guid: 750408c15f838b4fb547e49faefa5a1e
-      Path: SoundBanks\Default Work Unit\an_inconsequential_mess
+      Path: SoundBanks\Default Work Unit\song
     - name: training
       guid: dd25c723fbef25408691a9ceff7529e5
       id: 2598995339
@@ -129,6 +143,42 @@ MonoBehaviour:
         guid: dd25c723fbef25408691a9ceff7529e5
       Path: SoundBanks\Default Work Unit\training
   EventWwu:
+  - PhysicalPath: Events\CoreSongEvents.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4098986c464ce040bd5cebe8b57417f6
+    - ElementName: CoreSongEvents
+      ObjectType: 12
+      guid: dd8b98f7b05a514f838303de5af78a91
+    ParentPath: Events\Default Work Unit\CoreSongEvents
+    guid: dd8b98f7b05a514f838303de5af78a91
+    GuidInternal: 
+    m_lastTime: -8585679314298950508
+    List:
+    - name: SongStart
+      guid: 4f49a978d560184cbfb97f2360f9de5f
+      id: 653427290
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: CoreSongEvents
+        ObjectType: 12
+        guid: dd8b98f7b05a514f838303de5af78a91
+      - ElementName: SongStart
+        ObjectType: 3
+        guid: 4f49a978d560184cbfb97f2360f9de5f
+      Path: Events\Default Work Unit\CoreSongEvents\SongStart
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -140,7 +190,23 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4098986c464ce040bd5cebe8b57417f6
     GuidInternal: 
-    m_lastTime: -8585686342883211973
+    m_lastTime: -8585679314299054662
+    List: []
+  - PhysicalPath: Events\GlobalEvents.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4098986c464ce040bd5cebe8b57417f6
+    - ElementName: GlobalEvents
+      ObjectType: 12
+      guid: 96f7ffb33d8ceb46a57b418ef1d0069e
+    ParentPath: Events\Default Work Unit\GlobalEvents
+    guid: 96f7ffb33d8ceb46a57b418ef1d0069e
+    GuidInternal: 
+    m_lastTime: -8585679314554674565
     List:
     - name: _KeySignatureChanges
       guid: e2070d2621e6d44384117f645e7c1029
@@ -152,10 +218,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
-      Path: Events\Default Work Unit\_KeySignatureChanges
+      Path: Events\Default Work Unit\GlobalEvents\_KeySignatureChanges
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -169,10 +238,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _SectionalChanges
         ObjectType: 4
         guid: 56feab493695f44c9ec3a30b2fe5a1a6
-      Path: Events\Default Work Unit\_SectionalChanges
+      Path: Events\Default Work Unit\GlobalEvents\_SectionalChanges
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -186,13 +258,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _SectionalChanges
         ObjectType: 4
         guid: 56feab493695f44c9ec3a30b2fe5a1a6
       - ElementName: IntroSectionChange
         ObjectType: 3
         guid: ba1c28fcb120874bafc3c3138efe8317
-      Path: Events\Default Work Unit\_SectionalChanges\IntroSectionChange
+      Path: Events\Default Work Unit\GlobalEvents\_SectionalChanges\IntroSectionChange
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -206,13 +281,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_BLyd
         ObjectType: 3
         guid: f4a098012675ea48b75b8009c8f4ac5c
-      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_BLyd
+      Path: Events\Default Work Unit\GlobalEvents\_KeySignatureChanges\KeySig_BLyd
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -226,13 +304,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_CDor
         ObjectType: 3
         guid: ff68a6e4bb77d04c80f6cdd3b0158b92
-      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CDor
+      Path: Events\Default Work Unit\GlobalEvents\_KeySignatureChanges\KeySig_CDor
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -246,13 +327,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_CHarmMin
         ObjectType: 3
         guid: 2f0a818d7fa3364fa901a5abdbca0e7d
-      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CHarmMin
+      Path: Events\Default Work Unit\GlobalEvents\_KeySignatureChanges\KeySig_CHarmMin
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -266,13 +350,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_CNatMin
         ObjectType: 3
         guid: 63f700be9281b148b3cc4e77815f97c0
-      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CNatMin
+      Path: Events\Default Work Unit\GlobalEvents\_KeySignatureChanges\KeySig_CNatMin
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -286,13 +373,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_CPhry
         ObjectType: 3
         guid: 8682202e6ca1bc44bdea178b21361a7c
-      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_CPhry
+      Path: Events\Default Work Unit\GlobalEvents\_KeySignatureChanges\KeySig_CPhry
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -306,13 +396,16 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: _KeySignatureChanges
         ObjectType: 4
         guid: e2070d2621e6d44384117f645e7c1029
       - ElementName: KeySig_FHarmMin
         ObjectType: 3
         guid: 99e1a451f5582d478dc807899612df86
-      Path: Events\Default Work Unit\_KeySignatureChanges\KeySig_FHarmMin
+      Path: Events\Default Work Unit\GlobalEvents\_KeySignatureChanges\KeySig_FHarmMin
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -326,13 +419,52 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
       - ElementName: LoadingScreenStart
         ObjectType: 3
         guid: 15a5952ab586374697c010a87b0f8d6a
-      Path: Events\Default Work Unit\LoadingScreenStart
+      Path: Events\Default Work Unit\GlobalEvents\LoadingScreenStart
       maxAttenuation: 0
       maxDuration: 14.5
       minDuration: 14.5
+    - name: StartMenu
+      guid: 702002007babf44d9071bc85063d9704
+      id: 3944636910
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: GlobalEvents
+        ObjectType: 12
+        guid: 96f7ffb33d8ceb46a57b418ef1d0069e
+      - ElementName: StartMenu
+        ObjectType: 3
+        guid: 702002007babf44d9071bc85063d9704
+      Path: Events\Default Work Unit\GlobalEvents\StartMenu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  - PhysicalPath: Events\InteractiveObjectEvents.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4098986c464ce040bd5cebe8b57417f6
+    - ElementName: InteractiveObjectEvents
+      ObjectType: 12
+      guid: 53e5f63f9295954db35d069421a23da4
+    ParentPath: Events\Default Work Unit\InteractiveObjectEvents
+    guid: 53e5f63f9295954db35d069421a23da4
+    GuidInternal: 
+    m_lastTime: -8585679314554615045
+    List:
     - name: ObjectStart
       guid: 1f5997d19d078c48affe807d3bf1c0cd
       id: 1261072912
@@ -343,11 +475,14 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: InteractiveObjectEvents
+        ObjectType: 12
+        guid: 53e5f63f9295954db35d069421a23da4
       - ElementName: ObjectStart
         ObjectType: 3
         guid: 1f5997d19d078c48affe807d3bf1c0cd
-      Path: Events\Default Work Unit\ObjectStart
-      maxAttenuation: 0
+      Path: Events\Default Work Unit\InteractiveObjectEvents\ObjectStart
+      maxAttenuation: 100
       maxDuration: -1
       minDuration: -1
     - name: ObjectStop
@@ -360,30 +495,32 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: InteractiveObjectEvents
+        ObjectType: 12
+        guid: 53e5f63f9295954db35d069421a23da4
       - ElementName: ObjectStop
         ObjectType: 3
         guid: a17a0ddbb61120408b03a62bd6bc8338
-      Path: Events\Default Work Unit\ObjectStop
+      Path: Events\Default Work Unit\InteractiveObjectEvents\ObjectStop
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: SongStart
-      guid: 702002007babf44d9071bc85063d9704
-      id: 653427290
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 4098986c464ce040bd5cebe8b57417f6
-      - ElementName: SongStart
-        ObjectType: 3
-        guid: 702002007babf44d9071bc85063d9704
-      Path: Events\Default Work Unit\SongStart
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+  - PhysicalPath: Events\TrainingModuleEvents.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4098986c464ce040bd5cebe8b57417f6
+    - ElementName: TrainingModuleEvents
+      ObjectType: 12
+      guid: 860148d4b640ef40824f8e6e3af57a5e
+    ParentPath: Events\Default Work Unit\TrainingModuleEvents
+    guid: 860148d4b640ef40824f8e6e3af57a5e
+    GuidInternal: 
+    m_lastTime: -8585679314298885736
+    List:
     - name: TrainingStart
       guid: e7040dc1c5534e439ac2e8e768ae9fb8
       id: 2883585201
@@ -394,10 +531,13 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 4098986c464ce040bd5cebe8b57417f6
+      - ElementName: TrainingModuleEvents
+        ObjectType: 12
+        guid: 860148d4b640ef40824f8e6e3af57a5e
       - ElementName: TrainingStart
         ObjectType: 3
         guid: e7040dc1c5534e439ac2e8e768ae9fb8
-      Path: Events\Default Work Unit\TrainingStart
+      Path: Events\Default Work Unit\TrainingModuleEvents\TrainingStart
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -525,7 +665,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4d275d236663c746b544cbc740383876
     GuidInternal: 
-    m_lastTime: -8585686443398350667
+    m_lastTime: -8585679099519915129
     List:
     - name: KeySignature
       guid: 6dba75deccd73f4e8bd02fefc77cbc70
@@ -1479,7 +1619,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585698923865825097
     List: []
-  ExpandedFileSystemItemIds: 02000000030000000500000007000000080000001b0000002f0000003000000031000000390000003a0000003c0000003d00000045000000460000004c0000004d000000
+  ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000700000008000000120000001400000017000000180000001b0000002f0000003000000031000000390000003a0000003c0000003d0000003f0000004000000045000000460000004c0000004d0000004f000000500000005400000055000000
   ExpandedWaapiItemIds: 0200000005000000060000001700000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

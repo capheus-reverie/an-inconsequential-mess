@@ -888,7 +888,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816677193}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
@@ -2336,11 +2336,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1848338320}
-  - component: {fileID: 1848338324}
   - component: {fileID: 1848338321}
   - component: {fileID: 1848338326}
   - component: {fileID: 1848338322}
   - component: {fileID: 1848338325}
+  - component: {fileID: 1848338327}
   - component: {fileID: 1848338323}
   m_Layer: 0
   m_Name: _GameManager
@@ -2428,55 +2428,12 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: b1b86ac133ca2d64ebfdade3bca187f1,
       type: 2}
-  decodeBank: 0
+  decodeBank: 1
   loadAsynchronous: 1
   saveDecodedBank: 0
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
---- !u!114 &1848338324
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848338319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e9a9538a24683842988d17e7a57008d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: ae8d9d44
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: d47022a2352c3934aa16896f273623c3,
-      type: 2}
-  useCallbacks: 1
-  Callbacks:
-  - Flags:
-      value: 256
-    FunctionName: globalSyncCallback
-    GameObject: {fileID: 1848338319}
-  - Flags:
-      value: 512
-    FunctionName: globalSyncCallback
-    GameObject: {fileID: 1848338319}
-  playingId: 0
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!114 &1848338325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2563,9 +2520,30 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 81dba2d0607427c42a76c60d447ff2ef,
       type: 2}
+  Intro:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: d47022a2352c3934aa16896f273623c3,
+      type: 2}
   beatsPerBar: 9
   tempo: 60
   currentSection: 0
+--- !u!54 &1848338327
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848338319}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1926811270
 GameObject:
   m_ObjectHideFlags: 0

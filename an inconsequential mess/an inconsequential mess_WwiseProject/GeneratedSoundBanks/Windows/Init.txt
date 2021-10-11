@@ -41,12 +41,13 @@ State	ID	Name	State Group			Notes
 	104955068	Bridge2	Sections			
 	104955071	Bridge1	Sections			
 	748895195	None	Sections			
-	1125500713	Intro	Sections			
 	1707665789	Verse1	Sections			
 	1707665790	Verse2	Sections			
 	1707665791	Verse3	Sections			
+	2598995339	Training	Sections			
 	3777867668	Chorus1	Sections			
 	3777867671	Chorus2	Sections			
+	3944636910	StartMenu	Sections			
 	493209582	CHarmMin	KeySignature			
 	748895195	None	KeySignature			
 	1392937788	BLyd	KeySignature			

@@ -12,6 +12,7 @@ public class GlobalMusicSync : MonoBehaviour
     public AK.Wwise.State[] Verses;
     public AK.Wwise.State[] Choruses;
     public AK.Wwise.State[] Instrumentals;
+    public AK.Wwise.Event Intro;
 
     [Tooltip("Make this value the top value of the initial time signature as set in Wwise")]
     public int beatsPerBar = 9; // Initial Time Signature known in Wwise.
@@ -19,12 +20,18 @@ public class GlobalMusicSync : MonoBehaviour
     public float tempo = 60; // Initial tempo known in Wwise.
     [HideInInspector] public uint currentSection = 0;
 
-    #endregion
+	#endregion
 
-    #region Unity Methods
+	#region Unity Methods
 
-    void Start()
+	private void Awake()
+	{
+		
+	}
+
+	void Start()
     {
+        Intro.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncAll, globalSyncCallback);
         Debug.Log(StartMenu.Id);
     }
 
@@ -70,6 +77,7 @@ public class GlobalMusicSync : MonoBehaviour
 
 	void globalSyncCallback(object in_cookie, AkCallbackType in_type, object in_info)
     {
+        Debug.Log("Received Callback");
         // Update bar and beat duration information
         AkMusicSyncCallbackInfo info = (AkMusicSyncCallbackInfo)in_info;
         tempo = 60/info.segmentInfo_fBeatDuration;

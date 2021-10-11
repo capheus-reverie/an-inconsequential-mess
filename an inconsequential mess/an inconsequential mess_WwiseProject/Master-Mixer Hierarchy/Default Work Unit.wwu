@@ -12,6 +12,8 @@
 					<ChildrenList>
 						<Bus Name="Interactive Object Bus" ID="{BBC2F145-CD25-443A-B41F-99730DACD700}">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
 								<Property Name="Lowpass" Type="int16">
 									<RTPCList>
 										<RTPC Name="" ID="{F2516323-58CE-49E2-AD6F-5D1B5E536FF0}" ShortID="1008433771">

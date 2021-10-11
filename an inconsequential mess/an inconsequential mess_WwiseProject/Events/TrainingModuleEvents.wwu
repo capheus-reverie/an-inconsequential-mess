@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D4480186-40B6-40EF-824F-8E6E3AF57A5E}" SchemaVersion="103" RootDocumentID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" ParentDocumentID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}">
+	<Events>
+		<WorkUnit Name="TrainingModuleEvents" ID="{D4480186-40B6-40EF-824F-8E6E3AF57A5E}" OwnerID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="TrainingStart" ID="{C10D04E7-53C5-434E-9AC2-E8E768AE9FB8}">
+					<ChildrenList>
+						<Action Name="" ID="{D1ECA769-256F-4F01-BAD0-72717713B719}" ShortID="701890570">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StartMenu" ID="{518F5344-475C-4652-8DA5-458FE77F523D}" WorkUnitID="{C29D4355-5895-4E2D-AB72-4850FDC082BC}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

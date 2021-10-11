@@ -5,21 +5,31 @@
 			<ChildrenList>
 				<SoundBank Name="_initialisation" ID="{83C98E3B-F523-4738-81B1-C9B2A4ABCC8C}">
 					<ObjectInclusionList>
-						<ObjectRef Name="LoadingScreenStart" ID="{2A95A515-86B5-4637-97C0-10A87B0F8D6A}" WorkUnitID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="GlobalEvents" ID="{B3FFF796-8C3D-46EB-A57B-418EF1D0069E}" WorkUnitID="{B3FFF796-8C3D-46EB-A57B-418EF1D0069E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IntroSong" ID="{C29D4355-5895-4E2D-AB72-4850FDC082BC}" WorkUnitID="{C29D4355-5895-4E2D-AB72-4850FDC082BC}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="an_inconsequential_mess" ID="{C1080475-835F-4F8B-B547-E49FAEFA5A1E}">
+				<SoundBank Name="song" ID="{C1080475-835F-4F8B-B547-E49FAEFA5A1E}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Default Work Unit" ID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" WorkUnitID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CoreSong" ID="{5CD18772-F265-4EF8-A2B5-905350E98319}" WorkUnitID="{5CD18772-F265-4EF8-A2B5-905350E98319}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CoreSongEvents" ID="{F7988BDD-5AB0-4F51-8383-03DE5AF78A91}" WorkUnitID="{F7988BDD-5AB0-4F51-8383-03DE5AF78A91}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="training" ID="{23C725DD-EFFB-4025-8691-A9CEFF7529E5}">
 					<ObjectInclusionList>
-						<ObjectRef Name="TrainingStart" ID="{C10D04E7-53C5-434E-9AC2-E8E768AE9FB8}" WorkUnitID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="TrainingModuleEvents" ID="{D4480186-40B6-40EF-824F-8E6E3AF57A5E}" WorkUnitID="{D4480186-40B6-40EF-824F-8E6E3AF57A5E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Interactive_Objects" ID="{7F166DA1-344B-43E0-BD58-C784BA52D43B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="InteractiveObjectEvents" ID="{3FF6E553-9592-4D95-B35D-069421A23DA4}" WorkUnitID="{3FF6E553-9592-4D95-B35D-069421A23DA4}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="InteractiveObjects" ID="{483DB2F8-6EAD-4E3D-B52A-ED737EC29527}" WorkUnitID="{483DB2F8-6EAD-4E3D-B52A-ED737EC29527}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

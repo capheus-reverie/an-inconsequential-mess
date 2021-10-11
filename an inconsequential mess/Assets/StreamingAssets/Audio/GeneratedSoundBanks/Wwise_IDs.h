@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID OBJECTSTART = 1261072912U;
         static const AkUniqueID OBJECTSTOP = 738576892U;
         static const AkUniqueID SONGSTART = 653427290U;
+        static const AkUniqueID STARTMENU = 3944636910U;
         static const AkUniqueID TRAININGSTART = 2883585201U;
     } // namespace EVENTS
 
@@ -155,7 +156,8 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID _INITIALISATION = 1517332371U;
-        static const AkUniqueID AN_INCONSEQUENTIAL_MESS = 366603418U;
+        static const AkUniqueID INTERACTIVE_OBJECTS = 2346376250U;
+        static const AkUniqueID SONG = 804823466U;
         static const AkUniqueID TRAINING = 2598995339U;
     } // namespace BANKS
 

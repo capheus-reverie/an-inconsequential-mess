@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3FF6E553-9592-4D95-B35D-069421A23DA4}" SchemaVersion="103" RootDocumentID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" ParentDocumentID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}">
+	<Events>
+		<WorkUnit Name="InteractiveObjectEvents" ID="{3FF6E553-9592-4D95-B35D-069421A23DA4}" OwnerID="{6C989840-4C46-40E0-BD5C-EBE8B57417F6}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="ObjectStart" ID="{D197591F-079D-488C-AFFE-807D3BF1C0CD}">
+					<ChildrenList>
+						<Action Name="" ID="{33A9BB55-827C-4C71-814D-EE5E7501E056}" ShortID="168896534">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Interactive Object" ID="{6B7996D7-5F4E-4D0E-A3BA-2EEDD8DCF3F9}" WorkUnitID="{483DB2F8-6EAD-4E3D-B52A-ED737EC29527}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ObjectStop" ID="{DB0D7AA1-11B6-4020-8B03-A62BD6BC8338}">
+					<ChildrenList>
+						<Action Name="" ID="{AF2AC55F-FD20-46BD-AC5F-DBCED8DCD2EA}" ShortID="640681721">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Interactive Object" ID="{6B7996D7-5F4E-4D0E-A3BA-2EEDD8DCF3F9}" WorkUnitID="{483DB2F8-6EAD-4E3D-B52A-ED737EC29527}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

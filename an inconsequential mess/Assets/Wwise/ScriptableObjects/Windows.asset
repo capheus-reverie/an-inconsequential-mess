@@ -63,7 +63,7 @@ MonoBehaviour:
   - AdvancedSettings.m_DebugOutOfRangeCheckEnabled
   - AdvancedSettings.m_DebugOutOfRangeLimit
   UserSettings:
-    m_BasePath: Audio\GeneratedSoundBanks
+    m_BasePath: Audio\GeneratedSoundbanks
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_MaximumNumberOfPositioningPaths: 255

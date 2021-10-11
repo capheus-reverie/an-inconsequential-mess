@@ -66,6 +66,8 @@ public class ObjectController : MonoBehaviour
 
     void Start()
     {
+        AkSoundEngine.RegisterGameObj(gameObject, gameObject.name);
+
         particle = gameObject.GetComponentInChildren<ParticleSystem>();
         instrumentSwitch[0].SetValue(this.gameObject);
     }

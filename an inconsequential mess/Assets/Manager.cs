@@ -62,11 +62,12 @@ public class Manager : MonoBehaviour
 	void Start()
     {
         loadingScreen.gameObject.SetActive(true);
-
-        scenesLoading.Add(SceneManager.LoadSceneAsync((int)SceneIndexes._TRAINING, LoadSceneMode.Additive));
+ 
         scenesLoading.Add(SceneManager.LoadSceneAsync((int)SceneIndexes._EXPERIENCE, LoadSceneMode.Additive));
+        scenesLoading.Add(SceneManager.LoadSceneAsync((int)SceneIndexes._TRAINING, LoadSceneMode.Additive));
 
         StartCoroutine(GetSceneLoadProgress());
+
     }
 
     float totalSceneProgress;
@@ -95,9 +96,13 @@ public class Manager : MonoBehaviour
                 yield return null;
             } while (globalMusicSync.currentSection != globalMusicSync.StartMenu.Id);
 
+            // TEST
+            deactivateLoadingScreen();
+
+            /*
             Debug.Log("Start Fade");
             canvasToFade.startFade();
-
+            */
         }
 
         
